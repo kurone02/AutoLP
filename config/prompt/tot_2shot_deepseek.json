@@ -1,0 +1,21 @@
+{
+    "model": "deepseek-ai/deepseek-coder-7b-instruct-v1.5",
+    "technique": "PromptToT",
+    "kwargs": {
+        "top_b1": 3,
+        "top_b2": 5,
+        "max_depth": 100
+    },
+    "num_trials": 0,
+    "system_prompt": "You are an Operational Research Professor who can solve optimization problems with python code.",
+    "prompt_template": "./prompt/cot-2shot.txt",
+    "data_path": "./task3_public_data/task3_test_public.json",
+    "save_path": "./task3_public_submission/deepseek_tot_2shot_3_5_beam_search_submission.json",
+    "max_new_tokens": 2048,
+    "min_tokens": 0,
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "parallel": true,
+    "is_cpu": false,
+    "device": [0, 1, 2, 3, 4, 5, 6, 7]
+}

@@ -1,0 +1,15 @@
+{
+    "model": "meta-llama/Meta-Llama-3-8B-Instruct",
+    "technique": "PromptEngineerEvaluation",
+    "num_trials": 1,
+    "system_prompt": "You are an Operational Research Professor who can solve optimization problems with python code.",
+    "prompt_template": "./prompt/5shot.txt",
+    "data_path": "./task3_public_data/task3_test_public.json",
+    "save_path": "./task3_public_submission/llama3_5shot_submission.json",
+    "max_new_tokens": 2048,
+    "temperature": 0.8,
+    "top_p": 0.9,
+    "parallel": true,
+    "is_cpu": false,
+    "device": [0, 1, 2, 3, 4, 5, 6, 7]
+}
