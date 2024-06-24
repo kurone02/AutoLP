@@ -4,6 +4,7 @@ from tqdm import tqdm
 
 SUBMISSION_LIST = [
     # Put output files here
+    # (file, weight)
 ]
 
 

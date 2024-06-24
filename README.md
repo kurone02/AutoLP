@@ -1,6 +1,8 @@
 # AutoLP
 
-This is the implementation of the paper [Solving Optimization Problems with Open Source Large Language Model](https://openreview.net/forum?id=4XzGkm1jK0)
+We investigate the ability to formulate and solve optimization problems, which is critical across various domains, ranging from operations research and engineering to finance and machine learning, by Open Source Large Language Models.
+
+For more details please see our work: [Solving Optimization Problems with Open Source Large Language Model](https://openreview.net/forum?id=4XzGkm1jK0)
 
 ## Running the scripts
 
