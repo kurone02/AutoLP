@@ -1,0 +1,489 @@
+[
+    {
+        "id": 318,
+        "question": "A research group is making fabric and plastic using two methods, method A and method B. Method A produces 25 units of fabric and 14 units of plastic per hour. Method B produces 45 units of fabric and 25 units of plastic per hour. Method A requires 60 units of a special element while method B requires 65 units of the same special element. The research group has available 3500 units of the special element and must make at least 1400 units of fabric and 1000 units of plastic. How many of each method should be executed to minimize the total time needed?",
+        "results": {
+            "The number of hours using method A": "0.0",
+            "The number of hours using method B": "40.0",
+            "The total time needed": "40.0"
+        }
+    },
+    {
+        "id": 319,
+        "question": "A taxi company will purchase vehicles to rent to their drivers. They are interested in purchasing either motorcycles or sedans. A motorcycle can transport 30 people, produces 4 units of pollution, and earns the taxi company $100 per shift. A sedan can transport 70 people, produces 15 units of pollution and earns the company $225 per shift. Because not every customer is comfortable with a motorcycle, at most 25% of vehicles can be motorcycles. Additionally, the company has committed to producing less than 200 units of pollution. The company needs to transport at least 1200 people every shift. How many of each type of vehicle should be used to maximize the total earnings for the taxi company per shift?",
+        "results": {
+            "The number of motorcycles": "4.0816327",
+            "The number of sedans": "12.244898",
+            "Total earnings per shift": "3163.26532"
+        }
+    },
+    {
+        "id": 320,
+        "question": "Due to an accident, at least 550 locals must be moved across a lake. They can either be transported over the lake by a kayak or a motorboat. Kayaks can transport 4 people every trip and motorboats can transport 5 people every trip. Kayaks take 5 minutes per trip whereas motorboats take 3 minutes per trip. Due to the limited number of motorboats available to the locals, there can be at most 25 motorboat trips and at least 75% of the trips should be by kayak. How many of each transportation method should be used to minimize the total amount of time needed to transport all the locals?",
+        "results": {
+            "The number of kayak trips": "107.0",
+            "The number of motorboat trips": "25.0",
+            "The total time needed to transport all the locals": "610.0"
+        }
+    },
+    {
+        "id": 321,
+        "question": "A drop-in clinic is performing a test either through the ear or blood. A blood test takes 30 minutes to perform while an ear test takes 5 minutes to perform. Since the blood test is more accurate, at least three times as many blood tests should be performed as ear tests. However, at least 12 ear tests must be administered. If the drop-in clinic operates for 7525 minutes, maximize the number of tests that can be performed.",
+        "results": {
+            "The number of blood tests": "248.0",
+            "The number of ear tests": "17.0",
+            "The total number of tests performed": "7525.0"
+        }
+    },
+    {
+        "id": 322,
+        "question": "The government is reworking the pipes to transport water to houses in the area. The water can be transported through wide pipes or narrow pipes. Wide pipes can transport 25 units of water per minute and narrow pipes can transport 15 units of water per minute. Due to logistics, the number of wide pipes can be at most a third the number of narrow pipes. If there needs to be at least 900 units of water transported every minute, and at least 5 wide pipes must be used, minimize the total number of pipes required.",
+        "results": {
+            "The number of wide pipes": "12.0",
+            "The number of narrow pipes": "40.0",
+            "The total number of pipes": "52.0"
+        }
+    },
+    {
+        "id": 323,
+        "question": "A neighbourhood pizza restaurant has opened and sells pizzas in two sizes; large pizza and medium pizza. Large pizzas require 12 units of dough, and 5 units of toppings. Medium pizzas require 8 units of dough, and 4 units of toppings. While large pizzas take 12 minutes to bake, medium pizzas require 8 minutes to bake. The neighbourhood pizza restaurant must use at least 10000 units of dough and 4400 units of toppings. Medium pizzas are popular due to a promotion, therefore, at least 200 medium pizzas must be made. There are regulars that prefer large pizzas and at least two times as many large pizzas should be made than medium pizzas. How many of each size of pizzas should the neighbourhood pizza restaurant make to reduce time spent baking?",
+        "results": {
+            "The number of large pizzas to make": "629.0",
+            "The number of medium pizzas to make": "314.0",
+            "The total time spent baking": "10060.0"
+        }
+    },
+    {
+        "id": 324,
+        "question": "A restaurant has two combos available to their customers, an original and an experimental meal. The original meal typically generates 20 units of food waste and 45 units of wrapping waste and takes 10 minutes to cook. In comparison, the experimental meal generates 25 units of food waste and 35 units of wrapping waste and takes 15 minutes to cook. The restaurant can have at most 900 units of wrapping waste and can have at most 800 units of food waste as regulated by the government. How many of each combo should be pushed for by the waiting staff to minimize the cooking time?",
+        "results": {
+            "The number of original meals": "0.0",
+            "The number of experimental meals": "0.0",
+            "The total cooking time": "0.0"
+        }
+    },
+    {
+        "id": 325,
+        "question": "A handmade sports equipment manufacturing company makes basketballs and footballs. Basketballs require 5 units of materials and 1 hour to make whereas footballs require 3 units of materials and 2 hours to make. The manufacturing company has available 1500 units of materials and their workers working at max capacity can work for at most 750 hours. Since basketballs sell better, there must be at least three times as many basketballs as footballs but the manufacturing company would like at least 50 footballs. How many of each should the manufacturing company make to maximize the total number of sports equipment produced?",
+        "results": {
+            "The number of basketballs": "250.0",
+            "The number of footballs": "83.0",
+            "The total number of sports equipment produced": "416.0"
+        }
+    },
+    {
+        "id": 326,
+        "question": "A researcher must perform two types of experiments, in-vivo and ex-vivo. In-vivo experiments requires 30 minutes to prepare and 60 minutes to execute. Ex-vivo experiments require 45 minutes to prepare and 30 minutes to execute. In addition, in-vivo experiments gives the researcher 2 units of radiation while ex-vivo experiments give the researcher 3 unites of radiation. At most 400 minutes can be used for preparation and 500 minutes for execution of the experiment. How many of each experiment should be scheduled by the researcher to minimize the total radiation received by the researcher?",
+        "results": {
+            "The number of in-vivo experiments": "0.0",
+            "The number of ex-vivo experiments": "0.0",
+            "Total radiation received": "0.0"
+        }
+    },
+    {
+        "id": 327,
+        "question": "A village delivers mail to nearby villages either by runners or canoers. Runners can carry three bags of mail each time and takes 4 hours. Canoers can carry ten bags of mail each time and takes 2 hours. At most 33% of deliveries can be by canoe. Additionally, the village can spare at most 200 total hours and at least 4 runners must be used. How many of each way to deliver must be used to maximize the total amount of mail that can be delivered?",
+        "results": {
+            "The number of runner deliveries": "40.0",
+            "The number of canoe deliveries": "19.0",
+            "The total amount of mail delivered": "310.0"
+        }
+    },
+    {
+        "id": 328,
+        "question": "A woman on a diet needs to eat two types of meal preps, a smoothie and a protein bar. Each smoothie contains 2 units of protein and 300 calories. Each protein bar contains 7 units of protein and 250 calories. The woman must eat 2 times more protein bars than smoothies. If the woman can consume at most 2000 calories, how many of each should she eat or drink to maximize her protein intake?",
+        "results": {
+            "The number of smoothies": "0.0",
+            "The number of protein bars": "8.0",
+            "The amount of protein consumed": "56.0"
+        }
+    },
+    {
+        "id": 329,
+        "question": "A clinical firm has two factories, a northern factory and a western factory, where they make expensive anti-itch injections and topical cream. Every hour, the northern factory makes 800 g of anti-itch injections and 700 g of topical cream. Every hour, the western factory makes 650 g of anti-itch injections and 750 g of topical cream. The northern factory requires 40 units of plastic per hour while the western factory requires 35 units of plastic to manufacture the packaging. The clinical firm has available 60,000 units of plastic. Further, they must make at least 800,000 g of anti-itch injections and 700,000 g of topical cream. How many hours should each factory be run to minimize the total time needed?",
+        "results": {
+            "The number of hours the northern factory should run": "1000.0",
+            "The number of hours the western factory should run": "0.0",
+            "The total time needed": "1000.0"
+        }
+    },
+    {
+        "id": 330,
+        "question": "A hospital prepares batches of medication patches and anti-biotic creams. Each medication patch requires 3 minutes to prepare and 5 units of materials. Each anti-biotic cream requires 5 minutes to prepare and 6 units of materials. Since anti-biotic creams are used more often, there must be at least twice as many anti-biotic creams as medication patches. Due to storage reasons, the hospital can make at most 100 batches of medication patches and anti-biotic creams in total. The hospital has available 400 minutes of staff to spare and 530 units of materials. If each batch of medication patches can treat 3 people and each batch of anti-biotic cream can treat 2 people, how many batches of each should be made to maximize the number of people that can be treated?",
+        "results": {
+            "The number of medication patches": "30.0",
+            "The number of anti-biotic creams": "62.0",
+            "The number of people that can be treated": "214.0"
+        }
+    },
+    {
+        "id": 331,
+        "question": "A company in the desert can transport goods to rural cities either by camel caravans or desert trucks. A camel caravan can deliver 50 units of goods per trip and takes 12 hours. A desert truck can deliver 150 units of goods per trip and takes 5 hours. However, due to the cost of fuel, the company prefers to have more camel caravans than desert trucks.  If the company needs to deliver 1500 units of goods, how many of each method of transportation should the company organize to minimize the total number of hours required?",
+        "results": {
+            "The number of camel caravans": "8.0",
+            "The number of desert trucks": "8.0",
+            "The total hours required": "136.0"
+        }
+    },
+    {
+        "id": 332,
+        "question": "A biotechnology company has 35,000 units of antibiotics available which is important to the process of making a first-dose and second-dose of vaccines. The first-dose vaccine requires 30 units of antibiotics and 20 mg of gelatine whereas the second-dose vaccine requires 65 units of antibiotics and 60 mg of gelatine. Since the first-dose vaccine is required before the second-dose vaccine, there must be more first-dose than second-dose vaccines manufactured. However, at least 40 second-dose vaccines must be made. How many of each vaccine should be made to minimize the amount of gelatine used?",
+        "results": {
+            "The number of first-dose vaccines": "40.0",
+            "The number of second-dose vaccines": "40.0",
+            "The amount of gelatine used": "3200.0"
+        }
+    },
+    {
+        "id": 333,
+        "question": "Both chemical A and chemical B need to be added to a mixer for making bread. One unit of chemical A takes 30 seconds to be effective while one unit of chemical B takes 45 seconds to be effective. Because chemical A can be dangerous, there has to be at most a third as much chemical A as chemical B in the mixer. If there has to be at least 300 units of chemical A in the mixer and at least 1500 units of total chemicals in the mixer, how many units of each should be added to minimize the total time it takes for the mixed bread to be ready?",
+        "results": {
+            "The units of chemical A": "375.0",
+            "The units of chemical B": "1125.0",
+            "The total time it takes for the mixed bread to be ready": "61875.0"
+        }
+    },
+    {
+        "id": 334,
+        "question": "A senior home has snacks of spinach and soybeans to increase their intake of iron. A cup of spinach contains 100 units of fibre and 5 mg of iron. A cup of soybeans contains 80 units of fibre and 12 mg of iron. Due to other nutritional requirements, the nurses decided that the number of cups of spinach must exceed the number of cups of soybeans. Furthermore, a cup of spinach contains 30 calories while a cup of soybeans contains 100 calories. If they schedule that the elderly need in total at least 12000 units of fibre and 300 mg of iron, how many cups of each should the nurses schedule to maximize the seniors\u2019 total caloric intake?",
+        "results": {
+            "The number of cups of spinach": "0.0",
+            "The number of cups of soybeans": "0.0",
+            "The total caloric intake": "0.0"
+        }
+    },
+    {
+        "id": 335,
+        "question": "A keyboard manufacturer makes mechanical and standard keyboards. Mechanical keyboards are becoming more popular and thus the manufacturer aims to have five times as many mechanical than standard keyboards. A mechanical keyboard costs five units of plastic and two units of solder whereas a standard keyboard costs two units of plastic and one unit of solder. There are still customers that prefer a less noisy alternative. Therefore, there must be at least 30 standard keyboards. If the company has available 1000 units of plastic and 800 units of solder, how many of each type should be manufactured to maximize the total number of keyboards?",
+        "results": {
+            "The number of mechanical keyboards": "185.0",
+            "The number of standard keyboards": "37.0",
+            "The total number of keyboards": "222.0"
+        }
+    },
+    {
+        "id": 336,
+        "question": "A singer has two types of concerts he can hold, pop and R&B. Each pop concert will bring in 100 audience members and take 2 days of practice. Every R&B concert brings in 240 audience members and takes 4 days of practice. The singer must bring in at least 10000 audience members and only has available 180 days for practice. If he can at most perform 40% of his concerts as R&B because he likes pop songs more, how many of each type of concert should be created to minimize the total number of concerts?",
+        "results": {
+            "The number of pop concerts": "40.0",
+            "The number of R&B concerts": "25.0",
+            "The total number of concerts": "65.0"
+        }
+    },
+    {
+        "id": 337,
+        "question": "A dessert shop is popular for their only two desserts - matcha ice cream and orange sorbet. Two units of flavouring and four units of ice cream is required to make one order of matcha ice cream. Four units of flavouring and three units of water is required to make an order of orange sorbet. The dessert shop has recently been getting more orders online for orange sorbet and therefore, there should be more orange sorbet made than matcha ice cream. However, at least fifteen percent of desserts made must be matcha ice cream. The dessert shop has available 600 units of ice cream and 550 units of water. How many of each dessert should the shop make to minimize the total amount of flavouring needed?",
+        "results": {
+            "The number of matcha ice cream": "0.0",
+            "The number of orange sorbet": "0.0",
+            "The total amount of flavoring needed": "0.0"
+        }
+    },
+    {
+        "id": 338,
+        "question": "A student takes calcium pills and vitamin D pills one after the other. Each calcium pill takes 5 minutes to be effective while each vitamin D pill takes 6 minutes to be effective. Over a month, the student must take at least 130 pills of medication and at least 40 should be vitamin D pills because they enhance the absorption of calcium in the body. Since vitamin D is complimentary to calcium, the student must take more calcium pills than vitamin D pills. How many pills of each should the student take to minimize the total time it takes for the medication to be effective?",
+        "results": {
+            "The number of calcium pills": "90.0",
+            "The number of vitamin D pills": "40.0",
+            "The total time for the medication to be effective": "690.0"
+        }
+    },
+    {
+        "id": 339,
+        "question": "A lighting company has access to two types of lights to provide their customers, an LED fixture, and a fluorescence lamp. The LED light uses 5 units of electricity per hour and needs to be changed 3 times a decade. Conversely, the fluorescence lamp uses 8 units of electricity per hour and needs to be changed 4 times a decade. Due to previous installations, at least 30% implemented lights must be fluorescence lamps. If the customer requires at least 300 light fixtures and can use at most 2000 units of electricity, how many of each light should be installed to reduce the total number of light changes?",
+        "results": {
+            "The number of LED lights": "210.0",
+            "The number of fluorescence lamps": "90.0",
+            "The total number of light changes": "99.0"
+        }
+    },
+    {
+        "id": 340,
+        "question": "Both subsoil and topsoil need to be added to a garden bed. One bag of subsoil requires 10 units of water to hydrate while one bag of topsoil requires 6 units of water to hydrate every day. The truck used to transport the dirt has limited capacity and therefore, the farmer has available 150 bags of topsoil and subsoil combined. In addition, at least 10 bags of topsoil must be used. Since the topsoil is more expensive, at most 30% of all bags of soil can be topsoil. How many bags of each should be bought to minimize the total amount of water required to hydrate the garden bed?",
+        "results": {
+            "The number of subsoil bags": "24.0",
+            "The number of topsoil bags": "10.0",
+            "The total amount of water required": "300.0"
+        }
+    },
+    {
+        "id": 341,
+        "question": "A mask making company ships masks to their retail stores using small boxes and large boxes. A small box holds 25 masks whereas a large box holds 45 masks. Since small boxes are easier to stack and will be used first to stock stores, there must be at least three times as many small boxes as large boxes. Additionally, at least 5 large boxes must be used. If at least 750 masks are required to be distributed, how many of each size of box should be used to minimize the total number of boxes needed?",
+        "results": {
+            "The number of small boxes": "20.0",
+            "The number of large boxes": "6.0",
+            "The total number of boxes": "26.0"
+        }
+    },
+    {
+        "id": 342,
+        "question": "A concert organizer has to transport equipment using carts or trolleys. Carts can transport 5 kg/min of equipment and requires 2 workers. Trolleys can transport 7 kg/min of equipment and requires 4 workers. There must be at least 12 trolleys to be used. Additionally, only a maximum of 40% of the transportation can be using trolleys. The organizer has to deliver at a rate of 100 kg/min of equipment. How many of each transportation method should be used to minimize the total number of workers?",
+        "results": {
+            "The number of carts": "26.0",
+            "The number of trolleys": "12.0",
+            "The minimum number of workers required": "100.0"
+        }
+    },
+    {
+        "id": 343,
+        "question": "A park is designing their trails and can either create a wide trail or a narrow trail. A wide trail can take 50 visitors every day while the narrow trail expects 20 visitors every day. The wide trail will introduce 6 units of garbage and the narrow trail will introduce 3 units of garbage. There can be at most 3 wide trails and the park hopes to have at most 225 visitors every day. How many of each type of trail should the park construct to minimize the total amount of garbage produced.",
+        "results": {
+            "The number of wide trails": "0.0",
+            "The number of narrow trails": "0.0",
+            "The total amount of garbage produced": "0.0"
+        }
+    },
+    {
+        "id": 344,
+        "question": "A woman has $100000 to gamble on two sports bets: a basketball tournament, a horse race, and a soccer game. Based on simple analysis, the woman determines her chance of losing her money would be 50% for basketball tournament, 25% for horse race, and 10% for the soccer game. The payout for each dollar put on each bet will be $1.2 for basketball tournament, $0.5 for horse race, and $0.1 for the soccer game. Knowing herself, she limits her average chance of losing her money should be at most 30%. Could you help her determine how much to money to put on each sport bet to maximize her average payout?",
+        "results": {
+            "The money to put on the basketball tournament": "50000.0",
+            "The money to put on the horse race": "0.0",
+            "The money to put on the soccer game": "50000.0",
+            "The expected average payout": "65000.0"
+        }
+    },
+    {
+        "id": 345,
+        "question": "The weather is freezing and the fish in the pond need to be transported either by helicopter or car. A helicopter can take 30 fish per trip and takes 40 minutes. A car can take 20 fish per trip and takes 30 minutes. Since helicopter trips are expensive, there can be at most 5 helicopter trips. In addition, at least 60% of the trips should be by car. If at least 300 fish need to transported, how many of each trip should be taken to minimize the total time needed?",
+        "results": {
+            "The number of helicopter trips": "4.0",
+            "The number of car trips": "9.0",
+            "The total time needed": "430.0"
+        }
+    },
+    {
+        "id": 346,
+        "question": "An incandescent bulb manufacturing company uses either an argon gas approach or halogen gas approach to fill their light bulbs. The argon gas approach uses 10 units of gas and 12 units of glass to make 2 light bulbs. The halogen gas approach uses 12 units of gas and 8 units of glass to make 3 light bulbs. Additionally, the argon gas approach generates 3 units of heat while the halogen gas approach creates 4 units of heat. The manufacturing company has available 150 units of gas and 120 units of glass. If at most 28 units of heat can be generated during the manufacturing process, how many of each method should be used to maximize the number of light bulbs produced?",
+        "results": {
+            "The number of argon methods": "0.0",
+            "The number of halogen methods": "7.0",
+            "The total number of light bulbs produced": "21.0"
+        }
+    },
+    {
+        "id": 347,
+        "question": "A mail delivery service in an island village delivers mail by regular and speed boats. A regular boat can carry 20 pieces of mail per trip and uses 10 liters of gas. A speed boat can carry 30 pieces of mail per trip and uses 20 liters of gas. There can be at most 20 regular boat trips. Since customers want their mail as fast as possible, at least 50% of the trips must be made by speed boats. If the service needs to deliver 1000 pieces of mail, how many trips of each should be made to minimize the total amount of gas consumed?",
+        "results": {
+            "The number of regular boat trips": "20.0",
+            "The number of speed boat trips": "20.0",
+            "The total amount of gas consumed": "600.0"
+        }
+    },
+    {
+        "id": 348,
+        "question": "A researcher is outsourcing annotations and has two options: a specialized third-party or a common third-party annotation company. The specialized company can annotate at a rate of 60 images per hour whereas the common company can annotate at a rate of 40 images per hour. However, the specialized company charges $100 per hour and the common company charges $72 per hour. The researcher has deadlines to meet and must complete a dataset of at least 10,000 images. They also have some special images that only the specialized company can annotate. Therefore, at least a third of work must be allocated to the specialized company. How should the researcher distribute the annotations to the two companies to minimize the cost of annotating the whole dataset?",
+        "results": {
+            "The hours for the specialized company": "166.66667",
+            "The hours for the common company": "0.0",
+            "The total cost": "16666.667"
+        }
+    },
+    {
+        "id": 349,
+        "question": "An airport can either install escalators or elevators. Escalators can transport 20 people every minute whereas elevators can transport 8 people every minute. Escalators take up 5 units of space while elevators take 2 units of space. The airport needs to have enough capacity to transport at least 400 people every minute. Additionally, there must be at least three times more escalators than elevators and at least 2 elevators must be used. How many of each type should the airport install to minimize the total units of space taken?",
+        "results": {
+            "The number of escalators": "18.0",
+            "The number of elevators": "5.0",
+            "The total units of space taken": "100.0"
+        }
+    },
+    {
+        "id": 350,
+        "question": "A metal-working shop has access to two types of metal-working equipment, a chop saw and a steel cutter. A chop saw can work 25 pounds of steel and generates 25 units of waste every day. A steel cutter can only cut 5 pounds of steel and generates 3 units of waste every day.  The metal-working shop is expecting an increase in demand and must cut 520 pounds of metal every day. However, there is a waste limitation due to the fines that may be in place if too much heavy metal is discarded and they may at most produce 400 units of waste every day. How should the metal-working shop purchase their metal-working equipment to decrease the total number of metal-working equipment needed?",
+        "results": {
+            "The number of chop saws": "8.0",
+            "The number of steel cutters": "64.0",
+            "The total number of metal-working equipment": "72.0"
+        }
+    },
+    {
+        "id": 351,
+        "question": "A tourism company can buy sedans or buses to add to their fleet of vehicles to increase their capacity for more tourists. A sedan can seat 50 tourists per day but results in 10 units of pollution. A bus can seat 250 tourists per day but results in 40 units of pollution. The city has limited this tourism company to producing at most 800 units of pollutants per day. To make a profit, this tourism company must take care of at least 4600 customers per day. Planning to make a profit, how many sedans and how many buses should this tourism company purchase to decrease the total number of vehicles needed?",
+        "results": {
+            "The number of sedans to purchase": "0.0",
+            "The number of buses to purchase": "19.0",
+            "The total number of vehicles": "19.0"
+        }
+    },
+    {
+        "id": 352,
+        "question": "A daycare center has children they must pick up and can use two types of vehicles: bus or a personal car. A bus can carry 9 children while a personal car can carry 4 children. The daycare has to pick up at least 100 children. Additionally, due to limitations of pollution, there must be more buses than personal cars. But some children require extra attention. Therefore, there must be at least 5 personal cars. How many of each form of transportation should the daycare center schedule for to minimize the total number of vehicles?",
+        "results": {
+            "The number of buses": "9.0",
+            "The number of personal cars": "5.0",
+            "The total number of vehicles": "14.0"
+        }
+    },
+    {
+        "id": 353,
+        "question": "A smoothie shop has a promotion for their two smoothies; an acai berry smoothie and a banana chocolate smoothie. It takes 7 units of acai berries and 3 units of water to make the acai berry smoothie. It takes 6 units of banana chocolate and 4 units of water to make the banana chocolate smoothie. Banana chocolate smoothies are more popular and thus the number of banana chocolate smoothies made must be more than the number of acai berry smoothies made. However, the acai berry smoothies have a loyal customer base, and at least 35% of the smoothies made must be acai berry smoothies. If the smoothie shop has 3500 units of acai berries and 3200 units of banana chocolate, to reduce the total amount of water, how many of each smoothie type should be made?",
+        "results": {
+            "The number of acai berry smoothies": "0.0",
+            "The number of banana chocolate smoothies": "0.0",
+            "The total amount of water used": "0.0"
+        }
+    },
+    {
+        "id": 354,
+        "question": "Both coconut oil and lavender need to be added to a body wash. One unit of coconut oil takes 0.7 minutes to be effective while one unit of lavender takes 0.9 minutes to be effective. The body wash must contain at least 300 units of coconut oil and at most 550 units of both ingredients. Since too much coconut oil can make the body wash too oily, there can be at most thrice the amount of coconut oil as lavenders in the body wash. How many units of each should be added to the body wash to minimize the total amount of time it takes for the mixture to be effective? (Note: one must be added before the other)",
+        "results": {
+            "The number of coconut oil units": "300.0",
+            "The number of lavender units": "100.0",
+            "The minimum effective time": "300.0"
+        }
+    },
+    {
+        "id": 355,
+        "question": "A chemical company uses two tests, a salinity test and a pH test. Each unit of the salinity test requires three probes. Whereas each unit of the pH test requires two probes. The chemical company must perform at least 250 pH tests. In total, at least 400 tests must be performed. Further, because of the importance of the salinity test, there must be at most 1.5 times more pH tests than salinity tests. How many times should each test be performed to minimize the total number of probes used?",
+        "results": {
+            "The number of salinity tests": "167.0",
+            "The number of pH tests": "250.0",
+            "The total number of probes used": "1001.0"
+        }
+    },
+    {
+        "id": 356,
+        "question": "A golf course is hosting an event and can transport guests using either golf carts or pull carts. A golf cart can take 4 guests while a pull cart can take 1 guest. Since golf carts take up a lot of space, at most 60% of carts can be golf carts. If the golf course needs to transport at least 80 guests, how many of each cart should be used to minimize the total number of carts needed?",
+        "results": {
+            "The number of golf carts to use": "17.0",
+            "The number of pull carts to use": "12.0",
+            "The total number of carts used": "29.0"
+        }
+    },
+    {
+        "id": 357,
+        "question": "A landscaper has 100 square feet of grass land in a customer\u2019s backyard where they need to cut grass using either a heavy-duty yard machine or a gas lawn mower. For each square foot of land, the heavy-duty yard machine requires 2 seconds while the gas lawn mower takes 5 seconds. Per square foot, the heavy-duty yard machine produces 12 units of pollution and requires 3 units of fuel. Conversely, the gas lawn mower generates 10 units of pollution for each square foot and requires 2 units of fuel. There are 450 units of fuel available and the landscaper can produce no more than 2000 units of pollution. For how many square feet should each machine be used to minimize the time required to cut this customer\u2019s backyard?",
+        "results": {
+            "Square feet for heavy-duty yard machine": "0.0",
+            "Square feet for gas lawn mower": "0.0",
+            "Total time required (seconds)": "0.0"
+        }
+    },
+    {
+        "id": 358,
+        "question": "A municipality hires full-time and part-time staff to deliver mail. Part-time staff works 15 hours per week and gets paid 450 dollars whereas a full-time staff works 40 hours every week and gets paid 1280 dollars  for that week.  Since it is the week leading up to a holiday, planning ahead, the municipality needs 1000 hours of mail staff labor. The municipality has a budget of 31500 dollars for mail delivery for this season. How many of each type of staff should the municipality hire to decrease the total number of staff?",
+        "results": {
+            "The number of full-time staff to hire": "16.0",
+            "The number of part-time staff to hire": "24.0",
+            "The total number of staff hired": "40.0"
+        }
+    },
+    {
+        "id": 359,
+        "question": "A brewery can ferment their product into either wine or kombucha. Each unit of wine requires 3 units of fruit and 8 units of water. Each unit of kombucha requires 5 units of fruit and 7 units of tea. The company has available 7000 units of water and 9000 units of tea. Wine sells for more, therefore the number of wine must be larger than the number of kombucha. Additionally, at least 20% of their products made must be kombucha. How many of each should the brewery make to minimize the total units of fruit required?",
+        "results": {
+            "The number of wine units": "0.0",
+            "The number of kombucha units": "0.0",
+            "The total units of fruit required": "0.0"
+        }
+    },
+    {
+        "id": 360,
+        "question": "A hospital can transport their patients either using a type II ambulance or hospital van. The hospital needs to transport 320 patients every day. A type II ambulance is mounted on a truck-style chassis and can move 20 patients every shift and costs the hospital (including gas and salary) $820. A hospital van can move 15 patients and costs the hospital $550 every shift. The hospital can have at most 60% of shifts be hospital vans due to union limitations of the type II ambulance drivers. How many of shift using each type of vehicle should be scheduled to minimize the total cost to the hospital?",
+        "results": {
+            "The number of ambulance shifts": "10.0",
+            "The number of van shifts": "8.0",
+            "The total cost to the hospital": "12600.0"
+        }
+    },
+    {
+        "id": 361,
+        "question": "An oil and gas company has two types of pipes, a high-volume and a low-volume one. Every day, the high-volume pipe allows 10000 US gallons and it is recommended that 12 technicians closely monitor the pipes to ensure that it is functioning properly. Each day, the low-volume pipe allows 5000 US gallons and 5 technicians should closely monitor for safety reasons. Every day, the oil and gas company needs to meet the demands of at least 150000 US gallons of gas and they have 160 technicians that are on their staff. Since the high-volume pipe has a higher risk of environmental damage, at most 35 percent of the pipes can be high-volume ones. Additionally, there must be a minimum of 8 low-volume pipes. How many of each pipe types should be used to reduce the total number of pipes required?",
+        "results": {
+            "The number of high-volume pipes": "5.0",
+            "The number of low-volume pipes": "20.0",
+            "Total number of pipes": "25.0"
+        }
+    },
+    {
+        "id": 362,
+        "question": "An investor has $70,000 to divide among several investment instruments. The returns for municipal bonds, CDs, t-bills, and growth stocks are given in the following Table. The investor must adhere to specific guidelines for the investment distribution: 1. No more than 20% in municipal bonds. 2. Investment in CDs should not exceed the other three alternatives. 3. At least 30% invested in t-bills and CDs. 4. More should be invested in CDs and t-bills than in municipal bonds and growth stocks by a ratio of 1.2 to 1. 5. All $70,000 should be invested. Formulate an LP to maximize the profit.\n\nTable (Investment returns for each instrument):\n| Investment Instrument | Return Rate |\n| --------------------- | ----------- |\n| Municipal Bonds       | 8.5%        |\n| CDs                   | 5%          |\n| T-bills               | 6.5%        |\n| Growth Stocks         | 13%         |",
+        "results": {
+            "Amount to invest in Municipal Bonds": "0.0",
+            "Amount to invest in CDs": "0.0",
+            "Amount to invest in T-Bills": "38181.818",
+            "Amount to invest in Growth Stocks": "31818.182",
+            "Total Profit": "6618.1818299999995"
+        }
+    },
+    {
+        "id": 363,
+        "question": "An investor has $70,000 to divide among several investment instruments. The returns for municipal bonds, CDs, t-bills, and growth stocks are given in the following Table. The investor must adhere to specific guidelines for the investment distribution: 1. No more than 20% in municipal bonds. 2. Investment in CDs should not exceed the other three alternatives. 3. At least 30% invested in t-bills and CDs. 4. More should be invested in CDs and t-bills than in municipal bonds and growth stocks by a ratio of 1.2 to 1. 5. All $70,000 should be invested. Maximize the profit.\n\nTable (Investment returns for each instrument):\n| Investment Instrument | Return Rate |\n| --------------------- | ----------- |\n| Municipal Bonds       | 8.5%        |\n| CDs                   | 5%          |\n| T-bills               | 6.5%        |\n| Growth Stocks         | 13%         |",
+        "results": {
+            "Amount to invest in Municipal Bonds": "0.0",
+            "Amount to invest in CDs": "0.0",
+            "Amount to invest in T-Bills": "38182.0",
+            "Amount to invest in Growth Stocks": "31818.0",
+            "Total Profit": "6618.17"
+        }
+    },
+    {
+        "id": 364,
+        "question": "A company seeks to maximize exposure within a limited advertising budget. The exposure per ad or commercial, along with the cost for each medium, is provided in the following Table. The budget is limited to $100,000, with a maximum of four television commercials, ten radio commercials, and seven newspaper ads. Additionally, there is a cap of 15 total commercials and/or ads. How can the company maximize exposure within these constraints?\n\nTable (Exposure and Cost per Advertising Medium):\n| Advertising Medium | Exposure (people/ad or commercial) | Cost (USD) |\n| ------------------- | ---------------------------------- | ---------- |\n| Television Commercial | 20,000                            | 15,000     |\n| Radio Commercial      | 2,000                             | 6,000      |\n| Newspaper Ad          | 9,000                             | 4,000      |\n\nConstraints:\n- Total budget: $100,000\n- Maximum number of television commercials: 4\n- Maximum number of radio commercials: 10\n- Maximum number of newspaper ads: 7\n- Maximum total number of commercials and/or ads: 15",
+        "results": {
+            "The number of television commercials": "4.0",
+            "The number of radio commercials": "2.0",
+            "The number of newspaper ads": "7.0",
+            "The maximum exposure": "147000.0"
+        }
+    },
+    {
+        "id": 365,
+        "question": "Many companies or institutions, especially those operating 24 hours daily, usually divide the daily schedule into discrete time windows. Examples include hospitals, restaurants, call centers, and police departments. The number of staff required typically varies among these time windows. Staff members are scheduled to work different shifts, each covering a certain number of consecutive time windows. Staff members assigned to different shifts may be paid differently, depending on which shift they work. For example, those working overnight are usually paid at a higher rate. The scheduling problem is to determine the number of workers to be assigned to each shift so that the company meets the demand in each time window. Consider a 24-hour fast food restaurant that operates in eight consecutive time windows, each of 3 hours duration. A shift covers three consecutive time windows (9 hours in total). The following table shows the number of workers required for each time window and the wage rate per 9-hour shift.\n\nTable (Number of workers required and wage rate per shift for a 24-hour fast food restaurant):\n| Time Window     | Shift 1 | Shift 2 | Shift 3 | Shift 4 | Workers Required |\n| --------------- | ------- | ------- | ------- | ------- | ---------------- |\n| 6 a.m. - 9 a.m. | X       |         |         | X       | 55               |\n| 9 a.m. - 12 p.m.| X       |         |         |         | 46               |\n| 12 p.m. - 3 p.m.| X       | X       |         |         | 59               |\n| 3 p.m. - 6 p.m. |         | X       |         |         | 23               |\n| 6 p.m. - 9 p.m. |         | X       | X       |         | 60               |\n| 9 p.m. - 12 a.m.|         |         | X       |         | 38               |\n| 12 a.m. - 3 a.m.|         |         | X       | X       | 20               |\n| 3 a.m. - 6 a.m. |         |         |         | X       | 30               |\n| Wage Rate       | $135    | $140    | $190    | $188    |                  |\n\nNote: \"X\" indicates the shifts that cover each time window. The goal is to determine the number of workers to assign to each shift to meet the demand in each time window while minimizing labor costs.",
+        "results": {
+            "The number of workers for shift 1": "33.0",
+            "The number of workers for shift 2": "22.0",
+            "The number of workers for shift 3": "38.0",
+            "The total wage cost": "14755.0"
+        }
+    },
+    {
+        "id": 366,
+        "question": "Glueco produces three types of glue on two different production lines. Each line can be utilized by up to seven workers at a time. Workers are paid $500 per week on production line 1, and $900 per week on production line 2. A week of production costs $1,000 to set up production line 1 and $2,000 to set up production line 2. During a week on a production line, each worker produces the number of units of glue shown in Table: Glue Production Line 1, 2; the glue 1, 2, 3: (20, 30, 40), (50, 35, 45). Each week, at least 120 units of glue 1, at least 150 units of glue 2, and at least 200 units of glue 3 must be produced. Formulate an LP to minimize the total cost of meeting weekly demands.",
+        "results": {
+            "The number of workers on production line 1": "4.0",
+            "The number of workers on production line 2": "1.0",
+            "The total cost": "7900.0"
+        }
+    },
+    {
+        "id": 367,
+        "question": "Glueco produces three types of glue on two different production lines. Each line can be utilized by up to seven workers at a time. Workers are paid $500 per week on production line 1, and $900 per week on production line 2. A week of production costs $1,000 to set up production line 1 and $2,000 to set up production line 2. During a week on a production line, each worker produces the number of units of glue shown in Table: Glue Production Line 1, 2; the glue 1, 2, 3: (20, 30, 40), (50, 35, 45). Each week, at least 120 units of glue 1, at least 150 units of glue 2, and at least 200 units of glue 3 must be produced. Minimize the total cost of meeting weekly demands.",
+        "results": {
+            "The number of workers on production line 1": "7.0",
+            "The number of workers on production line 2": "7.0",
+            "The total cost": "27800.0"
+        }
+    },
+    {
+        "id": 368,
+        "question": "A client asks his stockbroker to invest $100,000 for maximum annual income, subject to the three conditions: Spread the investment over no more than three different stocks. Put no more than 40 percent of the money into any one stock. Put a minimum of $10,000 into an oil stock. The broker has identified three stocks for investment. Their estimated annual returns per share and price per share are shown in the following table: Stock, Price and annual returns are, (Oil, $120, $11), (Auto, $52, $4), (Pharmaceutical, $18, $2).",
+        "results": {
+            "The number of oil stock shares": "333.0",
+            "The number of auto stock shares": "500.0",
+            "The number of pharmaceutical stock shares": "0.0",
+            "The maximum annual income": "5663.0"
+        }
+    },
+    {
+        "id": 369,
+        "question": "Dorian Auto is considering manufacturing three types of autos: compact, midsize, and large. The resources required for, and the profits yielded by, each type of car are shown in Table:  steel required (1.5tons, 3tons, 5tons), labor required (30 hours, 40 hours, 25 hours), Profit yielded ($) (2,000, 3,000, 4,000). Currently, 10,000 tons of steel and 120,000 hours of labor are available. For production of a type of car to be economically feasible, at least 1,000 cars of that type must be produced. Formulate an LP to maximize Dorian's profit.",
+        "results": {
+            "The number of compact cars to produce": "1333.0",
+            "The number of midsize cars to produce": "1000.0",
+            "The number of large cars to produce": "1000.0",
+            "The maximum profit": "9666000.0"
+        }
+    },
+    {
+        "id": 370,
+        "question": "Dorian Auto is considering manufacturing three types of autos: compact, midsize, and large. The resources required for, and the profits yielded by, each type of car are shown in Table:  steel required (1.5tons, 3tons, 5tons), labor required (30 hours, 40 hours, 25 hours), Profit yielded ($) (2,000, 3,000, 4,000). Currently, 10,000 tons of steel and 120,000 hours of labor are available. For production of a type of car to be economically feasible, at least 1,000 cars of that type must be produced. Maximize Dorian's profit.",
+        "results": {
+            "The number of compact cars to produce": "1333.0",
+            "The number of midsize cars to produce": "1000.0",
+            "The number of large cars to produce": "1000.0",
+            "The maximum profit": "9666000.0"
+        }
+    }
+]

@@ -1,0 +1,486 @@
+[
+    {
+        "id": 106,
+        "question": "A suspicious factory has 100 sq. feet of space. It makes bootleg phones and laptops. Phones require 2 hours of labor and cost $12 for each sq. foot of space allocated for phone production (cost of electricity and equipment). Laptops require 3 hours of labor and cost $15 for each sq. foot of space allocated for laptop production. Phones produce a net revenue of $50 per sq. foot while laptops produce a net revenue of $70 per sq. foot. The factory wants to spend at most $5000 and 2000 hours of labor. What is the optimal factory layout to maximize revenue?",
+        "results": {
+            "The square feet for phone production": "0.0",
+            "The square feet for laptop production": "100.0",
+            "The net revenue": "7000.0"
+        }
+    },
+    {
+        "id": 107,
+        "question": "A electronics store sells premium desktops with more power as well as regular desktops for everyday use. Each premium desktop costs the store $2000 to make and yields a profit of $500. Each regular desktop costs the store $1000 to make and yields a profit of $300. The store sells at most 200 desktops each month and wants to spend at most $300000 on making the desktops. How many of each should be made and sold to maximize profit?",
+        "results": {
+            "The number of premium desktops": "100.0",
+            "The number of regular desktops": "100.0",
+            "The total profit": "80000.0"
+        }
+    },
+    {
+        "id": 108,
+        "question": "A car manufacturer makes two versions of the same car, a regular model and a premium model. They make x1 regular models per day and x2 premium models per day. The profit per regular model is $5000 and the profit per premium model is $8500 (x1 and x2 are unknown values both greater than or equal to 0). The daily demand for these cars is limited to and most 8 regular models and 6 premium models. In addition, the manufacturer can make a maximum of 12 cars of either type per day. How many cars of each model should the manufacturer make in order to maximize profit?",
+        "results": {
+            "The number of regular models": "6.0",
+            "The number of premium models": "6.0",
+            "The total profit": "81000.0"
+        }
+    },
+    {
+        "id": 109,
+        "question": "You are designing an office space with two types of desks: long desks and short desks. You can spend at most $2000. Long desks cost $300, take up 10 square feet of space, and seat 6 employees. Short desks cost $100, take up 4 square feet of space, and seat 2 employees. The office can have at most 200 square feet of desks. How many of each desk should you buy in order to maximize the seating availability?",
+        "results": {
+            "The number of long desks": "0.0",
+            "The number of short desks": "20.0",
+            "The seating availability": "40.0"
+        }
+    },
+    {
+        "id": 110,
+        "question": "Sleep inducing medicine and anti-inflammatory medicine is found in two pills, pill A and pill B. One pill A contains 3 units of sleep inducing medicine and 5 units of anti-inflammatory medicine. One pill B contains 6 units of sleep-inducing medicine and 1 unit of anti-inflammatory medicine. The cost per pill for pill A is $4 and the cost per pill for pill B is $5. A patient must consume these two pills to get at least 40 units of sleep-inducing medicine and 50 units of anti-inflammatory medicine. Formulate a LP to minimize the cost for the patient.",
+        "results": {
+            "The number of pill A": "10.0",
+            "The number of pill B": "2.0",
+            "The total cost for the patient": "50.0"
+        }
+    },
+    {
+        "id": 111,
+        "question": "A car manufacturer makes two types of car oils: Oil Max and Oil Max Pro. A container of Oil Max contains 46 grams of substance A, 43 grams of substance B and 56 grams of substance C. A container of Oil Max Pro contains 13 grams of substance A, 4 grams of substance B and 45 grams of substance C. The car manufacturer has 1345 grams of substance A, 346 grams of substance B, 1643 grams of substance C. In addition, the profit per container of Oil Max is $10 and the profit per container of Oil Max Pro is $15. How many containers of each of oil should the car manufacturer make to maximize profit?",
+        "results": {
+            "The number of Oil Max containers": "0.0",
+            "The number of Oil Max Pro containers": "36.0",
+            "The total profit": "540.0"
+        }
+    },
+    {
+        "id": 112,
+        "question": "An ice cream store makes chocolate and vanilla ice cream by the gallon. In a week, they must make at least 5 gallons of each type but at most 10 gallons of chocolate ice cream and at most 8 gallons of vanilla ice cream. It takes 1 hour to produce a gallon of chocolate ice cream and 2 hours to produce a gallon of vanilla ice cream. In a week, 30 hours are available to make ice cream. In addition at least 6 workers are needed with 1 working on the chocolate ice cream and 2 on the vanilla ice cream at any time. If the profit per gallon of chocolate ice cream is $200 and the profit per gallon of vanilla ice cream is $300, how many gallons of each should be made to maximize profit?",
+        "results": {
+            "Gallons of chocolate ice cream": "10.0",
+            "Gallons of vanilla ice cream": "8.0",
+            "Total profit": "4400.0"
+        }
+    },
+    {
+        "id": 113,
+        "question": "Mark has 50 acres of land available to grow potatoes and cucumbers that he sells at a farmers' market. He must grow at least 12 acres of potatoes and 15 acres of cucumbers to meet his contract. Mark prefers to grow more cucumbers than potatoes, but he only has enough resources to grow at most twice the amount of cucumbers as potatoes. If the profit per acre of potatoes is $500 and the profit per acre of cucumbers is $650, how many acres of each should he grow to maximize his profit? What is that profit?",
+        "results": {
+            "Acres of potatoes": "17.0",
+            "Acres of cucumbers": "33.0",
+            "The maximum profit": "29950.0"
+        }
+    },
+    {
+        "id": 114,
+        "question": "A flooring company produces engineered hardwood and vinyl planks. Their sales forecasts show an expected demand of at least 20,000 square foot of hardwood and 10,000 square feet of vinyl planks each week. To satisfy a shipping contract, a total of at least 60,000 square feet of flooring much be shipped each week. Due to a labor shortage issue, no more than 50,000 square feet of hardwood and 30,000  square feet of vinyl  can be produced weekly. If a square foot of hardwood flooring yields a profit of $2.5 and a square foot of vinyl planks produces a $3 profit, how many of each type of flooring should be made weekly to maximize the company's profit?",
+        "results": {
+            "The number of square feet of hardwood flooring produced weekly": "50000.0",
+            "The number of square feet of vinyl planks produced weekly": "30000.0",
+            "The maximum company's profit": "215000.0"
+        }
+    },
+    {
+        "id": 115,
+        "question": "Jordan is a chef. He wants to design a diet consisting of Kebabs and Rice.  Assume that each serving of Rice costs $3 and contains 300 calories and 4.5 grams of protein. Assume that each serving of Kebab costs $2 and contains 200 calories and 4 grams of protein. He's interested in spending as little money as possible but he wants to ensure that his meals have at least 2200 calories and at least 30 grams of protein per day. Formulate a linear programming problem that will help minimize the cost of the diet.",
+        "results": {
+            "The number of rice servings": "6.0",
+            "The number of kebab servings": "2.0",
+            "The total cost of the diet": "22.0"
+        }
+    },
+    {
+        "id": 116,
+        "question": "A company sells custom scooters and bikes for customers. The profit per scooter is $200 and the profit per bike is $300. Each product requires time with the design team and engineering team. Each scooter needs 2 hours with the design team and 3 hours with the engineering team. Each bike needs 4 hours with the design team and 5 hours with the engineering team. Per month, there are 5000 hours available on the design team and 6000 hours available on the engineering team. How many of each should the company make per month to maximize profit?",
+        "results": {
+            "The number of scooters": "2000.0",
+            "The number of bikes": "0.0",
+            "Total profit": "400000.0"
+        }
+    },
+    {
+        "id": 117,
+        "question": "John has a 300 acre berry farm on which to plant blueberries and raspberries. John has $10000 to spend on watering and 575 days worth of labor available. For each acre of blueberries, 6 days worth of labor and $22 in watering costs is required. For each acre of raspberries, 3 days worth of labor and $25 in watering costs is required. The profit per acre of blueberries is $56 and the profit per acre of raspberries is $75. Formulate an LP problem in order to maximize profit.",
+        "results": {
+            "The number of blueberry acres": "0.0",
+            "The number of raspberry acres": "191.0",
+            "The total profit": "14325.0"
+        }
+    },
+    {
+        "id": 118,
+        "question": "A man  only eats vegetable and fruits. A serving of vegetables contains 2 units of vitamins and 3 units of minerals. A serving of fruit contains 4 units of vitamins and 1 unit of minerals. He wants to eat at least 20 units of vitamins and 30 units of minerals. If vegetables cost $3 per serving and fruits cost $5 per serving, how many servings of each should he eat to minimize his cost?",
+        "results": {
+            "The number of vegetable servings": "10.0",
+            "The number of fruit servings": "0.0",
+            "The total cost": "30.0"
+        }
+    },
+    {
+        "id": 119,
+        "question": "A bakery bakes bagels and croissants. A batch of bagels can be made using 2 hours of oven time and 0.25 hours of pastry chef time. A batch of croissants is more complicated, so while they take 1 hour of oven time, they take 2 hours of pastry chef time. In a day, the bakery has at most 70 hours available for the oven and 32 pastry chef hours available. Using all the available capacity, what is the maximum profit the bakery can generate assuming the profit per batch is $20 and $40 respectively for a batch of bagels and a batch of croissants.",
+        "results": {
+            "The number of batches of bagels": "29.0",
+            "The number of batches of croissants": "12.0",
+            "The maximum profit is": "1060.0"
+        }
+    },
+    {
+        "id": 120,
+        "question": "A farmer has 500 acres of land to grow turnips and pumpkins. Turnips require 50 minutes of watering and $80 worth of pesticide per acre. Pumpkins require 90 minutes of watering and $50 worth of pesticide per acre. The farmer has 40000 minutes available for watering and $34000 available to spend on pesticide. If the revenue per acre of turnips is $300 and the revenue per acre of pumpkins is $450, how many acres of each should he grow to maximize his revenue.",
+        "results": {
+            "Acres of Turnips to grow": "125.0",
+            "Acres of Pumpkins to grow": "375.0",
+            "The maximum revenue that can be generated": "206250.0"
+        }
+    },
+    {
+        "id": 121,
+        "question": "A school employs staff and substitute teachers. Per shift, staff teachers work 6 hours and get paid $300. Per shift, substitute teachers work 3 hours and get paid $100. For the summer term, the school requires 1000 hours of teaching availability. If the school has a budget of $40000, how many of each teacher should be hired to minimize the total number of teachers?",
+        "results": {
+            "The number of staff teachers": "66.0",
+            "The number of substitute teachers": "202.0",
+            "The total number of teachers": "268.0"
+        }
+    },
+    {
+        "id": 122,
+        "question": "A gem factory has two drills, a high intensity one and a low intensity one. Each day, the high intensity drill can process 50 gems and requires 50 units of water to dissipate heat. Each day, the low intensity drill can process 30 gems and requires 20 units of water to dissipate heat. Each day the factory must process 800 gems and they have available 700 units of water. Since the high intensity drill produces a lot of noise pollution, at most 40% of the drills can be high intensity ones. Further, at least 10 should be low intensity drills. How many of each drill should be used to minimize the total number of drills needed?",
+        "results": {
+            "The number of high intensity drills": "7.0",
+            "The number of low intensity drills": "15.0",
+            "Total number of drills needed": "22.0"
+        }
+    },
+    {
+        "id": 123,
+        "question": "A sandwich company can open two types of stores, a dine-in place and a food-truck. A dine-in place can make 100 sandwiches per day and requires 8 employees to operate. A food-truck can make 50 sandwiches per day and requires 3 employees to operate. The company must make at least 500 sandwiches per day but they only have available 35 employees. How many of each type of store should the company open to minimize the total number of stores?",
+        "results": {
+            "The number of dine-in stores": "2.0",
+            "The number of food trucks": "6.0",
+            "The total number of stores": "8.0"
+        }
+    },
+    {
+        "id": 124,
+        "question": "There are two processes, process A and process B, to plate a coin with gold. Process A requires 3 units of gold, 2 wires, and can plate 5 coins. Process B requires 5 units of gold, 3 wires, and can plate 7 coins. There are 500 units of gold and 300 wires available. How many processes of each type should be run to maximize the total number of coins that can be plated?",
+        "results": {
+            "The number of Process A": "150.0",
+            "The number of Process B": "0.0",
+            "The total number of coins that can be plated": "750.0"
+        }
+    },
+    {
+        "id": 125,
+        "question": "A woodshop can purchase two types of saws, a miter saw and a circular saw. A miter saw can cut 50 planks of wood and produces 60 units of sawdust per day. A circular saw can cut 70 planks of wood and produces 100 units of sawdust per day. The woodshop must cut at least 1500 planks of wood per day. However, to avoid too much pollution in the woodshop they can produce at most 2000 units of sawdust per day. How many of each type of saw should be purchased to minimize the total number of saws needed?",
+        "results": {
+            "The number of miter saws": "15.0",
+            "The number of circular saws": "11.0"
+        }
+    },
+    {
+        "id": 126,
+        "question": "A farmer has 200 acres of land on which he must process hay using either a windrower or hay harvester. For each acre of land, the windrower can process 10 kg of hay while the hay harvester can process 8 kg of hay. Per acre, the windrower produces 5 kg of methane gas and requires 2 kg of fuel. On the other hand, the hay harvester produces 3 kg of methane gas per acre and requires 1 kg of fuel. There are 300 kg of fuel available and the farmer can produce at most 800 kg of methane gas. For how many acres should each machine be used to maximize the amount of hay processed?",
+        "results": {
+            "The acres processed by windrower": "100.0",
+            "The acres processed by harvester": "100.0",
+            "The amount of hay processed": "1800.0"
+        }
+    },
+    {
+        "id": 127,
+        "question": "A new fast food place makes wraps and platters. Each wrap requires 5 units of meat and 3 units of rice. Each platter requires 7 units of meant and 5 units of rice. While each wrap takes 10 minutes to make, each platter takes 8 minutes to make. The fast food place must use at least 3000 units of meat and 2500 units of rice. Since wraps are easier to eat on the go, at least 3 times as many wraps need to be made as platter. How many of each should the fast food place make to minimize the total production time?",
+        "results": {
+            "The number of wraps": "537.0",
+            "The number of platters": "178.0",
+            "The total production time (in minutes)": "6794.0"
+        }
+    },
+    {
+        "id": 128,
+        "question": "A honey farmer sells his honey in glass and plastic jars. A glass jar can hold 250 ml of honey while a plastic jar can hold 300 ml of honey. Since glass jars are more expensive, at least twice as many plastic jars must be filled as glass jars. However, at least 20 glass jars should be filled. If the farmer has 20000 ml of honey, how many jars of each should be filled to maximize the total number of bottles filled?",
+        "results": {
+            "The number of glass jars": "23.0",
+            "The number of plastic jars": "47.0",
+            "The total number of jars filled": "70.0"
+        }
+    },
+    {
+        "id": 129,
+        "question": "A bubble tea shop sells mango and lychee bubble tea. Each mango bubble tea requires 4 units of mango juice and 8 units of tea. Each lychee bubble tea requires 6 units of lychee juice and 6 units of tea. The shop has available 2000 units of mango juice and 3000 units of lychee juice. At least 40% of the bubble teas made must be lychee flavored. However, mango bubble tea sells better and thus the number of mango bubble teas made must be large than the number of lychee bubble teas made. How many of each bubble tea flavor should be made to minimize the total amount of tea needed?",
+        "results": {
+            "The number of mango bubble tea": "3.0",
+            "The number of lychee bubble tea": "2.0",
+            "The total amount of tea needed": "36.0"
+        }
+    },
+    {
+        "id": 130,
+        "question": "A city employs seasonal and permanent snow removers. A seasonal snow remover works 6 hours per shift and gets paid $120. A permanent snow remover works 10 hours per shift and gets paid $250. Currently the city needs 300 hours of snow remover labor after a heavy snowfall. If the city has a budget of $6500, how many of each type of worker should be hired to minimize the total number of snow removers?",
+        "results": {
+            "The number of seasonal removers": "35.0",
+            "The number of permanent removers": "9.0",
+            "The total number of snow removers": "44.0"
+        }
+    },
+    {
+        "id": 131,
+        "question": "A high rise building is buying two types of furnaces, a new model and an old model. A new model furnace can heat 10 apartments and consumes 200 kWh per day. An old model can heat 15 apartments and consumes 250 kWh per day. Since the old model is harder to find, at most 35% of the furnaces can be the old model and at least 5 new model furnaces should be used. If the high rise needs to heat at least 200 apartments and has 3500 kWh of electricity available, how many of each furnace should be purchase to minimize the total number of furnaces?",
+        "results": {
+            "The number of new model furnaces": "11.06383",
+            "The number of old model furnaces": "5.9574468",
+            "The total number of furnaces": "17.0212768"
+        }
+    },
+    {
+        "id": 132,
+        "question": "A cell phone company is building rural and urban factories. A rural factory can make 100 phones per day and requires 8 managers. An urban factory can make 200 phones per day and requires 20 managers. The company has available 260 managers and must make at least 3000 phones per day. How many of each factory type should be built to minimize the total number of factories?",
+        "results": {
+            "The number of rural factories": "20.0",
+            "The number of urban factories": "5.0",
+            "The total number of factories": "25.0"
+        }
+    },
+    {
+        "id": 133,
+        "question": "An ice cream store can buy two machines, a counter-top sized one and a fridge sized one, to make ice cream. The counter-top sized one can produce 80 cones worth of ice cream every day while the fridge sizes one can produce 150 cones worth of ice cream every day. The counter-top sized machine outputs 50 units of heat while the fridge sized one outputs 70 units of heat. The ice cream store can output at most 500 units of heat per day and must produce at least 1000 cones worth of ice cream. How many of each machine should they buy to minimize the total number of machines needed?",
+        "results": {
+            "The number of counter-top sized machines": "0.0",
+            "The number of fridge-sized machines": "7.0",
+            "Total number of machines needed": "7.0"
+        }
+    },
+    {
+        "id": 134,
+        "question": "There are two specialized containers, a small and large one, that are used to make a pharmaceutical paste. The small container requires 10 units of water and 15 units of the powdered pill to make 20 units of the paste. The large container requires 20 units of water and 20 units of the powdered pill to make 30 units of the paste. The pharmacy has available 500 units of water and 700 units of the powdered pill. How many of each container should be used to maximize the amount of paste that can be made?",
+        "results": {
+            "The number of small containers": "40.0",
+            "The number of large containers": "5.0",
+            "The amount of paste produced": "950.0"
+        }
+    },
+    {
+        "id": 135,
+        "question": "An oil and gas company operates on 300 acres of land where they use oil wells of small and large size. Per acre of land, a small oil well can produce 2 barrels of oil. Per acre of land, a large oil well can produce 5 barrels of oil. However, a small oil well produces 10 units of pollution and requires 5 drill bits per acre and a large oil well produces 20 units of pollution and requires 10 drill bits per acre. The company has available 2500 drill bits and due to strict environmental laws can produce at most 4500 units of pollution. For how many acres should each oil well be used to maximize the total production of oil?",
+        "results": {
+            "The number of acres for small oil wells": "1.0",
+            "The number of acres for large oil wells": "0.0",
+            "The total production of oil": "600.0"
+        }
+    },
+    {
+        "id": 136,
+        "question": "A bakery makes almond and pistachio croissants. An almond croissant requires 5 units of butter and 8 units of flour. A pistachio croissant requires 3 units of butter and 6 units of flour. The bakery has available 600 units of butter and 800 units of flour. Since the almond croissant is more popular, at least 3 times as many almond croissants should be made as pistachio croissants. If making an almond croissant takes 12 minutes and making a pistachio croissant takes 10 minutes, how many of each should be made to minimize the total production time?",
+        "results": {
+            "The number of almond croissants": "0.0",
+            "The number of pistachio croissants": "0.0",
+            "The total production time in minutes": "0.0"
+        }
+    },
+    {
+        "id": 137,
+        "question": "A burger chain is buying both gas and electric grills to make burger patties. A gas grill can cook 20 patties per minute while an electric grill can cook 30 patties per minute. The gas grill requires 20 units of cooking oil per minute while the electric grill requires 25 units of cooking oil per minute. Since the gas grill patties taste better, the number of electric grills must be less than the number of gas grills. Further, the burger chain wants to be able to make at least 150 patties per minute and use at most 140 units of cooking oil per minute. How many of each grill should be bought to minimize the total number of grills in the store?",
+        "results": {
+            "The number of gas grills": "3.6",
+            "The number of electric grills": "2.6",
+            "Total number of grills in the store": "6.2"
+        }
+    },
+    {
+        "id": 138,
+        "question": "A cough syrup company sells cough syrup in kids and adult size bottles. A kids size bottle can hold 100 ml of cough syrup while an adult size bottle can hold 300 ml of cough syrup. Since there is no difference in concentration of medical ingredients between the two bottles, at least 3 times as many adult size bottle must be made as kids size bottles. However, at least 50 kids size bottles must be made. If the company has 25000 ml of cough syrup available, how many bottles of each should be made to maximize the total number of bottles?",
+        "results": {
+            "The number of kids size bottles": "25.0",
+            "The number of adult size bottles": "75.0",
+            "The total number of bottles": "100.0"
+        }
+    },
+    {
+        "id": 139,
+        "question": "A clinic employs nurses and pharmacists to deliver shots to patients. A nurse works 5 hours per shift while a pharmacist works 7 hours per shift. Nurses are paid $250 per shift while pharmacists are paid $300 per shift. Currently, the clinic needs 200 hours of healthcare labor to meet needs. If the firm has a budget of $9000, how many of each healthcare worker should be scheduled to minimize the total number of workers?",
+        "results": {
+            "The number of nurses": "5.0",
+            "The number of pharmacists": "25.0",
+            "The total number of workers": "200.0"
+        }
+    },
+    {
+        "id": 140,
+        "question": "A bank can build small and large branches to serve their customers. A small branch can serve 50 customers per day and requires 10 bank tellers. A large branch can serve 100 customers per day and requires 15 bank tellers. The bank has available 200 bank tellers and needs to be able to serve at least 1200 customers per day. How many of each branch size should they build to minimize the total number of branches needed?",
+        "results": {
+            "The number of small branches": "0.0",
+            "The number of large branches": "12.0",
+            "The total number of branches": "12.0"
+        }
+    },
+    {
+        "id": 141,
+        "question": "A shipping company can purchase regular and hybrid vans to make deliveries. A regular van can deliver 500 packages per day and produces 200 units of pollutants. A hybrid van can deliver 300 packages per day and produces 100 units of pollutants. Due to a new environmental law, they can produce at most 7000 units of pollutants per day. However, the company needs to be able to deliver at least 20000 packages per day. How many of each type of van should they buy to minimize the total number of vans needed?",
+        "results": {
+            "The number of regular vans": "10.0",
+            "The number of hybrid vans": "50.0"
+        }
+    },
+    {
+        "id": 142,
+        "question": "In order to make carbon dioxide, wood is burned using two processes, with a catalyst and without a catalyst. The process with a catalyst requires 10 units of wood and 20 units of oxygen to make 15 units of carbon dioxide. The process without a catalyst requires 15 units of wood and 12 units of oxygen to make 18 units of carbon dioxide. There are 300 units of wood and 300 units of oxygen available. How many of each process should be used to maximize the amount of carbon dioxide produced?",
+        "results": {
+            "The number of processes with a catalyst": "3.0",
+            "The number of processes without a catalyst": "18.0",
+            "The total amount of carbon dioxide produced": "369.0"
+        }
+    },
+    {
+        "id": 143,
+        "question": "A tea estate has available 500 acres of land and they need to pick the tea leaves either using a traditional machine or modern machine. For each acre of land, the traditional machine can pick 30 kg of tea leaves, creates 10 kg of waste, and requires 20 liters of fuel. For each acre of land, the modern machine can pick 40 kg of tea leaves, creates 15 kg of waste, and requires 15 liters of fuel. The estate has available 9000 liters of fuel can handle at most 6000 kg of waste. For how many acres should each machine be used to maximize the amount of tea leaves that can be picked?",
+        "results": {
+            "The acres for traditional machine": "300.0",
+            "The acres for modern machine": "200.0",
+            "The amount of tea leaves picked": "17000.0"
+        }
+    },
+    {
+        "id": 144,
+        "question": "A teddy bear company produces three different colored bears: black, white, and brown. These bears are made in two different factories. Running factory 1 for 1 hour costs $300 and produces 5 black teddy bears, 6 white teddy bears, and 3 brown ones. Running factory 2 for 1 hour costs $600 and produces 10 black teddy bears and 10 white teddy bears. (but no brown ones). To meet children's demand, at least 20 black teddy bears, 5 white teddy bears, and 15 brown teddy bears must be made daily. Given this information, develop a linear programming problem assuming the teddy bear company wants to minimize the cost of production.",
+        "results": {
+            "Hours to run factory 1": "5.0",
+            "Hours to run factory 2": "0.0",
+            "The total cost of production": "1500.0"
+        }
+    },
+    {
+        "id": 145,
+        "question": "Ayse produces a plant growth compound by mixing two types of fertilizer: C and Y. This growth compound must contain at least 5 units of nitrous oxide and 8 units of vitamin mix. Fertilizer C and Y cost $2 and $3 per kg respectively. Fertilizer C contains 1.5 units of nitrous oxide per kg and 3 units of vitamin mix per kg. Fertilizer Y contains 5 units of nitrous oxide per kg and 1 unit of vitamin mix per kg. Determine the minimum cost of Ayse's compound.",
+        "results": {
+            "The amount of fertilizer C in kgs": "4.0",
+            "The amount of fertilizer Y in kgs": "0.0",
+            "The minimum cost of the compound": "8.0"
+        }
+    },
+    {
+        "id": 146,
+        "question": "A banana company sells their bananas in small and large crates. A small crate can hold 20 bananas while a large crate can hole 50 bananas. Since large crates are more manageable, the number of large crates must be at least 1.5 times the number of small crates. However, at least 5 small crates should be used. If the company has available 500 bananas, how many of each crate should the company use to maximize the total number of crates produced?",
+        "results": {
+            "The number of small crates": "5.0",
+            "The number of large crates": "8.0",
+            "The total number of crates produced": "500.0"
+        }
+    },
+    {
+        "id": 147,
+        "question": "A crepe store sells chocolate and peanut butter crepes. A chocolate crepe requires 3 units of chocolate spread and 6 units of crepe mix. A peanut butter crepe requires 4 units of peanut butter spread and 7 units of crepe mix. Recently, the peanut butter crepe has been more popular and therefore the number of peanut butter crepes made must exceed the number of chocolate crepes made. However at least 25% of the crepes made should be chocolate. The store has available 400 units of chocolate spread and 450 units of peanut butter spread. How many of each should the store make to minimize the total amount of crepe mix needed?",
+        "results": {
+            "The number of chocolate crepes": "1.0",
+            "The number of peanut butter crepes": "2.0",
+            "The amount of crepe mix used": "20.0"
+        }
+    },
+    {
+        "id": 148,
+        "question": "A fire department employs regular and emergency fire fighters. A regular fire fighter works 10 hours per shift and earns $300. An emergency fire fighter works 6 hours per shift and earns $100. Due to wildfires in the region, the fire department needs at least 300 hours of fire fighter time. If the fire department has a budget of $7000, how many of each should the fire department hire to minimize the total number of fire fighters?",
+        "results": {
+            "The number of regular fire fighters": "15.0",
+            "The number of emergency fire fighters": "25.0",
+            "The total number of fire fighters": "40.0"
+        }
+    },
+    {
+        "id": 149,
+        "question": "A large fast-food restaurant employs waiters and managers. Waiters earn $1200 per week and managers earn $2000 per week. The restaurant requires a minimum of 50 workers of whom at least 15 must be managers. To keep the restaurant clean and running smoothly, the number of managers should be at least a third of the number of waiters. The restaurant wants to keep the weekly wage bill below $500000. Formulate an LP to minimize the wage bill.",
+        "results": {
+            "The number of waiters": "35.0",
+            "The number of managers": "15.0",
+            "The total wage bill": "72000.0"
+        }
+    },
+    {
+        "id": 150,
+        "question": "Glueco produces three types of glue on two different production lines. Each line can be utilized by up to seven workers at a time. Workers are paid $500 per week on production line 1, and $900 per week on production line 2. A week of production costs $1,000 to set up production line 1 and $2,000 to set up production line 2. During a week on a production line, each worker produces the number of units of glue shown in the following Table. Each week, at least 120 units of glue 1, at least 150 units of glue 2, and at least 200 units of glue 3 must be produced. Minimize the total cost of meeting weekly demands.\n\nTable (The number of units of glue produced by each worker on each production line during a week):\n| Glue Type | Production Line 1 | Production Line 2 |\n| ---------- | ----------------- | ----------------- |\n| Glue 1     | 20                | 50                |\n| Glue 2     | 30                | 35                |\n| Glue 3     | 40                | 45                |",
+        "results": {
+            "The number of workers on production line 1": "4.0",
+            "The number of workers on production line 2": "1.0",
+            "The total cost": "29300.0"
+        }
+    },
+    {
+        "id": 151,
+        "question": "Glueco produces three types of glue on two different production lines. Each line can be utilized by up to seven workers at a time. Workers are paid $500 per week on production line 1, and $900 per week on production line 2. A week of production costs $1,000 to set up production line 1 and $2,000 to set up production line 2. During a week on a production line, each worker produces the number of units of glue shown in the following Table. Each week, at least 120 units of glue 1, at least 150 units of glue 2, and at least 200 units of glue 3 must be produced. Formulate an LP to minimize the total cost of meeting weekly demands.\n\nTable (The number of units of glue produced by each worker on each production line during a week):\n| Glue Type | Production Line 1 | Production Line 2 |\n| ---------- | ----------------- | ----------------- |\n| Glue 1     | 20                | 50                |\n| Glue 2     | 30                | 35                |\n| Glue 3     | 40                | 45                |",
+        "results": {
+            "The number of workers on production line 1": "4.0",
+            "The number of workers on production line 2": "1.0",
+            "The total cost": "11900.0"
+        }
+    },
+    {
+        "id": 152,
+        "question": "A client asks his stockbroker to invest $100,000 for maximum annual income, subject to the following conditions: Spread the investment over no more than three different stocks. Put no more than 40 percent of the money into any one stock. Put a minimum of $10,000 into an oil stock. The broker has identified three stocks for investment. Their estimated annual returns per share and price per share are shown in the following Table. \n\nTable (Estimated annual returns per share and price per share for three stocks):\n| Stock Type    | Price per Share | Annual Return per Share |\n| ------------- | --------------- | ----------------------- |\n| Oil           | $120            | $11                     |\n| Auto          | $52             | $4                      |\n| Pharmaceutical| $18             | $2                      |",
+        "results": {
+            "The number of oil stock shares": "333.0",
+            "The number of auto stock shares": "385.0",
+            "The number of pharmaceutical stock shares": "2222.0",
+            "The maximum annual income": "9647.0"
+        }
+    },
+    {
+        "id": 153,
+        "question": "Dorian Auto is considering manufacturing three types of autos: compact, midsize, and large. The resources required for, and the profits yielded by, each type of car are shown in the following Table. Currently, 10,000 tons of steel and 120,000 hours of labor are available. For production of a type of car to be economically feasible, at least 1,000 cars of that type must be produced. Formulate an LP to maximize Dorian's profit.\n\nTable (Resources required and profits yielded for each type of car):\n| Auto Type | Steel Required (tons) | Labor Required (hours) | Profit Yielded ($) |\n|-----------|-----------------------|------------------------|--------------------|\n| Compact   | 1.5                   | 30                     | 2,000              |\n| Midsize   | 3                     | 40                     | 3,000              |\n| Large     | 5                     | 25                     | 4,000              |",
+        "results": {
+            "The number of compact cars to produce": "1333.0",
+            "The number of midsize cars to produce": "1000.0",
+            "The number of large cars to produce": "1000.0",
+            "The maximum profit": "9666000.0"
+        }
+    },
+    {
+        "id": 154,
+        "question": "Dorian Auto is considering manufacturing three types of autos: compact, midsize, and large. The resources required for, and the profits yielded by, each type of car are shown in the following Table. Currently, 10,000 tons of steel and 120,000 hours of labor are available. For production of a type of car to be economically feasible, at least 1,000 cars of that type must be produced. Maximize Dorian's profit.\n\nTable (Resources required and profits yielded for each type of car):\n| Auto Type | Steel Required (tons) | Labor Required (hours) | Profit Yielded ($) |\n|-----------|-----------------------|------------------------|--------------------|\n| Compact   | 1.5                   | 30                     | 2,000              |\n| Midsize   | 3                     | 40                     | 3,000              |\n| Large     | 5                     | 25                     | 4,000              |",
+        "results": {
+            "The number of compact cars to produce": "1333.0",
+            "The number of midsize cars to produce": "1000.0",
+            "The number of large cars to produce": "1000.0",
+            "The maximum profit": "9666000.0"
+        }
+    },
+    {
+        "id": 155,
+        "question": "Stockco is considering four investments, each with its own net present value (NPV) and required cash outflow. Currently, $14,000 is available for investment. Formulate an LP whose solution will tell Stockco how to maximize the NPV obtained from investments 1-4.\n\nTable (Net present value and cash outflow required for each investment):\n| Investment | NPV    | Cash Outflow |\n|------------|--------|--------------|\n| 1          | $16,000| $5,000       |\n| 2          | $22,000| $7,000       |\n| 3          | $12,000| $4,000       |\n| 4          | $8,000 | $3,000       |",
+        "results": {
+            "Investment in 1": "2.0",
+            "Investment in 2": "0.0",
+            "Investment in 3": "1.0",
+            "Investment in 4": "0.0",
+            "Total NPV": "44000.0"
+        }
+    },
+    {
+        "id": 156,
+        "question": "Stockco is considering four investments, each with its own net present value (NPV) and required cash outflow. Currently, $14,000 is available for investment. Tell Stockco how to maximize the NPV obtained from investments 1-4.\n\nTable (Net present value and cash outflow required for each investment):\n| Investment | NPV    | Cash Outflow |\n|------------|--------|--------------|\n| 1          | $16,000| $5,000       |\n| 2          | $22,000| $7,000       |\n| 3          | $12,000| $4,000       |\n| 4          | $8,000 | $3,000       |",
+        "results": {
+            "Investment in 1": "2.0",
+            "Investment in 2": "0.0",
+            "Investment in 3": "1.0",
+            "Investment in 4": "0.0",
+            "Total NPV": "44000.0"
+        }
+    },
+    {
+        "id": 157,
+        "question": "Robertville Furniture Company (RFC) makes two types of dressers: the Classic and the Modern. RFC sells the Classic for $310 and the Modern for $350. At these prices, RFC believes it can sell up to 20 Classic and 25 Modern dressers per week. Each type of dresser is made of oak and covered with a pecan veneer. The cost of oak is $1.50 per square foot, and the cost of pecan veneer is $2 per square foot. The dressers must go through two manufacturing departments: cutting and veneering. The machine hours required for each dresser, as well as the wood requirements, are given in the following table. RFC has only 40 hours of production time available each week in each department, and it can obtain up to 2000 board feet of oak and 1500 square feet of pecan veneer each week. The cost of operating each manufacturing department is essentially fixed, so RFC would like to maximize its contribution to overhead (revenue minus variable costs).\n\nTable (Wood requirements and machine hours for each type of dresser):\n| Dresser Type | Oak Size (sq ft) | Pecan Size (sq ft) | Cutting Time (hrs) | Veneering Time (hrs) |\n| ------------ | ---------------- | ------------------ | ------------------ | -------------------- |\n| Classic      | 90               | 50                 | 1.20               | 1.00                 |\n| Modern       | 100              | 60                 | 0.90               | 1.20                 |",
+        "results": {
+            "The number of Classic dressers to produce": "20.0",
+            "The number of Modern dressers to produce": "2.0",
+            "The maximum contribution to overhead": "1660.0"
+        }
+    },
+    {
+        "id": 158,
+        "question": "Chip Green is the head groundskeeper at Birdie Valley Golf Club. For the mix of grass for the golf course, Chip has decided that the best fertilizer would be a 10-8-12 mixture. Chip can buy a 10-8-12 mix of fertilizer for $21.75 per 100 pounds, but there are other fertilizers on the market at a variety of prices. The chemical content and prices of the fertilizers are given in the following Table. Chip would like to determine whether or not he could buy several fertilizers and mix them together to obtain a 10-8-12 mixture at a lower cost than $21.75 per 100 pounds. Recognizing that it might be impossible to obtain an exact 10-8-12 mix from the fertilizers, Chip is willing to accept chemical percentages of at least the target amounts, but no more than 0.5% above them (so the nitrogen level should be between 10% and 10.5%; the phosphorus level should be between 8% and 8.5%; the potash level should be between 12% and 12.5%). Please determine the proportion of each fertilizers in the compost. \n\nTable (Chemical content and price per 100 pounds of each fertilizer):\n| Fertilizer | Nitrogen (a) | Phosphorus (b) | Potash (c) | Price ($/100 lbs) |\n|------------|--------------|----------------|------------|-------------------|\n| Fertilizer 1 | 10           | 8              | 12         | 21.75             |\n| Fertilizer 2 | 8            | 11             | 15         | 23.75             |\n| Fertilizer 3 | 12           | 7              | 12         | 22.00             |\n| Fertilizer 4 | 10           | 10             | 10         | 19.50             |\n| Fertilizer 5 | 15           | 10             | 6          | 18.50             |",
+        "results": {
+            "The quantity of Fertilizer 1": "0.0",
+            "The quantity of Fertilizer 2": "0.28571429",
+            "The quantity of Fertilizer 3": "0.53571429",
+            "The quantity of Fertilizer 4": "0.17857143",
+            "The quantity of Fertilizer 5": "0.0"
+        }
+    }
+]

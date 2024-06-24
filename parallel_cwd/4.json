@@ -1,0 +1,476 @@
+[
+    {
+        "id": 212,
+        "question": "A lawn mowing service provides neighborhood services using small teams and large teams. A small team requires 3 employees and can mow 50 sq ft of lawn. A large team requires 5 employees and can mow 80 sq ft of lawn. The company has 150 employees available. Because most people have smaller lawns in the city, the number of small teams must be at least 3 times as much as the number of large teams. In addition, to make sure the company can meet all demands, there has to be at least 6 large teams and at least 10 small teams. How many of each team type should be used to maximize the amount of lawn that can be mowed?",
+        "results": {
+            "The number of small teams": "40.0",
+            "The number of large teams": "6.0",
+            "The total amount of lawn that can be mowed": "2480.0"
+        }
+    },
+    {
+        "id": 213,
+        "question": "An aquarium does shows using otters and dolphins. An otter will do 3 tricks at a time and requires 3 treats to do so. A dolphin will do 1 trick at a time and requires 5 treats to do so. Since dolphins are more popular, at least 10 dolphins must be used and at most 30% of the performers can be otters. If the aquarium only has 200 treats available, maximize the total number of tricks that can be preformed.",
+        "results": {
+            "The number of otters": "13.0",
+            "The number of dolphins": "32.0",
+            "The number of tricks performed": "71.0"
+        }
+    },
+    {
+        "id": 214,
+        "question": "A shoe company supplies shoes to stores via vans and trucks. A van can transport 50 pairs of shoes while a truck can transport 100 pairs of shoes. The company must supply a minimum of 2000 pairs of shoes around the city. Since most stores are small, the number of trucks used cannot exceed the number of vans used.  Find the minimum number of vans that can be used?",
+        "results": {
+            "The number of vans used": "14.0",
+            "The number of trucks used": "13.0"
+        }
+    },
+    {
+        "id": 215,
+        "question": "A butcher shop is buying meat slicers for their shop, a manual and automatic slicer. The manual slicer can cut 5 slices per minute while the automatic slicer can cut 8 slices per minute. In addition, to make sure all the parts operate smoothly, the manual slicer requires 3 units of grease per minute while the automatic slicer requires 6 units of grease per minute. Since the automatic slicer does not need someone to operate it, the number of manual slicers must be less than the number of automatic slicers. In addition, the butcher shop needs to be able to cut at least 50 slices per minute but can use at most 40 units of grease per minute. How many of each slicer should the butcher shop buy to minimize the total number of slicers in the shop?",
+        "results": {
+            "The number of manual slicers": "1.0",
+            "The number of automatic slicers": "6.0",
+            "The minimum total number of slicers": "7.0"
+        }
+    },
+    {
+        "id": 216,
+        "question": "A woman eats cashews and almonds to get her calorie and protein intake. A serving of almonds contains 200 calories and 20 grams of protein. A serving of cashews contains 300 calories and 25 grams of protein. The woman decides to eat at least twice as many servings of almonds as cashews. Furthermore, a serving of almonds contains 15 grams of fat while a serving of cashews contains 12 grams of fat. If the woman needs to consume at least 10000 calories and 800 grams of protein this week, how many servings of each should she eat to minimize her fat intake?",
+        "results": {
+            "The number of servings of almonds": "29.0",
+            "The number of servings of cashews": "14.0",
+            "The total fat intake": "603.0"
+        }
+    },
+    {
+        "id": 217,
+        "question": "A meat shop ships their burger patties using refrigerated trucks and vans. Each truck can take 1000 patties at a cost of $300 per trip. Each van can take 500 patties at a cost of $100 per trip. Because the trucks have difficulty moving around in the city, the number of trucks must not exceed the number of vans. The meat shop has to ship at least 50000 patties and they have a budget of $12500. How should they plan their shipment to minimize the total number of trips?",
+        "results": {
+            "The number of truck trips": "0.0",
+            "The number of van trips": "100.0",
+            "The total number of trips": "10000.0"
+        }
+    },
+    {
+        "id": 218,
+        "question": "A florist transports his flowers to stores in small bouquets and large bouquets. A small bouquet has 5 flowers while a large bouquet has 10 flowers. The florist can transport at most 80 small bouquets and 50 large bouquets. In total, he can transport at most 70 bouquets and he must transport at least 20 large bouquets. Since small bouquets are more popular, he must transport at least twice as many small bouquets as large bouquets. How many of each bouquet should he transport to maximize the total number of flowers that reach the stores?",
+        "results": {
+            "The number of small bouquets": "47.0",
+            "The number of large bouquets": "23.0",
+            "The total number of flowers transported": "465.0"
+        }
+    },
+    {
+        "id": 219,
+        "question": "A toy store decides to deliver gifts using two shipping companies, a new one and an old one. The new company can deliver 50 gifts per trip while the old company can deliver 70 gifts per trip. The new company uses 30 liters of diesel per trip while the old company uses 40 liters of diesel per trip. The toy store needs to deliver at least 1000 gifts. There can be at most 15 trips made by the new company. In order to make sure that the old company does not go out of business, at least 40% of all trips must be made by the old company. How many trips should each company make to minimize the total amount of diesel used?",
+        "results": {
+            "The number of trips by the new company": "2.0",
+            "The number of trips by the old company": "13.0",
+            "The total amount of diesel used": "580.0"
+        }
+    },
+    {
+        "id": 220,
+        "question": "A zoo needs to transport their monkeys to the vet either by bus or by car. A bus can transport 20 monkeys per trip and takes 30 minutes. A car can transport 6 monkeys per trip and takes 15 minutes. There can be at most 10 bus trips. In addition, since the monkeys get aggressive when there are too many in one place at least 60% of the trips should be by car. If the zoo needs to transport 300 monkeys, how many trips of each should be done to minimize the total time required to transport the monkeys?",
+        "results": {
+            "The number of bus trips": "10.0",
+            "The number of car trips": "17.0",
+            "The total time required to transport the monkeys (minutes)": "555.0"
+        }
+    },
+    {
+        "id": 221,
+        "question": "A pharmacy has 3000 mg of morphine to make painkillers and sleeping pills. Each painkiller pill requires 10 mg of morphine and 3 units of digestive medicine. Each sleeping pill requires 6 mg of morphine and 5 units of digestive medicine. The pharmacy needs to make at least 50 painkiller pills. Since sleeping pills are more popular, at least 70% of the pills should be sleeping pills. How many of each should the pharmacy make to minimize the total amount of digestive medicine needed?",
+        "results": {
+            "The number of painkiller pills": "50.0",
+            "The number of sleeping pills": "117.0",
+            "The total amount of digestive medicine needed": "735.0"
+        }
+    },
+    {
+        "id": 222,
+        "question": "A sand company delivers sand for playgrounds in small and large containers. A small container requires 1 person to unload and can hold 20 units of sand. A large container requires 3 people to unload and can hold 50 units of sand. Since most playgrounds are small, the number of small containers used must be thrice the number of large containers used. In addition, there must be at least 5 small containers and 3 large containers used. If the company has 100 people available, maximize the amount of sand that they can deliver.",
+        "results": {
+            "The number of small containers": "91.0",
+            "The number of large containers": "3.0",
+            "The amount of sand delivered": "1970.0"
+        }
+    },
+    {
+        "id": 223,
+        "question": "A meal service company delivers meals to customers either on electric bikes or scooters. A bike can hold 8 meals and requires 3 units of charge. A scooter can hold 5 meals and requires 2 units of charge. Since the city is more friendly towards scooters, at most 30% of the electric vehicles can be bikes and at least 20 scooters must be used. If the company only has 200 units of charge available, how many of each vehicle should be used to maximize the number of meals that can be delivered?",
+        "results": {
+            "The number of bikes": "26.0",
+            "The number of scooters": "61.0",
+            "The number of meals delivered": "513.0"
+        }
+    },
+    {
+        "id": 224,
+        "question": "A car manufacturer ships their cars on large and small planes. A large plane can carry 30 cars while a small plane can carry 10 cars. Since large planes cause more pollution, the number of large planes must be less than the number of small planes. If the manufacturer wants to deliver at least 300 cars, find the minimum number of planes that can be used.",
+        "results": {
+            "The number of large planes": "7.0",
+            "The number of small planes": "9.0",
+            "The total number of planes": "16.0"
+        }
+    },
+    {
+        "id": 225,
+        "question": "A mine sends ore to the surface in small and large wagons. A small wagon hold 20 units of ore while a large wagon holds 50 units of ore. To avoid taking up too much space on the ramps, the number of small wagons must be at least twice as much as the number or large wagons. In addition, at least 10 large wagons must be used. If 2000 units of ore need to taken to the surface, minimize the total number of wagons needed.",
+        "results": {
+            "The number of small wagons": "45.0",
+            "The number of large wagons": "22.0",
+            "The total number of wagons needed": "67.0"
+        }
+    },
+    {
+        "id": 226,
+        "question": "A theme park transports its visitors around the park either by scooter or rickshaw. A scooter can carry 2 people while a rickshaw can carry 3 people. To avoid excessive pollution, at most 40% of the vehicles used can be rickshaws. If the park needs to transport at least 300 visitors, minimize the total number of scooters used.",
+        "results": {
+            "The number of scooters": "75.0",
+            "The number of rickshaws": "50.0",
+            "The total number of vehicles used": "125.0"
+        }
+    },
+    {
+        "id": 227,
+        "question": "A company in the middle east delivers their packages to customers on camels and horses. A camel can carry 50 packages while a horse can carry 60 packages. A camel requires 20 units of food while a horse requires 30 units of food. The company needs to deliver at least 1000 packages and they have 450 units of food available. Since horses are not as suited for the hot climate, the number of horses cannot exceed the number of camels. How many of each animal should be used to minimize the total number of animals?",
+        "results": {
+            "The number of camels": "12.0",
+            "The number of horses": "7.0",
+            "Total number of animals": "19.0"
+        }
+    },
+    {
+        "id": 228,
+        "question": "A snack exporter sends snacks to his customer in small and large suitcases. A small suitcase can hold 50 snacks while a large suitcase can hold 80 snacks. Most customer prefer small suitcases, and so at least twice as many small suitcases must be used as large suitcases. The exporter has available at most 70 small suitcases and 50 large suitcases. If he must send at least 15 large suitcases and can send  at most 70 suitcases in total, how many of each should he send to maximize the total number of snacks that can be delivered?",
+        "results": {
+            "The number of small suitcases": "47.0",
+            "The number of large suitcases": "23.0",
+            "The total number of snacks transported": "4190.0"
+        }
+    },
+    {
+        "id": 229,
+        "question": "A man on a strict diet only drinks meal replacement drinks from two brands, alpha and omega. The alpha brand drink contains 30 grams of protein, 20 grams of sugar, and 350 calories per bottle. The omega brand drink contains 20 grams of protein, 15 grams of sugar, and 300 calories per bottle. The man wants to get at least 100 grams of protein and 2000 calories. In addition, because the omega brand drink contains tiny amounts of caffeine, at most 35% of the drink should be omega brand. How many bottles of each should he drink to minimize his sugar intake?",
+        "results": {
+            "The number of alpha brand bottles": "4.0",
+            "The number of omega brand bottles": "2.0",
+            "The total sugar intake": "110.0"
+        }
+    },
+    {
+        "id": 230,
+        "question": "A chicken farmer has sold his chicken and they need to be transported either by bus or by car. A bus can take 100 chicken and takes 2 hours per trip. A car can take 40 chicken and takes 1.5 hours per trip. There can be at most 10 bus trips and at least 60% of the trips must be by car. If the farmer needs to transport 1200 chicken, how many trips of each should be done to minimize the total time needed to transport the chicken?",
+        "results": {
+            "The number of bus trips": "7.0",
+            "The number of car trips": "13.0",
+            "The total time taken to transport the chicken": "33.5"
+        }
+    },
+    {
+        "id": 231,
+        "question": "Children can go to school either by van or by minibus. A van can take 6 kids and produces 7 units of pollution. A minibus can take 10 kids and produced 10 units of pollution. There are at least 150 kids than need to go to school and at most 10 minibuses can be used. In addition, the number of vans used must exceed the number of minibuses. How many of each should be used to minimize the total amount of pollution produced?",
+        "results": {
+            "The number of vans used": "10.0",
+            "The number of minibuses used": "9.0",
+            "The total pollution produced": "160.0"
+        }
+    },
+    {
+        "id": 232,
+        "question": "A recycling company collects recycling from neighborhoods using small and large bins. A small bin requires 2 workers while a large bin requires 5 workers. A small bin can hold 25 units of recycling material and a large bin can hold 60 units of recycling material. The company has available 100 workers. Because most people don't recycle, the number of small bins must be three times the number of large bins. In addition, there must be at least 10 small bins and 4 large bins. How many of each bin type should be used to maximize the total amount of recycling material that can be collected?",
+        "results": {
+            "The number of small bins": "27.0",
+            "The number of large bins": "9.0",
+            "The total amount of recycling material collected": "1215.0"
+        }
+    },
+    {
+        "id": 233,
+        "question": "A toy store hires seasonal and full-time volunteers to deliver gifts and gives them points for service. A seasonal volunteer can deliver 5 gifts and gets 2 points. A full-time volunteer can deliver 8 gifts and gets 5 points. The store can only give out 200 points. In addition, a maximum of 30% of the volunteers can be seasonal and at least 10 must be full-time. How many of each volunteer is needed to maximize the total number of gifts that can be delivered?",
+        "results": {
+            "The number of seasonal volunteers": "14.0",
+            "The number of full-time volunteers": "34.0",
+            "The total number of gifts delivered": "342.0"
+        }
+    },
+    {
+        "id": 234,
+        "question": "A jam company sends its product out in small and large jars. A small jar can hold 50 ml of jam while a large jar can hold 200 ml of jam. Most store prefer the smaller size and so the number of large jars cannot exceed the number of small jars. If the company wants to ship at least 100000 ml of jam, find the minimum number of jars that can be used.",
+        "results": {
+            "The number of small jars": "400.0",
+            "The number of large jars": "400.0",
+            "The total number of jars used": "800.0"
+        }
+    },
+    {
+        "id": 235,
+        "question": "A corn farmer sends his corn to the city by either tractor or car.  A tractor can carry 40 kg of corn while a car can carry 20 kg of corn. Since tractors are very slow, the number of cars used has to be at least twice the number of tractors used. If at least 500 kg of corn need to be sent to the city, minimize the total number of tractors and cars needed.",
+        "results": {
+            "The number of tractors": "6.0",
+            "The number of cars": "13.0",
+            "The total number of vehicles": "19.0"
+        }
+    },
+    {
+        "id": 236,
+        "question": "A small chocolate shop makes milk chocolate and dark chocolate bars. Milk chocolate bars require 4 units of cocoa and 7 units of milk. Dark chocolate bars require 6 units of cocoa and 3 units of milk. The shop has 2000 units of cocoa and 1750 units of milk available. In addition since milk chocolate sells better, at least 2 times as many milk chocolate bars need to be made as dark chocolate bars.  If making a milk chocolate bar takes 15 minutes and making a dark chocolate bar takes 12 mins, how many of each should the make to minimize total production time?",
+        "results": {
+            "The number of milk chocolate bars": "0.0",
+            "The number of dark chocolate bars": "0.0",
+            "Total production time": "0.0"
+        }
+    },
+    {
+        "id": 237,
+        "question": "An industrial tire company delivers large tires for equipment to remote engineering sites either by cargo planes or ultrawide trucks. Each cargo plane can transport 10 tires per trip and costs $1000. Each ultrawide truck can transport 6 tires per trip and costs $700. The company needs to transport at least 200 tires and has available $22000. Because most remote sites don't have proper airports, the number of plane trips cannot exceed the number of ultrawide truck trips. How many trips of each should be done to minimize the total number of trips?",
+        "results": {
+            "The number of plane trips": "11.0",
+            "The number of truck trips": "15.0",
+            "The total number of trips": "21500.0"
+        }
+    },
+    {
+        "id": 238,
+        "question": "A water salesman collects water from a glacier and transports it in either small or large kegs. A small keg can hold 40 liters of water while a large keg can hold 100 liters of water. The salesman has available at most 30 small kegs and 10 large kegs. Since small kegs are easier to carry, at least twice as may small kegs must be used than large kegs. If he can transport at most 25 kegs total and at least 5 kegs must be large, how many of each should he use to maximize the total amount of glacial water he can transport?",
+        "results": {
+            "The number of small kegs": "17.0",
+            "The number of large kegs": "8.0",
+            "The total liters of glacial water transported": "1480.0"
+        }
+    },
+    {
+        "id": 239,
+        "question": "A tropical city full of islands sends mail either by submarine or by boat. A submarine can carry 100 pieces of mail per trip and uses 30 liters of gas. A boat can carry 80 pieces of mail per trip and uses 25 liters of gas. There can be at most 6 submarine trips and a minimum of 50% of the trips must be by boat. If the city needs to transport at least 1000 pieces of mail, how many of each transportation should they use to minimize the total amount of gas used?",
+        "results": {
+            "The number of submarine trips": "2.0",
+            "The number of boat trips": "10.0",
+            "The total amount of gas used": "310.0"
+        }
+    },
+    {
+        "id": 240,
+        "question": "A travelling salesman only eats ramen and fries. Each pack of ramen contains 400 calories, 20 grams of protein, and 100 mg of sodium. Each pack of fries contains 300 calories, 10 grams of protein, and 75 mg of sodium. Since fries are easier to eat while driving, at most 30% of his meals can be ramen. The salesman wants to ensure he eats at least 3000 calories and 80 grams of protein. How many of each should he eat to minimize his sodium intake?",
+        "results": {
+            "The number of ramen packs": "0.0",
+            "The number of fries packs": "10.0",
+            "The total sodium intake": "750.0"
+        }
+    },
+    {
+        "id": 241,
+        "question": "A tourist spot in the mountains allows visitors to travel to the top either by hot-air balloon or gondola lift. A hot air balloon can carry 4 visitors while a gondola lift can carry 6 visitors. Each hot air balloon produces 10 units of pollution while each gondola lift produces 15 units of pollution. There can be at most 10 hot-air balloon rides and at least 70 visitors need to be transported. How many of each type of transport method should be taken to minimize the total pollution produced?",
+        "results": {
+            "The number of hot air balloon rides": "1.0",
+            "The number of gondola lift rides": "11.0",
+            "The total pollution produced": "175.0"
+        }
+    },
+    {
+        "id": 242,
+        "question": "A factory transports rice to the city in horse-drawn carts that are either medium or large size. A medium sized cart requires 2 horses and can carry 30 kg of rice. A large sized cart requires 4 horses and can carry 70 kg of rice.  The factory has 60 horses available. Because the horses don't get along well, the number of medium sized carts must be three times the number of large sized carts. In addition, there must be at least 5 medium sized carts and at least 5 large sized carts. How many of each cart size should be used to maximize the amount of rice that can be transported?",
+        "results": {
+            "The number of medium sized carts": "18.0",
+            "The number of large sized carts": "6.0",
+            "The amount of rice transported": "960.0"
+        }
+    },
+    {
+        "id": 243,
+        "question": "A dog school trains labradors and golden retrievers to deliver newspaper. A labrador can deliver 7 newspapers at a time and requires 5 small bone treats for service. A golden retriever can deliver 10 newspapers at a time and requires 6 small bone treats per service. The school only has 1500 small bone treats available. In addition, at least 50 golden retrievers must be used and at most 60% of the dogs can be labradors. How many of each dog should be used to maximize the number of newspapers that can be delivered?",
+        "results": {
+            "The number of labradors": "0.0",
+            "The number of golden retrievers": "250.0",
+            "The number of newspapers delivered": "2500.0"
+        }
+    },
+    {
+        "id": 244,
+        "question": "A construction company in the tropics uses cows and elephants to carry bricks. A cow can carry 20 bricks on its back while an elephant can carry 50 bricks on its back. To avoid having elephants create too much traffic, the number of elephant cannot exceed the number of cows. In addition, there can be at most twice the number of cows as elephants. If the company needs to transport at least 1000 bricks, find the minimum number of animals, cows and elephants, that can be used..",
+        "results": {
+            "The number of cows": "15.0",
+            "The number of elephants": "14.0",
+            "The total number of animals used": "29.0"
+        }
+    },
+    {
+        "id": 245,
+        "question": "A farmer on an island sends corn to the main land either by ferry or light rail. Each ferry trip can take 20 boxes of corn while each light rail trip can take 15 boxes of corn. Since ferry trips are slow, the number of light rail trip has to be at least 4 times the number of ferry trips. If the farmer wants to send at least 500 boxes of corn, minimize the total number of trips of either type needed.",
+        "results": {
+            "The number of ferry trips": "4.0",
+            "The number of light rail trips": "28.0",
+            "The total number of trips": "500.0"
+        }
+    },
+    {
+        "id": 246,
+        "question": "A factory provides rides for its employees in either taxis or company cars. Each taxi ride can take 2 employees while each company car ride can take 3 employees. Since buying and maintaining cars is expensive, at most 60% of the rides can be company car rides. However, there has to be at least 30 company car rides. If the company needs to transport at least 500 employees, how many rides of each should be done to minimize the total number of taxi rides.",
+        "results": {
+            "The number of taxi rides": "78.0",
+            "The number of company car rides": "115.0"
+        }
+    },
+    {
+        "id": 247,
+        "question": "A chemical company is transporting their hydrogen using two different methods, high pressure tube trailers and liquefied hydrogen tankers. The first method is a high-pressure tube trailer which can transport 50 cubic meters each per trip at a cost of $500. The second method is using liquefied hydrogen tankers which can transport 30 cubic meters each per trip at a cost of $200. The company needs to transport at least 300 cubic meters of hydrogen and they have budget of $3750 available. In addition, the number of transports done by the high pressure tube trailer method has to be less than the number of transports done by the liquefied hydrogen tanker method. How many of each transportation method should they use to minimize the total number of trips?",
+        "results": {
+            "The number of high-pressure tube trailer transports": "0.0",
+            "The number of liquefied hydrogen tanker transports": "10.0",
+            "The total number of trips": "2000.0"
+        }
+    },
+    {
+        "id": 248,
+        "question": "A grape farmer transports his grapes in either small crates or large crates. A small crate can take 200 grapes while a large crate can take 500.  Because his customers prefer smaller crates, at least 3 times as many small crates must be used than large crates. The farmer has available at most 100 small crates and at most 50 large crates. In addition, his truck can take at most 60 crates total and he must use at least 10 large crates. How many of each crate should he use to maximize the total number of grapes he can transport?",
+        "results": {
+            "The number of small crates used": "45.0",
+            "The number of large crates used": "15.0",
+            "The total number of grapes transported": "16500.0"
+        }
+    },
+    {
+        "id": 249,
+        "question": "A shipping company need to transport packages by either truck or car. A truck can transport 50 packages per trip while a car can transport 30 packages per trip. In addition, a truck uses 20 liters of gas per trip while a car uses 15 liters of gas per trip. There can be at most 5 truck trips made and at least 30% of all the trips must be made by car. The company needs to transport at least 500 packages. How many of each transportation should they use to minimize the total amount of gas consumed?",
+        "results": {
+            "The number of truck trips": "4.0",
+            "The number of car trips": "10.0",
+            "Total amount of gas consumed": "230.0"
+        }
+    },
+    {
+        "id": 250,
+        "question": "There has been a horrible accident and patients need to be taken to the hospital by either a helicopter or bus. A helicopter can transport 5 patients per trip and takes 1 hour. On the other hand, a bus can transport 8 patients per trip and takes 3 hours. At least 120 patients need to be transported and at least 30% of the trips should be by helicopter. In addition, there can be at most 10 bus trips. How should the patients be taken to minimize the total time to transport the patients?",
+        "results": {
+            "The number of helicopter trips": "24.0",
+            "The number of bus trips": "0.0",
+            "The total time to transport the patients": "24.0"
+        }
+    },
+    {
+        "id": 251,
+        "question": "Employees have the option of car-pooling to work or taking the company bus. A car can take 4 employees and produces 10 units of pollution, while a bus can take 20 employees and produces 30 units of pollution. At least 300 employees need to be transported and at most 4 buses can be used. How many of each type of transport should be taken to minimize the total pollution produced.",
+        "results": {
+            "The number of cars": "55.0",
+            "The number of buses": "4.0",
+            "Total pollution produced": "670.0"
+        }
+    },
+    {
+        "id": 252,
+        "question": "A snow removal company removes snow from neighborhoods using small trucks and large trucks. A small truck requires 2 people to shovel the snow and can carry 30 units of snow. A large truck require 4 people to shovel the snow and car carry 50 units of snow. The company has available 60 people. In addition, because some neighbourhood don\u2019t allow big trucks, at least 10 trucks must be small. There must be at least 3 large trucks as well and the number of small trucks must be twice as much as the number of large trucks. How many of each truck should be used to maximize the total amount of snow that can be transported?",
+        "results": {
+            "The number of small trucks": "24.0",
+            "The number of large trucks": "3.0",
+            "The amount of snow transported": "870.0"
+        }
+    },
+    {
+        "id": 253,
+        "question": "A magic school sends letters to student either by carrier pigeons or owls. A carrier pigeon can carry two letters at a time and requires 3 treats for service. An owl can carry 5 letters at a time and requires 5 treats for service.  At most 40% of the birds can be owls. In addition, the school only has 1000 treats available and at least 20 carrier pigeons must be uses. How many of each bird can be used to maximize the total number of letters that can be sent.",
+        "results": {
+            "The number of carrier pigeons": "158.0",
+            "The number of owls": "105.0",
+            "The total number of letters sent": "841.0"
+        }
+    },
+    {
+        "id": 254,
+        "question": "An international shipping company uses large and small ships to transport containers around the world. A large ship can carry 500 containers while a small ship can carry 200 containers. Because most ports are small, the number of large ships cannot exceed the number of small ships. If the company is under contract needs to transport at least 3000 containers, find the minimum number of ships that can be used.",
+        "results": {
+            "The number of large ships": "4.0",
+            "The number of small ships": "5.0",
+            "The minimum number of ships needed": "9.0"
+        }
+    },
+    {
+        "id": 255,
+        "question": "A large fishing boat sends fish back to shore either by small canoes or smaller diesel boats. A canoe can carry back 10 fish while a small diesel boat can carry back 15 fish. In order to follow environmental rules, the number of small canoes used has to be at least 3 times as many as the number of diesel boats uses. If  at least 1000 fish need to be transported to shore, minimize the total number of canoes and diesel boats needed.",
+        "results": {
+            "The number of canoes": "67.0",
+            "The number of diesel boats": "22.0",
+            "The total number of boats used": "89.0"
+        }
+    },
+    {
+        "id": 256,
+        "question": "A volunteer organization transports voters to the polls on Election Day either by vans or cars. They have vans which can carry 6 people and cars which can carry 3 people.  They need to transport at least 200 voters to the polls. In addition, at most 30% of the vehicles can be vans. How many of each vehicle should be used to minimize the total number of cars used?",
+        "results": {
+            "The number of vans": "15.0",
+            "The number of cars": "37.0"
+        }
+    },
+    {
+        "id": 257,
+        "question": "A car manufacturing company makes hamburgers and chicken wraps for workers. They need to ensure workers get at least 2200 calories, 50 grams of protein, and 70 grams of carbs. One hamburger costs $6.5 and contains 800 calories, 19 grams of protein, and 20 grams of carbs. One chicken wrap costs $4 and contains 450 calories, 12 grams of protein, and 10 grams of carbs. What is the minimum cost diet that the company can provide for its workers?",
+        "results": {
+            "The number of hamburgers": "3.0",
+            "The number of chicken wraps": "1.0",
+            "The minimum cost": "23.5"
+        }
+    },
+    {
+        "id": 258,
+        "question": "A meat processing plant uses two machines, a meat slicer and a meat packer, to make their hams and pork ribs. To produce one batch of hams requires 4 hours on the meat slicer and 2.5 hours on the meat packer. To produce one batch of pork ribs requires 2 hours on the meat slicer and 3.5 hours on the meat packer. Each machine runs for at most 4000 hours per year. If the profit per batch of hams is $150 and the profit per batch of pork ribs is $300, how many batches of each should be made to maximize profit?",
+        "results": {
+            "The number of batches of hams": "1.0",
+            "The number of batches of pork ribs": "1142.0",
+            "The total profit": "342750.0"
+        }
+    },
+    {
+        "id": 259,
+        "question": "An appliance company sells and installs refrigerators and stoves. Each refrigerator takes 60 minutes of mover time and 20 minutes of setup time. Each stove takes 45 minutes of mover time and 25 minutes of setup time. The company has available 20000 minutes of mover time and 13000 minutes of setup time. If the profit per refrigerator is $400 and the profit per stove is $260, how many of each should they sell in order to maximize profit?",
+        "results": {
+            "The number of refrigerators to sell": "333.0",
+            "The number of stoves to sell": "0.0",
+            "The maximum profit": "133200.0"
+        }
+    },
+    {
+        "id": 260,
+        "question": "An office company makes desks and drawers. Each desk requires 40 minutes of assembly and 20 minutes of sanding. Each drawer requires 30 minutes of assembly and 10 minutes of sanding. The company has available 4000 minutes for assembly and 3500 minutes for sanding. If the profit per desk is $100 and the profit per drawer is $90, how many of each should the company make to maximize profit?",
+        "results": {
+            "The number of desks": "1.0",
+            "The number of drawers": "132.0",
+            "The total profit": "11980.0"
+        }
+    },
+    {
+        "id": 261,
+        "question": "A milk tea shop owner would like to sell two different milk teas: black milk tea and matcha milk tea. Each contains both milk and honey. A bottle of black milk tea contains 600 grams of milk and 10 grams of honey, whereas a bottle of matcha milk tea contains 525 grams of milk and 5 grams of honey. The profit from each bottle of black milk tea sold is $7.5 and the profit from each bottle of matcha milk tea sold is $5. If his total production must not exceed his available stock of 30000 grams of milk and 500 grams of honey, how many bottles of each type of milk tea should be made to maximize profits?",
+        "results": {
+            "The number of black milk tea bottles": "50.0",
+            "The number of matcha milk tea bottles": "0.0",
+            "The maximum profit": "375.0"
+        }
+    },
+    {
+        "id": 262,
+        "question": "A young boy is trying to grow taller by drinking milk and eating vegetables. He wants to get a minimum of 100 units of calcium and 50 units of iron per day. A glass of milk costs $1 and contains 40 units of calcium and 25 units of iron. A plate of vegetables costs $2 and contains 15 units of calcium and 30 units of iron. How many of each should he consume to minimize his cost?",
+        "results": {
+            "The number of glasses of milk": "3.0",
+            "The number of plates of vegetables": "0.0",
+            "Total cost": "3.0"
+        }
+    },
+    {
+        "id": 263,
+        "question": "Bob wants to design a diet consisting of protein bars and noodles. Assume that each serving of noodles costs $5 and contains 600 calories and 1.5 grams of protein. Assume that each serving of protein bar costs $2.5 and contains 250 calories and 5 grams of protein. He's interested in spending as little money as possible but he wants to ensure that his meals have at least 2000 calories and at least 16 grams of protein per day. Formulate a linear programming problem that will help minimize the cost of the diet.",
+        "results": {
+            "The number of noodles servings": "2.0",
+            "The number of protein bar servings": "4.0",
+            "The cost of the diet": "20.0"
+        }
+    },
+    {
+        "id": 264,
+        "question": "A toy store sells plush toys and dolls. Each plush toy costs the store $3 and each doll costs the store $2. The store owner can spend at most $700 on inventory. Each plush toy is then sold for a profit of $4 while each doll is sold for a profit of $2. The owner estimates that at least 90 plush toys but at most 190 plush toys are sold each month. He also estimates that the number of dolls sold is at most twice the amount of plush toys sold. How many of each should be bought and sold to maximize profit?",
+        "results": {
+            "The number of plush toys": "190.0",
+            "The number of dolls": "65.0",
+            "The profit made": "890.0"
+        }
+    }
+]
