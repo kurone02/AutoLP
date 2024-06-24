@@ -1,0 +1,585 @@
+[
+    {
+        "id": 371,
+        "question": "Stockco is considering four investments. Investment 1 will yield a net present value (NPV) of $16,000; investment 2, an NPV of $22,000; investment 3, an NPV of $12,000; and in- vestment 4, an NPV of $8,000. Each investment requires a certain cash outflow at the pres- ent time: investment 1, $5,000; investment 2, $7,000; investment 3, $4,000; and investment 4, $3,000. Currently, $14,000 is available for investment. Formulate an LP whose solution will tell Stockco how to maximize the NPV obtained from investments 1-4.",
+        "results": {
+            "Investment in 1": "",
+            "Investment in 2": "",
+            "Investment in 3": "",
+            "Investment in 4": "",
+            "Total NPV": ""
+        }
+    },
+    {
+        "id": 372,
+        "question": "Stockco is considering four investments. Investment 1 will yield a net present value (NPV) of $16,000; investment 2, an NPV of $22,000; investment 3, an NPV of $12,000; and in- vestment 4, an NPV of $8,000. Each investment requires a certain cash outflow at the pres- ent time: investment 1, $5,000; investment 2, $7,000; investment 3, $4,000; and investment 4, $3,000. Currently, $14,000 is available for investment. Tell Stockco how to maximize the NPV obtained from investments 1-4.",
+        "results": {
+            "Investment in 1": "",
+            "Investment in 2": "",
+            "Investment in 3": "",
+            "Investment in 4": "",
+            "Total NPV": ""
+        }
+    },
+    {
+        "id": 373,
+        "question": "Robertville Furniture Company (RFC) makes two types of dressers: the Classic and the Modern. RFC sells the Classic for $310 and the Modern for $350. At these prices RFC believes it can sell up to 20 Classic and 25 Modern dressers per week. Each type of dresser is made of oak and covered with a pecan veneer. The wood requirements for each dresser are given in the table. Oak costs $1.50 per square foot, and pecan veneer costs $2 per square foot. The dressers must go through two manufacturing departments: cutting and veneering. The machine hours required for each dresser are also given below. The Oak Dresse size (square foot), Pecan Dresser size (square foot), cutting Time and Veneering Time for Classic and Modern are [90, 50, 1.20, 1.00] and [100, 60, 0.90, 1.20]. RFC has only 40 hours of production time available each week in each department, and it can obtain up to 2000 board feet of oak and 1500 square feet of pecan veneer each week. The cost of operating each manufacturing department is essentially fixed, so RFC would like to maximize its contribution to overhead (revenue minus variable costs).",
+        "results": {
+            "The number of Classic dressers to produce": "",
+            "The number of Modern dressers to produce": "",
+            "The maximum contribution to overhead": ""
+        }
+    },
+    {
+        "id": 374,
+        "question": "Chip Green is the head groundskeeper at Birdie Valley Golf Club. For the mix of grass for the golf course, Chip has decided that the best fertilizer would be a 10-8-12 mixture. (Fertilizer is defined by three values: a, b and c where a is the percentage of nitrogen, b is the percentage of phosphorus, and c is the percentage of potash in the fertilizer. The remaining material is inert matter.) Chip can buy a 10-8-12 mix of fertilizer for $21.75 per 100 pounds, but there are other fertilizers on the market at a variety of prices. The chemical content of [nitrogen, phosphorus, potash] and prices are given below. Fertilizer 1: [10,8,12] for $21.75 per 100 pounds; Fertilizer 2: [8,11,15] for $23.75 per 100 pounds; Fertilizer 3: [12,7,12] for $22.00 per 100 pounds; Fertilizer 4: [10,10,10] for $19.50 per 100 pounds; Fertilizer 5: [15,10,6] for $18.50 per 100 pounds;. Chip would like to determine whether or not he could buy several fertilizers and mix them together to obtain a 10-8-12 mixture at a lower cost than $21.75 per 100 pounds. Recognizing that it might be impossible to obtain an exact 10-8-12 mix from the fertilizers, Chip is willing to accept chemical percentages of at least the target amounts, but no more than 0.5% above them (so the nitrogen level should be between 10% and 10.5%; the phosphorus level should be between 8% and 8.5%; the potash level should be between 12% and 12.5%). Please determine the proportion of each fertilizers in the compost.",
+        "results": {
+            "The quantity of Fertilizer 1": "",
+            "The quantity of Fertilizer 2": "",
+            "The quantity of Fertilizer 3": "",
+            "The quantity of Fertilizer 4": "",
+            "The quantity of Fertilizer 5": ""
+        }
+    },
+    {
+        "id": 375,
+        "question": "Deutchlander Machine Company (DMC) makes two types of printing presses: a four-color litho and a two-color litho. Demand for both products is booming and exceeds DMC's ability to satisfy it. Most raw materials are plentiful, but production is limited by three factors: a shortage of steel rollers, gear cutting capacity, and roller polishing capacity. Each four-color press requires 16 rollers, and each two-color press requires 8 rollers. The four-color presses require 30 hours of gear cutting and 8 hours of polishing time, and the two-color presses require 12 hours of gear cutting and 3 hours of polishing time. DMC is able to buy 100 rollers per week, and it has 160 hours of gear cutting time and 40 hours of polishing time available per week. To avoid harming long-term sales, DMC does not want to raise prices. At current prices DMC will earn a profit of DM24,000 on each four-color press made and DM10,000 on each two-color press made. So as not to abandon either product market, DMC also wants to produce at least two units of each press each week. Formulate DMC's problem as a linear program to maximize its profit.",
+        "results": {
+            "The number of four-color litho to produce": "",
+            "The number of two-color litho to produce": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 376,
+        "question": "Deutchlander Machine Company (DMC) makes two types of printing presses: a four-color litho and a two-color litho. Demand for both products is booming and exceeds DMC's ability to satisfy it. Most raw materials are plentiful, but production is limited by three factors: a shortage of steel rollers, gear cutting capacity, and roller polishing capacity. Each four-color press requires 16 rollers, and each two-color press requires 8 rollers. The four-color presses require 30 hours of gear cutting and 8 hours of polishing time, and the two-color presses require 12 hours of gear cutting and 3 hours of polishing time. DMC is able to buy 100 rollers per week, and it has 160 hours of gear cutting time and 40 hours of polishing time available per week. To avoid harming long-term sales, DMC does not want to raise prices. At current prices DMC will earn a profit of DM24,000 on each four-color press made and DM10,000 on each two-color press made. So as not to abandon either product market, DMC also wants to produce at least two units of each press each week. Maximize its profit.",
+        "results": {
+            "The number of four-color litho to produce": "",
+            "The number of two-color litho to produce": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 377,
+        "question": "Dorian Auto has a $20,000 advertising budget. Dorian can purchase full-page ads in two magazines: Inside Jocks (IJ) and Family Square (FS). An exposure occurs when a person reads a Dorian Auto ad for the first time. The number of exposures generated by each ad in IJ is as follows: ads 1-6, 10,000 exposures; ads 7-10, 3,000 exposures; ads 11-15, 2,500 exposures; ads 16+, 0 exposures. For example, 8 ads in IJ would generate 6(10,000) + 2(3,000) = 66,000 exposures. The number of exposures generated by each ad in FS is as follows: ads 1-4, 8,000 exposures; ads 5-12, 6,000 exposures; ads 13-15, 2,000 exposures; ads 16+, 0 exposures. Thus, 13 ads in FS would generate 4(8,000) + 8(6,000) + 1(2,000) = 82,000 exposures. Each full-page ad in either magazine costs $1,000. Assume there is no overlap in the readership of the two magazines. Formulate an LP to maximize the number of exposures that Dorian can obtain with limited advertising funds.",
+        "results": {
+            "The number of IJ ads yielding 10,000 exposures": "",
+            "The number of IJ ads yielding 3,000 exposures": "",
+            "The number of IJ ads yielding 2,500 exposures": "",
+            "The number of FS ads yielding 8,000 exposures": "",
+            "The number of FS ads yielding 6,000 exposures": "",
+            "The number of FS ads yielding 2,000 exposures": "",
+            "The maximum number of exposures": ""
+        }
+    },
+    {
+        "id": 378,
+        "question": "Dorian Auto has a $20,000 advertising budget. Dorian can purchase full-page ads in two magazines: Inside Jocks (IJ) and Family Square (FS). An exposure occurs when a person reads a Dorian Auto ad for the first time. The number of exposures generated by each ad in IJ is as follows: ads 1-6, 10,000 exposures; ads 7-10, 3,000 exposures; ads 11-15, 2,500 exposures; ads 16+, 0 exposures. For example, 8 ads in IJ would generate 6(10,000) + 2(3,000) = 66,000 exposures. The number of exposures generated by each ad in FS is as follows: ads 1-4, 8,000 exposures; ads 5-12, 6,000 exposures; ads 13-15, 2,000 exposures; ads 16+, 0 exposures. Thus, 13 ads in FS would generate 4(8,000) + 8(6,000) + 1(2,000) = 82,000 exposures. Each full-page ad in either magazine costs $1,000. Assume there is no overlap in the readership of the two magazines. Maximize the number of exposures that Dorian can obtain with limited advertising funds.",
+        "results": {
+            "The number of IJ ads yielding 10,000 exposures": "",
+            "The number of IJ ads yielding 3,000 exposures": "",
+            "The number of IJ ads yielding 2,500 exposures": "",
+            "The number of FS ads yielding 8,000 exposures": "",
+            "The number of FS ads yielding 6,000 exposures": "",
+            "The number of FS ads yielding 2,000 exposures": "",
+            "The maximum number of exposures": ""
+        }
+    },
+    {
+        "id": 379,
+        "question": "A company is considering opening warehouses in four cities: New York, Los Angeles, Chicago, and Atlanta. Each warehouse can ship 100 units per week. The weekly fixed cost of keeping each warehouse open is $400 for New York, $500 for Los Angeles, $300 for Chicago, and $150 for Atlanta. Region 1 of the country requires 80 units per week, region 2 requires 70 units per week, and region 3 requires 40 units per week. The costs (including production and shipping costs) of sending one unit from a plant to a region are shown in Table 3. We want to meet weekly demands at minimum cost, subject to the preceding information and the following restrictions: 1. If the New York warehouse is opened, then the Los Angeles warehouse must be opened. 2. At most two warehouses can be opened. 3. Either the Atlanta or the Los Angeles warehouse must be opened. Formulate an LP that can be used to minimize the weekly costs of meeting demand. To ($) From Region 1 Region 2 Region 3 New York 20 40 50 Los Angeles 48 15 26 Chicago 26 35 18 Atlanta 24 50 35.",
+        "results": {
+            "The weekly cost of meeting demand is": "",
+            "Open New York Warehouse": "",
+            "Open Los Angeles Warehouse": "",
+            "Open Chicago Warehouse": "",
+            "Open Atlanta Warehouse": "",
+            "Units from New York to Region 1": "",
+            "Units from New York to Region 2": "",
+            "Units from New York to Region 3": "",
+            "Units from Los Angeles to Region 1": "",
+            "Units from Los Angeles to Region 2": "",
+            "Units from Los Angeles to Region 3": "",
+            "Units from Chicago to Region 1": "",
+            "Units from Chicago to Region 2": "",
+            "Units from Chicago to Region 3": "",
+            "Units from Atlanta to Region 1": "",
+            "Units from Atlanta to Region 2": "",
+            "Units from Atlanta to Region 3": ""
+        }
+    },
+    {
+        "id": 380,
+        "question": "A chocolate maker has contracted to operate a small candy counter in a fashionable store. To start with, the selection of offerings will be intentionally limited. The counter will offer a regular mix of candy made up of equal parts of cashews, raisins, caramels, and chocolates, and a deluxe mix that is one-half cashews and one-half chocolates, which will be sold in one-pound boxes. In addition, the candy counter will offer individual one-pound boxes of cashews, raisins, caramels, and chocolates. A major attraction of the candy counter is that all candies are made fresh at the counter. However, storage space for supplies and ingredients is limited. Bins are available that can hold the amounts shown in the table. Ingredient Capacity (pounds per day)\nCashews 120 Raisins 200 Caramels 100 Chocolates 160. In order to present a good image and to encourage purchases, the counter will make at least 20 boxes of each type of product each day. Any leftover boxes at the end of the day will be removed and given to a nearby nursing home for goodwill. The profit per box for the various items has been determined as follows. Item Profit per Box Regular $.80 Deluxe .90 Cashews .70 Raisins .60 Caramels .50 Chocolates .75. Solve for the optimal values of the decision variables and the maximum profit.",
+        "results": {
+            "The number of regular mix boxes": "",
+            "The number of deluxe mix boxes": "",
+            "The number of cashew boxes": "",
+            "The number of raisin boxes": "",
+            "The number of caramel boxes": "",
+            "The number of chocolate boxes": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 381,
+        "question": "International Wool Company operates a large farm on which sheep are raised. The farm manager determined that for the sheep to grow in the desired fashion, they need at least minimum amounts of four nutrients (the nutrients are nontoxic so the sheep can consume more than the minimum without harm). The manager is considering three different grains to feed the sheep. The table below lists the number of units of each nutrient in each pound of grain, the minimum daily requirements of each nutrient for each sheep, and the cost of each grain. The manager believes that as long as a sheep receives the minimum daily amount of each nutrient, it will be healthy and produce a standard amount of wool. The manager wants to raise the sheep at minimum cost. The columns of table are nutrient name, nutrient unit in the three different grains, and Minimum Daily Requirement (unit). The rows = [Nutrient A, 20, 30, 70, 110], [Nutrient B, 10, 10, 0, 18], [Nutrient C, 50, 30, 0, 90], [Nutrient D, 6, 2.5, 10, 14]. The prices of \ngrain nutrient A, B and C are 41,36, 96, respectively.",
+        "results": {
+            "The amount of grain A to feed the sheep": "",
+            "The amount of grain B to feed the sheep": "",
+            "The amount of grain C to feed the sheep": "",
+            "The minimum cost": ""
+        }
+    },
+    {
+        "id": 382,
+        "question": "To graduate from Basketweavers University with a major in operations research, a student must complete at least two math courses, at least two OR courses, and at least two computer courses. Some courses can be used to fulfill more than one requirement: Calculus can fulfill the math requirement; operations research, math and OR requirements; data structures, computer and math requirements; business statistics, math and OR requirements; computer simulation, OR and computer requirements; introduction to computer programming, computer requirement; and forecasting, OR and math requirements. Some courses are prerequisites for others: Calculus is a prerequisite for business statistics; introduction to computer programming is a prerequisite for computer simulation and for data structures; and business statistics is a prerequisite for forecasting. Formulate an LP that minimizes the number of courses needed to satisfy the major requirements.",
+        "results": {
+            "Calculus": "",
+            "Operations Research": "",
+            "Data Structures": "",
+            "Business Statistics": "",
+            "Computer Simulation": "",
+            "Introduction to Computer Programming": "",
+            "Forecasting": "",
+            "The minimum number of courses needed": ""
+        }
+    },
+    {
+        "id": 383,
+        "question": "To graduate from Basketweavers University with a major in operations research, a student must complete at least two math courses, at least two OR courses, and at least two computer courses. Some courses can be used to fulfill more than one requirement: Calculus can fulfill the math requirement; operations research, math and OR requirements; data structures, computer and math requirements; business statistics, math and OR requirements; computer simulation, OR and computer requirements; introduction to computer programming, computer requirement; and forecasting, OR and math requirements. Some courses are prerequisites for others: Calculus is a prerequisite for business statistics; introduction to computer programming is a prerequisite for computer simulation and for data structures; and business statistics is a prerequisite for forecasting. Minimizes the number of courses needed to satisfy the major requirements.",
+        "results": {
+            "Calculus": "",
+            "Operations Research": "",
+            "Data Structures": "",
+            "Business Statistics": "",
+            "Computer Simulation": "",
+            "Introduction to Computer Programming": "",
+            "Forecasting": "",
+            "The minimum number of courses needed": ""
+        }
+    },
+    {
+        "id": 384,
+        "question": "Suppose a company manufactures two products, A and B, using three inputs, labor, material R, and materials S. To make one unit of product A requires 6 pounds of R, 7.5 pounds of S, and 9 person-hours of labor; to make one unit of product B requires 12 pounds of R, 4.5 pounds of S, and 6 person-hours of labor. The demands for the products are such that the company can sell as much of each product as it can produce and earn a profit of $3 per unit of A and $4 per unit of B. However, only 900 pounds of R, 675 pounds of S, and 1200 person-hours of labor are available to the company each day. Formulate the company's problem as a linear program to maximize profit.",
+        "results": {
+            "The number of units of product A to produce": "",
+            "The number of units of product B to produce": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 385,
+        "question": "Suppose a company manufactures two products, A and B, using three inputs, labor, material R, and materials S. To make one unit of product A requires 6 pounds of R, 7.5 pounds of S, and 9 person-hours of labor; to make one unit of product B requires 12 pounds of R, 4.5 pounds of S, and 6 person-hours of labor. The demands for the products are such that the company can sell as much of each product as it can produce and earn a profit of $3 per unit of A and $4 per unit of B. However, only 900 pounds of R, 675 pounds of S, and 1200 person-hours of labor are available to the company each day. Maximize profit.",
+        "results": {
+            "The number of units of product A to produce": "",
+            "The number of units of product B to produce": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 386,
+        "question": "Wilson Creek Farm has 200 acres of land available for planting. The owner is considering planting three crops: corn, soybeans, and wheat. The production yield, water requirements, and labor requirements for a salable crop are given here. The owner expects to have only 35,000 gallons of water available per week to use for the crops, and during the growing season he will only have 8000 person-hours of labor available. The expected profit per bushel of each crop is $1.00 for corn, $1.60 for soybeans, and $3.00 for wheat. The owner can use any mix of crops (i.e., he can plant the same crop on all 200 acres or he can plant all three crops in different proportions). Formulate the problem as a linear program to find the profit-maximizing planting strategy. \nHere is the data for the problem:\nCrop: Corn, Soybeans, Wheat \nBushels/Acre Produced: 300 200 80 \nWater Required (gal/acre/week): 200 150 125 \nPerson-Hours Labor Required/Acre: 35 40 30",
+        "results": {
+            "Acres of Corn to plant": "",
+            "Acres of Soybeans to plant": "",
+            "Acres of Wheat to plant": "",
+            "Maximum Profit": ""
+        }
+    },
+    {
+        "id": 387,
+        "question": "Wilson Creek Farm has 200 acres of land available for planting. The owner is considering planting three crops: corn, soybeans, and wheat. The production yield, water requirements, and labor requirements for a salable crop are given here. The owner expects to have only 35,000 gallons of water available per week to use for the crops, and during the growing season he will only have 8000 person-hours of labor available. The expected profit per bushel of each crop is $1.00 for corn, $1.60 for soybeans, and $3.00 for wheat. The owner can use any mix of crops (i.e., he can plant the same crop on all 200 acres or he can plant all three crops in different proportions). Find the profit-maximizing planting strategy. \nHere is the data for the problem:\nCrop: Corn, Soybeans, Wheat \nBushels/Acre Produced: 300 200 80 \nWater Required (gal/acre/week): 200 150 125 \nPerson-Hours Labor Required/Acre: 35 40 30",
+        "results": {
+            "Acres of Corn to plant": "",
+            "Acres of Soybeans to plant": "",
+            "Acres of Wheat to plant": "",
+            "Maximum Profit": ""
+        }
+    },
+    {
+        "id": 388,
+        "question": "Out of a stock of three electronic components A,B and C given as 200, 120 and 150 respectively, it is required to produce two types of circuits. Circuit type 1 requires 20 resistors,10 transistors and 10 capacitors, while printed circuit type 2 requires 10 resistors, 20 transistors and 30 capacitors. If a type 1 circuit sells at Gh.5 cedis each and type 2 circuit at Gh.12 cedis each. Advice management about how many of each type should be made to get the maximum financial returns algebraically.",
+        "results": {
+            "The number of type 1 circuits to produce": "",
+            "The number of type 2 circuits to produce": "",
+            "The maximum financial returns": ""
+        }
+    },
+    {
+        "id": 389,
+        "question": "Let us suppose that we want to put four items in a knapsack that can hold up to 12 kg. The weight and the value associated with each of the items are listed below: for the item 1, 2, 3 and 4, the weights and the values are (3, 15), (6, 25), (5, 12) and (5, 10). We need to decide which items to put in so as to maximize the total value of the knapsack.",
+        "results": {
+            "The decision to put item 1 in the knapsack": "",
+            "The decision to put item 2 in the knapsack": "",
+            "The decision to put item 3 in the knapsack": "",
+            "The decision to put item 4 in the knapsack": "",
+            "The maximum total value of the knapsack": ""
+        }
+    },
+    {
+        "id": 390,
+        "question": "The number of employees needed in a post office varies depending on the day of the week, as listed as Monday 15, Tuesday 13, Wednesday 15, Thursday 18, Friday 14, Saturday 16 and Sunday 10. Employees work five consecutive days and have the next two days off. It becomes necessary to organize groups of employees to work in different shifts, so that the number of employees required is satisfied every day of the week. The objective is to employ the minimum number of workers.",
+        "results": {
+            "The minimum number of workers needed is": "",
+            "Number of workers starting on Monday": "",
+            "Number of workers starting on Tuesday": "",
+            "Number of workers starting on Wednesday": "",
+            "Number of workers starting on Thursday": "",
+            "Number of workers starting on Friday": "",
+            "Number of workers starting on Saturday": "",
+            "Number of workers starting on Sunday": ""
+        }
+    },
+    {
+        "id": 391,
+        "question": "Comp-Max Computers assembles computers and computer equipment. It is about to start production of three new types of computers, called model X, Y, and Z, respectively. Each type will require assembly time, inspection time, and storage space. The availability of each of these resources is limited. Specifically, available assembly time is 400 hours, available inspection time is 300 hours, and available storage space is 500 cubic feet (about 14.2 ms). The amount of each resource required for the different products is reported in the table below. For model X, assembly time is 1 hours, inspection time 2 hours, storage space 3 cubic feet. For model Y, assembly time is 2 hours, inspection time 3 hours, and storage space 4 cubic feet. For model Z, assembly time is 3 hours, inspection time 4 hours, and storage space 5 cubic feet. Model X earns a profit of $100 per unit, model Y earns a profit of $125 per unit, and model Z earns a profit of $200 per unit. Due to some prior agreements with customers, Comp-Max must produce at least 12 model X computers. In addition, management requires that the fraction of total production made up of model Z computers must not exceed 25%. Formulate a linear program (LP) that will help the manager determine the quantity of each model to produce in order to maximize profit.",
+        "results": {
+            "The number of model X computers to produce": "",
+            "The number of model Y computers to produce": "",
+            "The number of model Z computers to produce": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 392,
+        "question": "Comp-Max Computers assembles computers and computer equipment. It is about to start production of three new types of computers, called model X, Y, and Z, respectively. Each type will require assembly time, inspection time, and storage space. The availability of each of these resources is limited. Specifically, available assembly time is 400 hours, available inspection time is 300 hours, and available storage space is 500 cubic feet (about 14.2 ms). The amount of each resource required for the different products is reported in the table below. For model X, assembly time is 1 hours, inspection time 2 hours, storage space 3 cubic feet. For model Y, assembly time is 2 hours, inspection time 3 hours, and storage space 4 cubic feet. For model Z, assembly time is 3 hours, inspection time 4 hours, and storage space 5 cubic feet. Model X earns a profit of $100 per unit, model Y earns a profit of $125 per unit, and model Z earns a profit of $200 per unit. Due to some prior agreements with customers, Comp-Max must produce at least 12 model X computers. In addition, management requires that the fraction of total production made up of model Z computers must not exceed 25%. Help the manager determine the quantity of each model to produce in order to maximize profit.",
+        "results": {
+            "The number of model X computers to produce": "",
+            "The number of model Y computers to produce": "",
+            "The number of model Z computers to produce": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 393,
+        "question": "The Office of Nutrition Inspection of the EU recently found out that dishes served at the dining and beverage facility \"Bullneck's\" such  as herring, hot dogs, and house-style hamburgers do not comport with the new nutritional regulations, and its report mentioned explicitly the lack of vitamins A and C and dietary fiber. The owner and operator of the facility is attempting to rectify these shortcomings by augmenting the menu with vegetable side dishes, which he intends to create from white cabbage, carrots, and a stockpile of pickled cucumbers discovered in the cellar. The following table summarizes the numerical data: the prescribed amount of the vitamins and fiber per dish, their content in the foods, and the unit prices of the foods. For example, Carrot Raw contains 35 mg/kg Vitamin A, 60 mg/kg Vitamin C, and Dietary Fiber 30 g/kg as the praise is 0.75 and it's required per dish 0.5mg. For White Cabbage, Raw contains 0.5 mg/kg vitamin A, 300 mg/kg vitamin C, and Dietary Fiber 20 g/kg as the praise is 0.5 and it's required per dish 15mg. For Cucumber, Pickled contains 0.5 mg/kg vitamin A, 10 mg/kg vitamin C, and Dietary Fiber 10 g/kg as the praise is 0.15 and it's required per dish 4g. The objective function expresses the price of the combination. At what minimum additional price per dish can the requirements of the Office of Nutrition Inspection be satisfied?",
+        "results": {
+            "The amount of carrot (kg) to be added to each dish": "",
+            "The amount of white cabbage (kg) to be added to each dish": "",
+            "The amount of cucumber (kg) to be added to each dish": "",
+            "The minimum additional price per dish": ""
+        }
+    },
+    {
+        "id": 394,
+        "question": "A company which manufactures canoes employs 120 employees, each of whom working 30 hours per week. Half of them work in the carpenter department, 20 persons in the plastics department, and the rest of them at the completion department. The company manufactures the simple canoes with net unit profit _ 7 and the luxury canoes with corresponding profit _ 10. A simple canoe requires 4.5 hours in the carpenter department and two hours in each of the other two departments. The working hours for each luxury canoe are 5, 1 and 4 at the carpenter department, plastics department and completion department respectively. Marketing calculations have shown that not less than 1/3 and not more than 2/3 of the total number of the canoes should be luxurious. How will the company maximize its overall net profit?",
+        "results": {
+            "The number of simple canoes to produce": "",
+            "The number of luxury canoes to produce": "",
+            "The maximum overall net profit": ""
+        }
+    },
+    {
+        "id": 395,
+        "question": "The ABC Firefighting Equipment company has two assembly plants: Plant A in Atlanta and plant B in Buffalo. It has two distribution centers: Center I in Savannah and center II in Pittsburgh. The company can product at most 800 alarm valves per week at plant A and at most 1000 per week at plant B. Center I must have at least 900 alarm valves per week and center II must have at least 600 alarm valves per week. The costs per unit for transportation from the plants to the centers follow. Plant A to center I    $8 Plant A to center II    $12 Plant B to center I    $16 Plant B to center II   $4  Form the constraint inequalities that give the limits for the plants and distribution centers and form the total cost function that is to be minimized. Solve the mixed constraint problem for the minimum transportation cost.",
+        "results": {
+            "The number of alarm valves from Plant A to Center I": "",
+            "The number of alarm valves from Plant A to Center II": "",
+            "The number of alarm valves from Plant B to Center I": "",
+            "The number of alarm valves from Plant B to Center II": "",
+            "The minimum transportation cost": ""
+        }
+    },
+    {
+        "id": 396,
+        "question": "Bangs Leisure Chairs produces three types of hand- crafted outdoor chairs that are popular for beach pool, and patios: sling chairs, Adirondack chairs, and hammocks. The unit profit for these products is $40, $100, and $90, respectively. Each type of chair requires cutting, assembling, and finishing. The owner is retired and is willing to work six hours/ day for five days/week, so has 120 hours available each month. He does not want to spend more than 50 hours each month on any one activity (that is, cutting, assembling, and finishing). The retailer he works with is certain that all products he makes can easily be sold. Sling chairs are made up of ten wood pieces for the frame and one piece of cloth. The actual cutting of the wood takes 30 minutes. Assembling includes sewing of the fabric and the attachment of rivets, screws, fabric, and dowel rods, and takes 45 minutes. The finishing stage involves sanding, staining, and varnishing of the various parts and takes one hour. Adirondack chairs take two hours for both the cutting and assembling phases. and finishing takes one hour. For hammocks, cutting takes 0.4 hour; assembly takes three hours; and finishing also takes one hour. How many of each type of chair should he produce each month to maximize profit.",
+        "results": {
+            "The number of sling chairs to produce": "",
+            "The number of Adirondack chairs to produce": "",
+            "The number of hammocks to produce": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 397,
+        "question": "The Healthy Pet Food Company manufactures two types of dog food: Meaties and Yummies. Each package of Meaties contains 2 pounds of cereal and 3 pounds of meat; each package of Yummies contains 3 pounds of cereal and 1.5 pounds of meat. Healthy believes it can sell as much of each dog food as it can make. Meaties sell for $2.80 per package and Yummies sell for $2.00 per package. Healthy's production is limited in several ways. First, Healthy can buy only up to 400,000 pounds of cereal each month at $0.20 per pound. It can buy only up to 300,000 pounds of meat per month at $0.50 per pound. In addition, a special piece of machinery is required to make Meaties, and this machine has a capacity of 90,000 packages per month. The variable cost of blending and packing the dog food is $0.25 per package for Meaties and $0.20 per package for Yummies. Suppose you are the manager of the Dog Food Division of the Healthy Pet Food Company. Your salary is based on division profit, so you try to maximize its profit. How should you operate the division to maximize its profit and your salary?",
+        "results": {
+            "The number of Meaties packages to produce": "",
+            "The number of Yummies packages to produce": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 398,
+        "question": "There are six cities (cities 1-6) in Kilroy County. The county must determine where to build fire stations. The county wants to build the minimum number of fire stations needed to ensure that at least one fire station is within 15 minutes (driving time) of each city. The times (in minutes) required to drive between the cities in Kilroy County are shown in Table 6: \nTime Required to Travel between Cities in Kilroy County, \nFrom City 1 to ctiy 1-6 are 0 10 20 30 30 20; \nFrom City 2 to ctiy 1-6 are 10 0 25 35 20 10;  \nFrom City 3 to ctiy 1-6 are 20 25 0 15 30 20; \nFrom City 4 to ctiy 1-6 are 30 35 15 0 15 25; \nFrom City 5 to ctiy 1-6 are 30 20 30 15 0 14; \nFrom City 5 to ctiy 1-6 are 20 10 20 25 14 0. \nFormulate an linear problem that will tell Kilroy how many fire stations should be built and where they should be located.",
+        "results": {
+            "The optimal number of fire stations to be built is": "",
+            "Whether a fire stations should be built in City 1": "",
+            "Whether a fire stations should be built in City 2": "",
+            "Whether a fire stations should be built in City 3": "",
+            "Whether a fire stations should be built in City 4": "",
+            "Whether a fire stations should be built in City 5": "",
+            "Whether a fire stations should be built in City 6": ""
+        }
+    },
+    {
+        "id": 399,
+        "question": "There are six cities (cities 1-6) in Kilroy County. The county must determine where to build fire stations. The county wants to build the minimum number of fire stations needed to ensure that at least one fire station is within 15 minutes (driving time) of each city. The times (in minutes) required to drive between the cities in Kilroy County are shown in Table 6: \nTime Required to Travel between Cities in Kilroy County, \nFrom City 1 to ctiy 1-6 are 0 10 20 30 30 20; \nFrom City 2 to ctiy 1-6 are 10 0 25 35 20 10;  \nFrom City 3 to ctiy 1-6 are 20 25 0 15 30 20; \nFrom City 4 to ctiy 1-6 are 30 35 15 0 15 25; \nFrom City 5 to ctiy 1-6 are 30 20 30 15 0 14; \nFrom City 5 to ctiy 1-6 are 20 10 20 25 14 0. \nTell Kilroy how many fire stations should be built and where they should be located.",
+        "results": {
+            "The optimal number of fire stations to be built is": "",
+            "Whether a fire stations should be built in City 1": "",
+            "Whether a fire stations should be built in City 2": "",
+            "Whether a fire stations should be built in City 3": "",
+            "Whether a fire stations should be built in City 4": "",
+            "Whether a fire stations should be built in City 5": "",
+            "Whether a fire stations should be built in City 6": ""
+        }
+    },
+    {
+        "id": 400,
+        "question": "To protect soil from erosion, some farmers plant winter cover crops such as winter wheat and rye. In addition to conserving soil, cover crops often increase crop yields in the row crops that follow in spring and summer. Suppose that a farmer has 800 acres of land and plans to plant winter wheat and rye. The input cost for I acre for each crop is given in the table along with the cost for machinery and labor. The profit for 1 acre of each crop is given in the last column. Input Cost per Acre, Labor/Machinery Cost per Acre, Profit per Acre. Wheat: [$90, $50, $42], Rye: [$120, $40, $35]. Suppose the farmer has budgeted a maximum of $90,000 for input costs and a maximum of $36,000 for labor and machinery. Determine the number of acres of each crop that the farmer should plant to maximize profit. (Assume that all crops will be sold.). What is the maximum profit? If the profit per acre for wheat were $40 and the profit per acre for rye were $45, how many acres of each crop should be planted to maximize profit?",
+        "results": {
+            "The number of acres of winter wheat to plant": "",
+            "The number of acres of rye to plant": "",
+            "The maximum profit": "",
+            "New optimal number of acres of winter wheat to plant": "",
+            "New optimal number of acres of rye to plant": "",
+            "New maximum profit": ""
+        }
+    },
+    {
+        "id": 401,
+        "question": "In an easy linear program, we have two vectors $x_{1}$, $x_{2}$, which $(x_{1},x_{2})\\in\\mathbb{R}^{2}$. As the constraints are $x_{1}\\geq0, x_{2}\\geq0,x_{2}-x_{1}\\leq1,x_{1}+6x_{2}\\leq15$, and $4x_{1}-x_{2}\\leq10$. We need to find a point $(x_{1},x_{2})$ of this function to maximize the value $x_{1}+x_{2}$.",
+        "results": {
+            "The value of x1": "",
+            "The value of x2": "",
+            "The maximum value of x1 + x2": ""
+        }
+    },
+    {
+        "id": 402,
+        "question": "Gandhi Cloth Company is capable of manufacturing three types of clothing: shirts, shorts, and pants. The manufacture of each type of clothing requires that Gandhi have the appropriate type of machinery available. The machinery needed to manufacture each type of clothing must be rented at the following rates: shirt machinery, $200 per week; shorts machinery, $150 per week; pants machinery, $100 per week. The manufacture of each type of clothing also requires the amounts of cloth and labor shown in Table 2. Clothing type, labor hours, Cloth: (Shirt 3, 4), (shorts, 2, 3), (pants, 6, 4). Each week, 150 hours of labor and 160 sq yd of cloth are available. The variable unit cost and selling price for each type of clothing are shown in Table 3. Revenue and Cost Information, Clothing type, sales price, variable (Shirt 12, 6), (shorts, 8, 4), (pants, 15, 8). Formulate an LP whose solution will maximize Gandhi's weekly profits.",
+        "results": {
+            "The number of shirts produced each week": "",
+            "The number of shorts produced each week": "",
+            "The number of pants produced each week": "",
+            "Shirt machinery rented": "",
+            "Shorts machinery rented": "",
+            "Pants machinery rented": "",
+            "The maximum weekly profit": ""
+        }
+    },
+    {
+        "id": 403,
+        "question": "Gandhi Cloth Company is capable of manufacturing three types of clothing: shirts, shorts, and pants. The manufacture of each type of clothing requires that Gandhi have the appropriate type of machinery available. The machinery needed to manufacture each type of clothing must be rented at the following rates: shirt machinery, $200 per week; shorts machinery, $150 per week; pants machinery, $100 per week. The manufacture of each type of clothing also requires the amounts of cloth and labor shown in Table 2. Clothing type, labor hours, Cloth: (Shirt 3, 4), (shorts, 2, 3), (pants, 6, 4). Each week, 150 hours of labor and 160 sq yd of cloth are available. The variable unit cost and selling price for each type of clothing are shown in Table 3. Revenue and Cost Information, Clothing type, sales price, variable (Shirt 12, 6), (shorts, 8, 4), (pants, 15, 8). Maximize Gandhi's weekly profits.",
+        "results": {
+            "The number of shirts produced each week": "",
+            "The number of shorts produced each week": "",
+            "The number of pants produced each week": "",
+            "Shirt machinery rented": "",
+            "Shorts machinery rented": "",
+            "Pants machinery rented": "",
+            "The maximum weekly profit": ""
+        }
+    },
+    {
+        "id": 404,
+        "question": "The Ace Manufacturing Company has orders for three similar products: A, B, C Order 1750, 500, 1100. Three machines are available for the manufacturing operations. All three machines can produce all the products at the same production rate. However, due to varying defect percentages of each product on each machine, the unit costs of the products vary depending on the machine used. Machine capacities for the next week and the unit costs are as follows: machine 1, 2, 3 and capacities are 1550, 1450, 1150. The cost for machine 1, 2, 3 with product A, B, C: [$0.80, $1.30, $0.70], [$1.40, $1.30, $1.50], [$0.80, $0.80, $1.20]. Use the transportation model to develop the minimum cost production schedule for the products and machines. Show the linear programming formulation. If the constant is \"1\" it must be entered in the box. If your answer is zero enter \"0\". ",
+        "results": {
+            "The production units for A on machine 1": "",
+            "The production units for B on machine 1": "",
+            "The production units for C on machine 1": "",
+            "The production units for A on machine 2": "",
+            "The production units for B on machine 2": "",
+            "The production units for C on machine 2": "",
+            "The production units for A on machine 3": "",
+            "The production units for B on machine 3": "",
+            "The production units for C on machine 3": "",
+            "The minimum production cost": ""
+        }
+    },
+    {
+        "id": 405,
+        "question": "Your Lego furniture company makes Tables and Chairs. Below, you are given the starting inventory, selling price, and Bill of Materials (recipe, or construction requirements).  You are to determine the number of Tables and Chairs to be built to maximize revenue. You must make 4 chairs for every table. Large wood per table is 3, small wood per table is 2, large wood per chair is 1, small wood per chair 4, revenue per table is $35, revenue per chair is $29, large wood inventory is 300 and small wood inventory is 500. The goal will be the revenue generated by your production plan - rounded to the nearest whole dollar.",
+        "results": {
+            "The number of tables to produce": "",
+            "The number of chairs to produce": "",
+            "The total revenue generated": ""
+        }
+    },
+    {
+        "id": 406,
+        "question": "A manufacturer can sell product 1 at a profit of $2/unit and product 2 at a profit of $5/unit. Three units of raw material are needed to manufacture 1 unit of product 1, and 6 units of raw material are needed to manufacture 1 unit of product 2. A total of 120 units of raw material are available. If any of product 1 is produced, a setup cost of $10 is incurred, and if any of product 2 is produced, a setup cost of $20 is incurred. Formulate an LP to maximize profits.",
+        "results": {
+            "The number of units of product 1 to produce": "",
+            "The number of units of product 2 to produce": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 407,
+        "question": "A manufacturer can sell product 1 at a profit of $2/unit and product 2 at a profit of $5/unit. Three units of raw material are needed to manufacture 1 unit of product 1, and 6 units of raw material are needed to manufacture 1 unit of product 2. A total of 120 units of raw material are available. If any of product 1 is produced, a setup cost of $10 is incurred, and if any of product 2 is produced, a setup cost of $20 is incurred. Maximize profits.",
+        "results": {
+            "The number of units of product 1 to produce": "",
+            "The number of units of product 2 to produce": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 408,
+        "question": "Basel Tool and Die Company (BTD) makes large industrial pipe wrenches in one of its factories. The marketing department estimates demand for this product during the next 6 months to be: January 370, February 430, March 380, April 450, May 520, June 440. With the current labor force, BTD believes it can make approximately 420 pipe wrenches per month at a cost of $40 per wrench using regular-time production. An additional 80 wrenches per month can be made using overtime production at a cost per wrench of $45. Wrenches can be made in advance and held in inventory for later shipment at a cost of $3 per month per wrench. The monthly demand for wrenches must be satisfied every month. At the end of December (beginning of January) BTD has 10 wrenches in inventory. BTD wants to plan its production, including overtime, and inventory for the next 6 months so as to maximize profit. Assuming the revenue for these wrenches is fixed, the production manager can maximize profit by minimizing the total costs incurred in producing and delivering the wrenches.",
+        "results": {
+            "Month 1 Regular-time production": "",
+            "Month 1 Overtime production": "",
+            "Month 1 Inventory at the end of the month": "",
+            "Month 2 Regular-time production": "",
+            "Month 2 Overtime production": "",
+            "Month 2 Inventory at the end of the month": "",
+            "Month 3 Regular-time production": "",
+            "Month 3 Overtime production": "",
+            "Month 3 Inventory at the end of the month": "",
+            "Month 4 Regular-time production": "",
+            "Month 4 Overtime production": "",
+            "Month 4 Inventory at the end of the month": "",
+            "Month 5 Regular-time production": "",
+            "Month 5 Overtime production": "",
+            "Month 5 Inventory at the end of the month": "",
+            "Month 6 Regular-time production": "",
+            "Month 6 Overtime production": "",
+            "Month 6 Inventory at the end of the month": "",
+            "Total cost": ""
+        }
+    },
+    {
+        "id": 409,
+        "question": "Brooks City has three consolidated high schools, each with a capacity of 1,200 students. The school board has partitioned the city into five busing districts-north, south, east, west, and central-each with different high school student populations. The three schools are located in the central, west, and south districts. Some students must be bused outside their districts, and the school board wants to minimize the total bus distance traveled by these students. The average distances from each district to the three schools and the total student population in each district are as follows: Distance (miles) District Central School, West School, South School, Student Population North 8 11 14 700 South 12 9 - 300 East 9 16 10 900 West 8 - 9 600 Central - 8 12 500 The school board wants to determine the number of students to bus from each district to each school to minimize the total busing miles traveled.",
+        "results": {
+            "The number of students from North to Central": "",
+            "The number of students from North to West": "",
+            "The number of students from North to South": "",
+            "The number of students from East to Central": "",
+            "The number of students from East to West": "",
+            "The number of students from East to South": "",
+            "The number of students from Central to Central": "",
+            "The number of students from Central to West": "",
+            "The number of students from Central to South": "",
+            "The number of students from South to Central": "",
+            "The number of students from South to West": "",
+            "The number of students from South to South": "",
+            "The number of students from West to Central": "",
+            "The number of students from West to West": "",
+            "Total busing miles traveled": ""
+        }
+    },
+    {
+        "id": 410,
+        "question": "Western Pulp (WP) produces recycled paperboard for box manufacturers by combining four grades of recycled paper stock. Each grade of stock has a different strength, color, and texture. The strength, color, and texture of the paperboard are approximately a weighted average of those characteristics of the paper inputs. The table gives the characteristics of the paper stocks and their cost per ton. Paper Grade, Strength, Color, Texture, Cost/Ton are [1, 8, 9, 8 $150], [2, 6, 7, 5, $110], [3, 5, 5, 6, $90] and [4, 3, 4, 5, $50]. WP has received an order for 500 tons of paperboard with a strength rating of at least 7, a color of at least 5, and texture of at least 6. WP would like to determine the least costly mix required to produce this paperboard.",
+        "results": {
+            "The quantity of paper stock 1": "",
+            "The quantity of paper stock 2": "",
+            "The quantity of paper stock 3": "",
+            "The quantity of paper stock 4": "",
+            "The minimum cost": ""
+        }
+    },
+    {
+        "id": 411,
+        "question": "Euing Gas produces two types of gasoline (gas 1 and gas 2) from two types of oil (oil 1 and oil 2). Each gallon of gas 1 must contain at least 50 percent oil 1, and each gallon of gas 2 must contain at least 60 percent oil 1. Each gallon of gas 1 can be sold for 12$, and each gallon of gas 2 can be sold for 14$. Currently, 500 gallons of oil 1 and 1,000 gallons of oil 2 are available. As many as 1,500 more gallons of oil 1 can be purchased at the following prices: first 500 gallons, 25$ per gallon; next 500 gallons, 20$ per gallon; next 500 gallons, 15$ per gallon. Formulate an LP that will maximize Euing's profits (revenues - purchasing costs).",
+        "results": {
+            "The amount of oil 1 purchased": "",
+            "The amount of oil 1 used to produce gas 1": "",
+            "The amount of oil 1 used to produce gas 2": "",
+            "The amount of oil 2 used to produce gas 1": "",
+            "The amount of oil 2 used to produce gas 2": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 412,
+        "question": "Euing Gas produces two types of gasoline (gas 1 and gas 2) from two types of oil (oil 1 and oil 2). Each gallon of gas 1 must contain at least 50 percent oil 1, and each gallon of gas 2 must contain at least 60 percent oil 1. Each gallon of gas 1 can be sold for 12$, and each gallon of gas 2 can be sold for 14$. Currently, 500 gallons of oil 1 and 1,000 gallons of oil 2 are available. As many as 1,500 more gallons of oil 1 can be purchased at the following prices: first 500 gallons, 25$ per gallon; next 500 gallons, 20$ per gallon; next 500 gallons, 15$ per gallon. Maximize Euing's profits (revenues - purchasing costs).",
+        "results": {
+            "The amount of oil 1 purchased": "",
+            "The amount of oil 1 used to produce gas 1": "",
+            "The amount of oil 1 used to produce gas 2": "",
+            "The amount of oil 2 used to produce gas 1": "",
+            "The amount of oil 2 used to produce gas 2": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 413,
+        "question": "On their farm, the Friendly family grows apples that they harvest each fall and make into three products- apple butter, applesauce, and apple jelly. They sell these three items at several local grocery stores, at craft fairs in the region, and at their own Friendly Farm Pumpkin Festival for 2 weeks in October. Their three primary resources are cooking time in their kitchen, their own labor time, and the apples. They have a total of 500 cooking hours available, and it requires 3.5 hours to cook a 10-gallon batch of apple butter, 5.2 hours to cook 10 gallons of applesauce, and 2.8 hours to cook 10 gallons of jelly. A 10-gallon batch of apple butter requires 1.2 hours of labor, a batch of sauce takes 0.8 hour, and a batch of jelly requires 1.5 hours. The Friendly family has 240 hours of labor available during the fall. They produce about 6,500 apples each fall. A batch of apple butter requires 40 apples, a 10-gallon batch of applesauce requires 55 apples, and a batch of jelly requires 20 apples. After the products are canned, a batch of apple butter will generate $190 in sales revenue, a batch of applesauce will generate a sales revenue of $170, and a batch of jelly will generate sales revenue of $155. The Friendlys want to know how many batches of apple butter, applesauce, and apple jelly to produce in order to maximize their revenues.",
+        "results": {
+            "Number of Apple Butter batches to produce": "",
+            "Number of Apple Sauce batches to produce": "",
+            "Number of Apple Jelly batches to produce": "",
+            "Total Revenue": ""
+        }
+    },
+    {
+        "id": 414,
+        "question": "The Kalo Fertilizer Company produces two brands of lawn fertilizer-Super Two and Green Grow-at plants in Fresno, California, and Dearborn, Michigan. The plant at Fresno has resources available to produce 5,000 pounds of fertilizer daily; the plant at Dearborn has enough resources to produce 6,000 pounds daily. The cost per pound of producing each brand at each plant is as follows: (cost of Production) Plant, Max Demand.Product, Fresno, Dearborn Available/day,  Price per Item. SuperTwo $2 $4 6,000 lbs/day $9/lb. Green Grow $2  $3 7,000 lbs/day $7/lb. The company has a daily budget of $45,000 for both plants combined. Based on past sales, the company knows the maximum demand (converted to a daily basis) is 6,000 pounds for Super Two and 7,000 pounds for Green Grow. The selling price is $9 per pound for Super Two and $7 per pound for Green Grow. The company wants to know the number of pounds of each brand of fertilizer to produce at each plant in order to maximize profit.",
+        "results": {
+            "The number of pounds of Super Two produced at Fresno": "",
+            "The number of pounds of Super Two produced at Dearborn": "",
+            "The number of pounds of Green Grow produced at Fresno": "",
+            "The number of pounds of Green Grow produced at Dearborn": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 415,
+        "question": "The Southfork Feed Company makes a feed mix from four ingredients-oats, corn, soybeans, and a vitamin supplement. The company has 300 pounds of oats, 400 pounds of corn, 200 pounds of soybeans, and 100 pounds of vitamin supplements for the mix. The company has the following requirements for the mix: At least 30% of the mix must be soybeans. (constraint 1) At least 20% of the mix must be the vitamin supplement. (constraint 2) The ratio of corn to oats cannot exceed 2 to 1. (constraint 3) The amount of oats cannot exceed the amount of soybeans. (constraint 4) The mix must weigh at least 500 pounds. (constraint 5) A pound of oats costs $0.50; a pound of corn, $1.20; a pound of soybeans, $0.60; a pound of vitamin supplement, $2.00. The feed company wants to know the number of pounds of each ingredient to put in the mix in order to minimize the total costs.",
+        "results": {
+            "The number of pounds of oats": "",
+            "The number of pounds of corn": "",
+            "The number of pounds of soybeans": "",
+            "The number of pounds of vitamin supplement": "",
+            "The total cost of the mix": ""
+        }
+    },
+    {
+        "id": 416,
+        "question": "The United Charities annual fund-raising drive is scheduled to take place next week. Donations are collected during the day and night, by telephone, and through personal contact. The average donation resulting from each type of contactis as follows Phone Interview, Personal Interview. Day: Avg Donation: $2.00 (x_1), Avg Donation: $4.00 (x_3). Night: Avg Donation:$3.00 (x_2), Avg Donation $7.00 (x_4). The charity group has enough donated gasoline and cars to make at most 300 personal contacts during one day and night combined. The volunteer minutes required to conduct each type interview are as follows: Phone Interview Time (min.) Personal Interview Time (min.) Day: Minutes: 6 (x_1) Minutes: 15 (x_3). Night: Minutes: 5 (x_2) Minutes: 12 (x_4) The charity has 20 volunteer hours available each day and 40 volunteer hours each night. The chairperson of the fund-raising drive wants to know how many different types of contacts to schedule in a 24-hour period (i.e., 1 day and 1 night) to maximize the total donations.",
+        "results": {
+            "Number of day phone interviews": "",
+            "Number of night phone interviews": "",
+            "Number of day personal interviews": "",
+            "Number of night personal interviews": "",
+            "Total donations": ""
+        }
+    },
+    {
+        "id": 417,
+        "question": "Four-product T-shirt/sweatshirt manufacturing company. Must complete production within 72 hours Truck capacity = 1,200 standard sized boxes. Standard size box holds12 T-shirts. One-dozen sweatshirts box is three times size of standard box. $25,000 available for a production run.  500 dozen blank T-shirts and sweatshirts in stock. How many dozens (boxes) of each type of shirt to produce for maximizing profit? Resource requirements for the product mix example. Processing Time (hr) Per dozen, Cost ($) per dozen, Profit ($) per dozen. Sweatshirt -F: 0.10 $36 $90. Sweatshirt - B/F:0.25 48 125. T-shirt - F:0.08 25 45. T-shirt - B/F: 0.21 35 65.",
+        "results": {
+            "The number of sweatshirts with front printing to produce": "",
+            "The number of sweatshirts with back and front printing to produce": "",
+            "The number of T-shirts with front printing to produce": "",
+            "The number of T-shirts with back and front printing to produce": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 418,
+        "question": "An investor has $70,000 to divide among several instruments. Municipal bonds have an 8.5% return, CDs a 5% return, t-bills a 6.5% return, and growth stock 13%. The following guidelines have been established: 1. No more than 20% in municipal bonds.  2. Investment in CDs should not exceed the other three alternatives.  3. At least 30% invested in t-bills and CDs.  4. More should be invested in CDs and t-bills than in municipal bonds and growth stocks by a ratio of 1.2 to 1  5. All $70,000 should be invested. to maximize the profit.",
+        "results": {
+            "Amount to invest in Municipal Bonds": "",
+            "Amount to invest in CDs": "",
+            "Amount to invest in T-Bills": "",
+            "Amount to invest in Growth Stocks": "",
+            "Total Profit": ""
+        }
+    },
+    {
+        "id": 419,
+        "question": "A company seeks to deliver an ad with a limited budget, The  Exposure (people/ad or  commercial), Cost for Television Commercial are 20,000 $15,000. For Radio Commercial are 2,000  6,000. Newspaper Ad are 9,000 4,000. The Budget limit $100,000, television time for four commercials, Radio time for 10 commercials, Newspaper space for 7 ads. Resources for no more than 15 commercials and/or ads. How to maximize the exposure people with the budget?",
+        "results": {
+            "The number of television commercials": "",
+            "The number of radio commercials": "",
+            "The number of newspaper ads": "",
+            "The maximum exposure": ""
+        }
+    },
+    {
+        "id": 420,
+        "question": "Many companies or institutions, especially those operating 24 h daily, usually divide the daily schedule into discrete (say, T) time windows. Examples include hospitals, restaurants, call centers, and police departments. The number of staff required typically varies among time windows. Staff members are scheduled to n different (work) shifts, each covering m(m < T) consecutive time windows. Staff members assigned to different shifts may be paid differently, depending on which shift they work. For example, those working overnight are usually paid at a higher rate. The scheduling problem is to determine the number of workers to be assigned to each shift so that the company meets the demand in each time window. Following is an example of a 24 h fast food restaurant. The daily operation is divided into eight consecutive time windows, each of 3 h duration. A shift covers three consecutive time windows (i.e., 9h), as shown in Table: \nTime Window, Shift 1 2 3 4, \nWorkers Required: \n6 a.m.-9 a.m. Shift 1 and 4, the Required 55; \n9 a.m.-12 noon Shift 1, the Required 46; \n12 noon-3 p.m. Shift 1 and 2, the Required 59; \n3 p.m.-6 p.m. Shift 2, the Required 23; \n6 p.m.-9 p.m. Shift 2 and 3, the Required 60; \n9 p.m.-12 a.m. Shift 3, the Required 38; \n12 a.m.-3 a.m. Shift 3 and 4, the Required 20; \n3 a.m.-6 a.m. Shift 4, the Required 30. \nThe wage rate per 9 h for shift 1, 2, 3, 4: $135, $140, $190, X $188.",
+        "results": {
+            "The number of workers for shift 1": "",
+            "The number of workers for shift 2": "",
+            "The number of workers for shift 3": "",
+            "The total wage cost": ""
+        }
+    }
+]

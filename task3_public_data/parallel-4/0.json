@@ -1,0 +1,959 @@
+[
+    {
+        "id": 0,
+        "question": "A wine company sells two products. Its regular wine and a premium aged wine. The company makes x1 bottles of the regular wine per day and x2 bottled of the premium wine per day (x1 and x2 are unknown values greater than or equal to 0). The profit per bottle of regular wine is $20 ad the profit per bottle of the premium wine is $50. Current demand for the wine is at most 80 bottles of the regular wine per day and at most 50 bottles of the premium wine per day. The company only has enough supply to make 120 bottles of either type each day. How many bottles of each wine, regular and premium, should the company make to maximize profit?",
+        "results": {
+            "Number of bottles of regular wine to make per day": "",
+            "Number of bottles of premium wine to make per day": "",
+            "Maximum profit per day": ""
+        }
+    },
+    {
+        "id": 1,
+        "question": "A woman has $5000 to invest in her sisters' companies. She can invest in her younger sister's company and her elder sister's company. Each dollar invested in her younger sister's company yields a profit of $0.05 while each dollar invested in her elder sister's company yields a profit of $0.08. She wants to invest a minimum of 40% of her investment into her younger sister's company and at least $2000 in her elder sister's company. How much money should she invest in each to maximize her profit?",
+        "results": {
+            "The amount to invest in the younger sister's company": "",
+            "The amount to invest in the elder sister's company": "",
+            "The maximum profit from the investment": ""
+        }
+    },
+    {
+        "id": 2,
+        "question": "A furniture factory makes two products: bedside tables and bookcases. Both products have to go through two processes: crafting and polishing. For each bedside table, the workers spend 2.5 hours crafting and 1.5 hours polishing. For each bookcase, the workers spend 5 hours crafting and 3 hours polishing. On any day, there is a maximum of 30 crafting hours available and 20 polishing hours available. The profit from the sale of each bedside table is $200 and the profit from the sale of each bookcase is $500. The factory can sell everything they make. How should they schedule daily production in order to maximize profit?",
+        "results": {
+            "The number of bedside tables produced": "",
+            "The number of bookcases produced": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 3,
+        "question": "A factory makes soccer balls and basket balls. Soccer balls take 5 minutes on the manufacturing machine and 3 minutes to fill with air. Basket balls take 7 minutes on the manufacturing machine and 4 minutes to fill with air. The factory can run the manufacturing machine for at most 700 minutes and they have 500 minutes available for filling the balls with air. If the profit per soccer ball is $4 and the profit per basket all is $5, how many of each ball should the factory make to maximize profit?",
+        "results": {
+            "The number of soccer balls": "",
+            "The number of basket balls": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 4,
+        "question": "Emma is required to take two medicines AX7 and BY5 every day. She needs to take at least 6 grams of AX7 and 8 grams of BY5 every day. These medicines are available in two pills named Klun and Tao. One pill of Klun contains 1.5 grams of AX7 while one pill of Tao contains 1.3 grams of AX7. On the other hand, one pill of Klun contains 1.8 grams of BY5 and one pill of Tao contains 2 grams of BY5. The cost per pill of Klun is $2.6 and the cost per pill of Tao is $3.2. Formulate an LP such that the medicine requirement can be fulfilled at the lowest cost.",
+        "results": {
+            "The number of Klun pills": "",
+            "The number of Tao pills": "",
+            "The total cost is": ""
+        }
+    },
+    {
+        "id": 5,
+        "question": "A cosmetics company makes low, medium, and high quality face wash. A low quality face wash contains 1 unit of rare ingredients and 4 units of water. A medium quality face wash contains 3 units of rare ingredients and 2 units of water. A high quality face wash contains 4 units of rare ingredients and 1 unit of water. The company has available 100 units of rare ingredients and 200 units of water. If the profit per low quality face wash is $3, the profit per medium quality face wash is $7, and the profit per high quality face wash is $9, how many of each should be made to maximize profits?",
+        "results": {
+            "The number of low quality face wash": "",
+            "The number of medium quality face wash": "",
+            "The number of high quality face wash": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 6,
+        "question": "A gardener has 50 acres available for growing lavender and tulips. The gardener must grow at least 5 acres of lavender and at least 8 acres of tulips. Even though lavenders sell better, the gardener can grow at most twice the amount of lavender as tulips. If the profit per acre of lavender is $250 and the profit per acre of tulips is $200, how many acres of each should be grown to maximize profit?",
+        "results": {
+            "The number of acres of lavender grown": "",
+            "The number of acres of tulips grown": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 7,
+        "question": "A factory packages glass jars and plates. Glass jars take 15 minutes of worker time and 3 units of cardboard. Plates take 12 minutes of worker time and 4 units of cardboard. The factory has 620 minutes of worker time available and 120 units of cardboard available. If the profit per glass jar packaged is $2 and the profit per plate packaged is $2.50, how many of each should they package to maximize profit?",
+        "results": {
+            "The number of glass jars to package": "",
+            "The number of plates to package": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 8,
+        "question": "A fruit store wants to liquidate its stock of 30 lemons, 40 mangos, and 50 pears. Given past experience, the store knows that they can propose a mango-lovers package with 4 lemons and 8 mangos and that this package will bring a profit of 5 euros. Similarly, they can prepare a regular package with 3 lemons, 5 mangos, and 10 pears, yielding a profit of 6.5 euros. They know they can sell any quantity of these two packages within the availability of its stock. What quantity of each package, mango-lovers packages and regular packages, should the store prepare to maximize net profit?",
+        "results": {
+            "The number of mango-lovers packages": "",
+            "The number of regular packages": "",
+            "Net profit": ""
+        }
+    },
+    {
+        "id": 9,
+        "question": "A bakery only has 1000 units of blueberries to make pies and small tarts. Each pie needs 5 units of blueberries and each tart needs 3 units of blueberries. Since tarts are easier to eat quickly, the bakery must make at least three times as many tarts as pies. However, the bakery must make at least 30 pies. If each pie sold yields a profit of $8 and each tart sold yields a profit of $5, how many of each should the bakery make to maximize profit?",
+        "results": {
+            "The number of pies to make": "",
+            "The number of tarts to make": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 10,
+        "question": "Tom Designs manufactures three coats: long, short, and mini. These coats are produced in two different factories: a north one and a south one. Running the north factory for an hour costs $200 and produces 20 long coats, 15 short coats, and 10 mini coats. Running the south factory for an hour costs $400 and yields 30 long coats, 25 short coats, and 30 mini coats. To meet customer demands, a minimum of 75 long coats, 30 short coats, and 40 mini coats must be produced daily. Determine a daily production plan that minimizes the cost of meeting the company\u2019s daily demands.",
+        "results": {
+            "Number of hours the north factory operates": "",
+            "Number of hours the south factory operates": "",
+            "Total cost of operation": ""
+        }
+    },
+    {
+        "id": 11,
+        "question": "Bob Fashion produces two types of lipsticks: cream lipsticks and matte lipsticks. The profit per cream lipstick is $70 and the profit per matte lipstick is $100. It takes 3.5 hours to produce the raw materials for one cream lipstick, 5 hours to mix and 2 hours in packing. It takes 5 hours to produce the raw materials for one matte lipstick, 3 hours to mix and 1.5 hours in packing. Per month, 300 hours are available for preparing the raw materials, 400 hours for mixing and 200 hours for packing the lipsticks.  How many of each type of lipstick should be produced in order to maximize the total monthly profit?",
+        "results": {
+            "The number of cream lipsticks to be produced": "",
+            "The number of matte lipsticks to be produced": "",
+            "The total monthly profit": ""
+        }
+    },
+    {
+        "id": 12,
+        "question": "A food manufacturer wishes to mix pork and chicken to create sausages. The mixture needs to contain at least 10 units of protein and 15 units of fat. Pork costs $40 per kg and chicken costs $50 per kg. Per kilogram, pork contains 2 units of protein and 4 units of fat. Per kilogram, chicken contains 3 units of protein and 2 units of fat. Determine the minimum cost of the mixture.",
+        "results": {
+            "The amount of pork in kg": "",
+            "The amount of chicken in kg": "",
+            "The minimum cost of the mixture": ""
+        }
+    },
+    {
+        "id": 13,
+        "question": "A soup store sell two soups: a crab soup and a lobster soup. The soups are made using water, crab meat, and lobster meat. A serving of crab soup requires 7 units of water and 8 units of crab meat. A serving of lobster soup requires 10 units of water and 5 units of lobster meat. There is 80 units of water available, 65 units of crab meat available, and 55 units of lobster meat available. The profit per serving of crab soup is $3 and the profit per serving of lobster soup is $5. Formulate as a LP to maximize profit.",
+        "results": {
+            "The number of servings of crab soup": "",
+            "The number of servings of lobster soup": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 14,
+        "question": "A landscaper provides 3 landscaping layouts using different amounts of rock, mulch, and grass. He has 1200 units of rock, 700 units of mulch, and 2000 units of grass. A type A layout has 10 units of rock, 7 units of mulch, and 15 units of grass. A type B layout has 5 units of rock, 12 units of mulch, and 10 units of grass. A type C layout has 12 units of rock, 4 units of mulch, and 12 units of grass. The profit is $200 for each type A layout, $175 for each type B layout, and $225 for each type C layout. How many layouts of each type should be used to maximize profit?",
+        "results": {
+            "The number of type A layouts": "",
+            "The number of type B layouts": "",
+            "The number of type C layouts": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 15,
+        "question": "A sign company makes signs by hand. They make LED signs and neon signs. The LED signs are made by team A and they can make at most 3 a day. The neon signs are made by team B and they can make at most 4 a day. All signs have to be quality checked by a senior QC inspector and he can check at most 7 signs total a day. If the profit per LED sign is $1500 and the profit per neon sign is $1450, how many of each sign should be made to maximize profit?",
+        "results": {
+            "The number of LED signs made": "",
+            "The number of neon signs made": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 16,
+        "question": "A jewelry company produces and sells bracelets and rings. The bracelets are hand-crafted by a team who can make at most 4 bracelets per day. The rings are made by another team who can make at most 7 rings per day. All rings have to be approved by a master jeweler and he can check at most 30 jewels of either type per day. If the profit per bracelet is $700 and the profit per ring is $300, how many of each should the jewelry company make to maximize profit?",
+        "results": {
+            "The number of bracelets to make": "",
+            "The number of rings to make": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 17,
+        "question": "A store sells two types of donuts, regular and jelly-filled.  The store pays a baker $4 and $6 for each unit of a regular and jelly-filled donut respectively. The store makes a profit of $2 per regular donut and a profit of $3 per jelly-filled donut. In a month, the store owner expects to sell at most 1000 donuts and wants to spend at most $5000 in buying donuts from the bakery. How many of each type of donut should be bought in order to maximize the total monthly profit?",
+        "results": {
+            "The number of regular donuts": "",
+            "The number of jelly-filled donuts": "",
+            "The total monthly profit": ""
+        }
+    },
+    {
+        "id": 18,
+        "question": "A cosmetics company makes high-end skincare products whose main customers are wealthy women, both young girls and middle-aged women. In order to promote their product line, they decided to invest in short commercial spots on two types of programs: social media and television. While each social media commercial is seen by 5 million young girls and 1 million middle-aged women, each television commercial is seen by 3 million young girls and 7 million middle-aged women. A 1-minute social media ad costs $30,000, and a 1-minute television ad costs $50,000. The company would like the commercials to be seen by at least 20 million young girls and 30 million middle-aged women. Use linear programming to determine how the cosmetics company can meet its advertising requirements at minimum cost.",
+        "results": {
+            "The number of social media commercials": "",
+            "The number of television commercials": "",
+            "The minimum cost": ""
+        }
+    },
+    {
+        "id": 19,
+        "question": "Two paints of different quality, cheap and expensive, have quality ratings of 50 and 90, respectively. The cheap paint costs $0.30 per liter while the expensive paint costs $1.50 per liter. In order to paint his fence, John wants to use a mix of paint with a quality of at least 80. This ensures that the paint on the fence will withstand a few storms. What blend of the two paints should he mix in order to minimize his cost? [Hint: Let x be the fraction of each liter that is cheap paint and y be the fraction that is expensive paint.]",
+        "results": {
+            "The fraction of each liter that is cheap paint": "",
+            "The fraction of each liter that is expensive paint": "",
+            "The minimized cost": ""
+        }
+    },
+    {
+        "id": 20,
+        "question": "The Curious electronics business wants to determine the level of production of its two hottest digital keyboards: A400 and P500. Making one A400 keyboard requires 5 hours of labour and yields a $35 profit. On the other hand, one P500 keyboard can be produced in 9 hours and offers a greater profit of $80. Given the demand forecast, the business decides to produce at least three times as many A400 keyboards as P500 ones. In addition, it can spend up to 45 hours a week to manufacture these keyboards. Can you help the business determine the number of each keyboard to be produced each week to obtain the maximum profit?",
+        "results": {
+            "Number of A400 keyboards to produce each week": "",
+            "Number of P500 keyboards to produce each week": "",
+            "Maximum profit": ""
+        }
+    },
+    {
+        "id": 21,
+        "question": "In a cold region, a train service offers heated seats and regular seats. The train has 100 seats available. The trains reserves at least 15 seats to be heated. However, at least 3 times as many people prefer regular seats to heated seats. If the profit per heated seat is $20 and the profit per regular seat is $15, how many of each seat type should be sold to maximize profit?",
+        "results": {
+            "The number of heated seats sold": "",
+            "The number of regular seats sold": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 22,
+        "question": "A farm has to transport their chickens. They can either be transported by train or by truck. Each train trip can take 500 chicken while each truck trip can take 300 chicken. The cost per train trip is $100 and the cost per truck trip is $80. The farm has a budget of $2000 and the number of train trips cannot exceed the number of truck trips. How many of each trip should be taken to maximize the number of chickens that can be transported?",
+        "results": {
+            "The number of train trips": "",
+            "The number of truck trips": "",
+            "The number of chickens transported": ""
+        }
+    },
+    {
+        "id": 23,
+        "question": "A gardener has a field of 100 square feet in which he plants sunflowers and roses. The seed for sunflowers costs $67 per square foot. The seed for roses costs $52 per square foot. The gardener has available a budget of $6500 to spend on seeds. The profit per square foot of sunflowers is $450 and the profit per square foot of roses is $100. Find the optimal solution for the gardener in order to maximize profit.",
+        "results": {
+            "The number of square feet planted with sunflowers": "",
+            "The number of square feet planted with roses": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 24,
+        "question": "Amanda has 4000 acres of land to grow apple and peach trees. Apple trees cost $50 for their saplings, and they take 3 hours to maintain per acre. Peach trees cost $80 for their saplings and take 5 hours to maintain per acre. Amanda has a budget of $30000 for saplings and has 600 available hours for maintenance. If the profit per acre of apples is $15 and the profit per acre of peaches is $25, how many acres of each should be grown to maximize profit?",
+        "results": {
+            "The number of acres for apple trees": "",
+            "The number of acres for peach trees": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 25,
+        "question": "There is only 3000 grams of black tea available to make earl grey and English breakfast teabags. Each earl grey teabag requires 25 grams of black tea while each English breakfast teabag requires 20 grams of black tea. Due to demand, at least 4 times the amount of earl grey teabags are needed than English breakfast. However, at least 20 English breakfast teabags need to be made. If the profit per earl grey teabag is $0.30 and the profit per English breakfast teabag is $0.25, how many of each should be made to maximize profit?",
+        "results": {
+            "The number of earl grey teabags": "",
+            "The number of English breakfast teabags": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 26,
+        "question": "A milk tea shop has 50000 ml of milk to make two milk teas: black milk tea and green milk tea. A bottle of black milk tea contains 300 ml of milk while a bottle of green milk tea has 200 ml of milk. The shop knows that they need to make at least three times the number of bottles of black milk tea than green milk tea. They also know that they need to make at least 10 bottles of green milk tea. Each bottle of black milk tea is sold for a profit of $2.5 and each bottle of green milk tea is sold for a profit of $7. How many of each type of milk tea needs to be made in order to maximize profit?",
+        "results": {
+            "The number of bottles of black milk tea": "",
+            "The number of bottles of green milk tea": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 27,
+        "question": "A battery store sells AA and D batteries. The store has a budget of $1000 and each AA battery costs $1 and each D battery costs $3. The monthly demand for both batteries will not exceed 1000. If the profit per AA battery is $0.50 and the profit per D battery is $1, how many of each should the store stock in order to maximize profit?",
+        "results": {
+            "The number of AA batteries to stock": "",
+            "The number of D batteries to stock": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 28,
+        "question": "A vendor sells coffee and hot chocolate during ice hockey games. To stay in business, he must sell at least 40 coffees and 20 hot chocolates, but can not make more than 60 coffees or 35 hot chocolates. The vendor also can't make more than 75 items total. The profit on a coffee is $0.22, and the profit on a hot chocolate is $0.14. How many of each item should he sell to make the maximum profit?",
+        "results": {
+            "The number of coffees sold": "",
+            "The number of hot chocolates sold": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 29,
+        "question": "William is a potato farmer and he has to send his product to the city. He can transport his potato packages by regular truck which can take 70 packages per trip or by refrigerated truck which can take 100 packages per trip. The cost per regular truck trip is $50 and the cost per refrigerated truck trip is $70. He wants to spend at most $5000 and the number of refrigerated truck trips must not exceed the number of regular truck trips. Formulate an LP to maximize the number of potato packages that can be transported.",
+        "results": {
+            "The number of regular truck trips": "",
+            "The number of refrigerated truck trips": "",
+            "The number of potato packages transported": ""
+        }
+    },
+    {
+        "id": 30,
+        "question": "A food truck makes apple and orange smoothies. It takes 6 minutes on the cutting machine and 3 minutes on the blending machine to make an apple smoothie. It takes 5 minutes on the cutting machine and 2 minutes on the blending machine to make an orange smoothie. The profit per apple smoothie is $3.5 and the profit per orange smoothie is $4.5. If both the cutting machine and blending machine are available for at most 500 minutes per day, how many of each smoothie should be made to maximize profit?",
+        "results": {
+            "The number of apple smoothies": "",
+            "The number of orange smoothies": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 31,
+        "question": "A car company makes two types of cars, a race car and a regular car. Two different teams produce each of these cars. The race car team can make at most 3 race cars per day while the regular car team can make at most 5 regular cars per day. Both cars need to go through a safety check, and in a day at most 6 cars of either type can be safety checked. If the profit per race car is $20000 and the profit per regular car is $10000, how many of each should the company make to maximize their profit?",
+        "results": {
+            "The number of race cars produced per day": "",
+            "The number of regular cars produced per day": "",
+            "The total profit per day": ""
+        }
+    },
+    {
+        "id": 32,
+        "question": "A pet store feeds their dogs by making a mixture from two bags. Bag A contains 3 units of protein and 4 units of calcium per bag. Bag B contains 4 units of protein and 2 units of calcium per bag. The mixture must contain at least 30 units of protein and 35 units of calcium. Bag A costs $3.50 per bag and Bag B costs $2.50 per bag. Formulate an LP to minimize the cost for the mixture.",
+        "results": {
+            "The number of bags from Bag A": "",
+            "The number of bags from Bag B": "",
+            "The cost of the mixture": ""
+        }
+    },
+    {
+        "id": 33,
+        "question": "A flight has 150 tickets. A profit of $150 is made on each first-class ticket and a profit of $350 is made on each economy-class ticket. The flight reserves at least 20 tickets to be first-class but because the journey is short, at least 3 times as many people prefer to save money and travel by economy-class than first-class. How many of each ticket type should be sold to passengers to maximize profit?",
+        "results": {
+            "The number of first-class tickets": "",
+            "The number of economy-class tickets": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 34,
+        "question": "A food truck sells tacos and burritos. To stay in business, they must sell at least 50 tacos and at least 30 burritos. However, they only have enough supplies to make at most 80 tacos and at most 50 burritos. Given their tight schedule, they can also cook at most 100 items total. The profit per taco is $3 and the profit per burrito is $6. How many of each item should they sell to maximize profit?",
+        "results": {
+            "The number of tacos sold": "",
+            "The number of burritos sold": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 35,
+        "question": "An electronics factory manufactures two calculators: solar calculators and finance calculators, using silicon, plastic, and steel. To make a solar calculator, 5 grams of silicon, 4 grams of plastic, and 2 grams of steel are needed. The profit per solar calculator is $12. To make a finance calculator, 3 grams of silicon, 5 grams of plastic, and 3 grams of steel are needed. The profit per finance calculator is $9. Even though the company can sell as many calculators as it produces, there is only 150 grams of silicon, 150 grams of plastic, and 70 grams of steel available. Formulate an LP to maximize profit.",
+        "results": {
+            "The number of solar calculators produced": "",
+            "The number of finance calculators produced": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 36,
+        "question": "A framing company frames printed art and paintings. Each printed art takes 10 minutes for printing and 5 minutes for framing. Each painting takes 0 minutes for printing and 15 minutes for framing. The company has available 150 minutes for printing and 400 minutes for framing. If the profit per printed art sold is $5 and the profit per painting sold is $8, how many of each should they produce to maximize profits?",
+        "results": {
+            "The number of printed arts": "",
+            "The number of paintings": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 37,
+        "question": "A furniture company sells two types of tables \u2013 a dinning table and a coffee table. They cost $250 and $150 to make respectively. The company estimates that the total monthly demand of these two types of tables combined will be at most 200 units. The monthly manufacturing budget on tables is $20000. Determine the number of units of each type of tables the company should make to get maximum profit if the profit on each dinning table and coffee table are $200 and $100 respectively.",
+        "results": {
+            "The number of dining tables": "",
+            "The number of coffee tables": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 38,
+        "question": "A tropical farmer has 100 acres of land to grow guavas and mangos. He prefers to grow more mangos than guavas, but because they require so much more work, he can grow at most 2 times the amount of mangos as guavas. In addition he must grow at least 20 acres of guavas and at least 40 acres of mangos. If the profit per acre of guavas is $300 and the profit per acres of mangos is $500, how many acre of each should he grow to maximize profit?",
+        "results": {
+            "The number of acres of guavas to grow": "",
+            "The number of acres of mangos to grow": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 39,
+        "question": "CE Chemicals produces two types of products, adhesives and plasticizers. To produce each type of product, we need to use both an automatic device and a human-operated device. On a given day, each processing device is available for at most 450 minutes. To extract a package of adhesives, it takes 6 minutes of processing on the automatic device and 5 minutes on human-operated device. To extract a package of plasticizers, the automatic device needs to be run for 8 minutes and the human-operated device for 4 minutes. The manufacturer can sell a package of adhesives for a revenue of $8.5 and plasticizers for a revenue of $11.5. Assuming that the company can sell all the products it produces, how many packages of each product should be produced daily in order to maximize the revenue?",
+        "results": {
+            "The number of packages of adhesives produced daily": "",
+            "The number of packages of plasticizers produced daily": "",
+            "The maximum daily revenue": ""
+        }
+    },
+    {
+        "id": 40,
+        "question": "Eric is a world-famous wood artist. He manufactures two types of decors made of oak. The first product, a display shelf, requires 25 minutes each for carving and 20 minutes each for polishing. The second decor is a plant stand and it requires 20 minutes each for carving and 10 minutes each for polishing. There are 350 minutes available for carving and 600 for polishing. The profit is $55 each for the display shelf and $45 for each plant stand. How many decors of each type should the artist create in order to maximize his profit?",
+        "results": {
+            "The number of display shelves to manufacture": "",
+            "The number of plant stands to manufacture": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 41,
+        "question": "A summer painting company employs students earning $200 a week and full-time employees earning $500 a week. The company needs at least 100 painters of whom at 30 must be full-time employees. In addition, to make sure there is enough experience, the number of full-time employees should be at least half the number of students. Formulate a LP to minimize the wage bill.",
+        "results": {
+            "The number of student painters": "",
+            "The number of full-time painters": "",
+            "The total wage bill": ""
+        }
+    },
+    {
+        "id": 42,
+        "question": "A tasty burrito is to be made from units of beans and onions and is to contain a minimum of 110 units of spice and 80 units of flavor. Beans cost $6 per unit and onion cost $8 per unit. One unit of beans contains 10 units of spice and 3 units of flavor. One unit of onions contains 2 units of spice and 6 units of flavor. Formulate this as an LP and find the minimum cost burrito that can be made.",
+        "results": {
+            "The number of units of beans": "",
+            "The number of units of onions": "",
+            "The minimum cost": ""
+        }
+    },
+    {
+        "id": 43,
+        "question": "Lisa can invest in NFTs and crypto-currency up to $5000. Each dollar invested in NFTs yields $0.30 profit, and each dollar invested in a crypto-currency yields $0.40 profit. A minimum of 25% of all money invested must be in NFTs, and at least $2300 must be in crypto-currency. How can Lisa maximize her profit?",
+        "results": {
+            "Dollars invested in NFTs": "",
+            "Dollars invested in crypto-currency": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 44,
+        "question": "A student group makes chocolate chip and oatmeal cookies. To make a batch of chocolate chip cookies, it take 10 minutes to gather the ingredients, 20 minutes to mix them, and 50 minutes for baking. To make a batch of oatmeal cookies, it takes 8 minutes to gather the ingredients, 15 minutes to mix them, and 30 minutes for baking.  Per week, the group has 1000 minutes to gather ingredients, 1200 minutes for mixing, and 3000 minutes for baking. If the profit per batch of chocolate chip cookies is $12 and the profit per batch of oatmeal cookies is $15, how many batches of each should be made to maximize profit?",
+        "results": {
+            "The number of batches of chocolate chip cookies": "",
+            "The number of batches of oatmeal cookies": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 45,
+        "question": "A meat factory makes burgers and hot-dogs. Each burger requires 3 units of meat and 2 unit of binding agent. Each hot-dog requires 2 units of meat and 1 unit of binding agent. The factory has 2000 units of meat and 1800 units of binding agent available. If the revenue per burger made is $0.30 and the revenue per hot-dog made is $0.20, how many of each should be made to maximize revenue?",
+        "results": {
+            "The number of burgers made": "",
+            "The number of hot-dogs made": "",
+            "The total revenue": ""
+        }
+    },
+    {
+        "id": 46,
+        "question": "A tropical farmer has available 200 acres of land to grow pineapples and bananas. He likes bananas, but because they require so much more work, he can grow at most 4 times the amount of bananas as pineapples. In addition he must grow at least 40 acres of pineapples and at least 60 acres of bananas. If the profit per acre of pineapples is $200 and the profit per acres of bananas is $150, how many acre of each should he grow to maximize profit?",
+        "results": {
+            "The number of acres of pineapples": "",
+            "The number of acres of bananas": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 47,
+        "question": "A telecommunications company installs internet service and TV service in buildings. Each internet service takes 60 minutes of wiring time and 10 minutes of box installation time. Each TV service takes 50 minutes of wiring time and 20 minutes of box installation time. The company has available 7000 minutes of wiring time and 4000 minutes of box installation time. If the profit per internet service installation is $100 and the profit per TV service installation is $120, how many of each should be installed to maximize profit?",
+        "results": {
+            "The number of internet services installed": "",
+            "The number of TV services installed": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 48,
+        "question": "A glass company makes sliding doors and windows. They have orders for at least 120 sliding doors and at least 110 windows per day. However, due to supply constraints, the company can make at most 210 sliding doors and at most 170 windows per day. In addition, they have a contract to ship at least 250 products of either type per day. If the profit per sliding door is $30 and the profit per window is $25, how many of each should the company make to maximize profit?",
+        "results": {
+            "The number of sliding doors to make": "",
+            "The number of windows to make": "",
+            "Total profit per day": ""
+        }
+    },
+    {
+        "id": 49,
+        "question": "A hot dog store sells two products: its regular hot-dog, and a premium hot-dog with more toppings. The store makes x1 regular hot-dogs a day at a profit of $3 each and x2 premium hot-dogs a day at a profit of $5 each. (x1 and x2 are unknowns and they both must be greater than or equal to 0). Currently, the demand is limited to at most 100 regular hot-dogs per day and at most 250 premium hot-dogs per day. Also, the store can make a maximum of 300 hot-dogs of either type per day. How many of each hot-dog should be made to maximize profit?",
+        "results": {
+            "The number of regular hot-dogs to make": "",
+            "The number of premium hot-dogs to make": "",
+            "Maximum profit per day": ""
+        }
+    },
+    {
+        "id": 50,
+        "question": "A farmer has 200 acres of land to grow oranges and grapefruits. He must grow at least 60 acres of oranges and at least 50 acres of grapefruits. The farmer prefers to grow more grapefruits than oranges but due to a shortage, he can grow at most twice the amount of grapefruits as oranges. If the profit per acre of oranges is $200, and the profit per acre of grapefruits is $220, how many acres of each should be grown to maximize profit?",
+        "results": {
+            "The number of acres of oranges to grow": "",
+            "The number of acres of grapefruits to grow": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 51,
+        "question": "A hockey arena can hold at most 300 people and has both heated and regular seats. A profit of $30 is made on each heated seat and a profit of $20 is made on each regular seat. The arena reserves a minimum of 50 seats to be heated seats. However, since it is not too cold, at least 3 times as many people prefer to sit in regular seats. How many of each type of seat must be sold in order to maximize profit? What is the maximum profit?",
+        "results": {
+            "The number of heated seats sold": "",
+            "The number of regular seats sold": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 52,
+        "question": "A pizza palace is going to purchase pizza ovens. There are two models available. Model A can make 10 pizzas per cycle, requires 80 grams of fuel per cycle, and costs $10000. Model B can make 8 pizzas per cycle, requires 70 grams of fuel per cycle, and costs $8000. The pizza palace must make at least 100 pizzas per cycle and use at most 1000 grams of fuel per cycle. How many of each model pizza oven should they purchase to minimize costs?",
+        "results": {
+            "The number of Model A ovens to purchase": "",
+            "The number of Model B ovens to purchase": "",
+            "Total cost": ""
+        }
+    },
+    {
+        "id": 53,
+        "question": "A baker melts milk and dark chocolate together to create a new mixture. The mixture must contain at least 120 units of cacao and 80 units of sugar. Each milk chocolate piece contains 3 units of cacao and 2 units of sugar. Each dark chocolate piece contains 4 units of cacao and 1 unit of sugar. If the cost per milk chocolate piece is $0.50 and the cost per dark chocolate piece is $0.75, how many of each should the baker buy to minimize costs?",
+        "results": {
+            "The number of milk chocolate pieces": "",
+            "The number of dark chocolate pieces": "",
+            "The total cost": ""
+        }
+    },
+    {
+        "id": 54,
+        "question": "A maple farm makes maple syrup and maple candy. They can make at most 10 kg of maple syrup and at most 12 kg of maple candy. In addition, they must supply at least 3 kg of maple syrup and 5 kg of maple candy per day. Both require time in a maple boiling station. Each kg of maple syrup and maple candy requires 2 hours at the boiling station. The boiling station is available for at most 20 hours per day. If the profit per kg of maple syrup is $20 and the profit per kg of maple candy is $15, how many kg of each should be made to maximize profit?",
+        "results": {
+            "The number of kg of maple syrup made": "",
+            "The number of kg of maple candy made": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 55,
+        "question": "East Oak Designs are famous for its high-end furniture. Each sofa produced by East Oak Designs nets the company a profit of $400. Each kitchen cabinet yields a $1200 profit. Every week, 100 gallons of lacquer and 300 lengths of high-quality oak are available. Each sofa requires approximately 3 gallon of lacquer and 10 length of oak. Each kitchen cabinet takes 10 gallon of lacquer and 24 lengths of wood. What should the production plan for East Oak Designs to make a maximum profit?",
+        "results": {
+            "The number of sofas to produce": "",
+            "The number of kitchen cabinets to produce": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 56,
+        "question": "A patient with weak bones has been told to drink milk and eat cheese in order to meet his calcium and vitamin D requirements. In one serving of milk, there are 10 grams of calcium and 5 grams of Vitamin D. In one serving of cheese, there are 8 grams of calcium and 6 grams of vitamin D. The patient must get at least 100 grams of calcium and 80 grams of Vitamin D per day. If a serving of milk costs $2 and a serving of cheese costs $4, how many servings of each should the patient eat to minimize cost?",
+        "results": {
+            "The number of servings of milk": "",
+            "The number of servings of cheese": "",
+            "Total cost": ""
+        }
+    },
+    {
+        "id": 57,
+        "question": "Each month, a video-game store owner can spend at most $30000 on consoles and discs. A console costs the store owner $300 and a disc costs $30. Each console is sold for a profit of $200 while each disc is sold for a profit of $30. The store owner estimates that a minimum of 20 but at most 50 consoles are sold each month. He also estimates that the number of discs sold is at most five times the number of consoles sold. How many of each, consoles and discs, should be sold in order to maximize the profit?",
+        "results": {
+            "The number of consoles sold": "",
+            "The number of discs sold": "",
+            "Maximum profit": ""
+        }
+    },
+    {
+        "id": 58,
+        "question": "A candy company wants to make a special mix using sour cherry candies and sour peach candies. Each sour cherry candy has 2 units of citric acid and 3 units of sugar. Each sour peach candy has 1 units of citric acid and 4 units of sugar.  The special mix must contain at least 50 units of citric acid and 60 units of sugar. In addition, there can be at most 10 sour cherry candies in the mixture. If the cost per sour cherry candy is $0.10 and the cost per sour peach candy is $0.12, how many of each should be in the mixture to minimize costs?",
+        "results": {
+            "The number of sour cherry candies": "",
+            "The number of sour peach candies": "",
+            "The total cost of the candies": ""
+        }
+    },
+    {
+        "id": 59,
+        "question": "Luke has 200 hectares available to grow carrots and pumpkins. He prefers to plant more carrots than pumpkins, but the soil and weather conditions allow him to grow at most twice the amount of carrots to that of pumpkins. In addition, he must grow at least 25 hectares of carrots and at least 20 hectares of pumpkins to meet community demands. If the profit per hectare of carrots is $300 and the profit per hectare of pumpkins is $500, how many hectares of each item should he plant to maximize profit? What is this profit?",
+        "results": {
+            "The number of hectares of carrots planted": "",
+            "The number of hectares of pumpkins planted": "",
+            "Total Profit": ""
+        }
+    },
+    {
+        "id": 60,
+        "question": "A company makes two types of cars, a SUV and a sedan. The SUV takes 200 minutes on the manufacturing line and 120 minutes of testing. The sedan takes 150 minutes on the manufacturing line and 100 minutes of testing. The company has 20000 minutes available on the manufacturing line and 10000 minutes available for testing. If the profit per SUV is $10000 and the profit per sedan is $9000, how many of each should they make to maximize profit?",
+        "results": {
+            "The number of SUVs to produce": "",
+            "The number of sedans to produce": "",
+            "The maximum total profit": ""
+        }
+    },
+    {
+        "id": 61,
+        "question": "Organic Farming has 300 acres of land to grow daikons and fennels. Daikons require 0.5 hours of watering and $70 worth of compost per acre. Fennels require 1.5 hours of watering and $50 worth of compost per acre. The farmer has 500 hours available for watering and $7400 available to spend on compost. If the revenue per acre of daikons is $300 and the revenue per acre of fennels is $250, how many acres of each should he grow to maximize his revenue.",
+        "results": {
+            "Number of acres to grow daikons": "",
+            "Number of acres to grow fennels": "",
+            "Total revenue": ""
+        }
+    },
+    {
+        "id": 62,
+        "question": "A paint store mixes two brands of paint, Ruby and Sapphire, to create a new mixture of paint. A can of Ruby paint costs $12 and a can of Sapphire paint costs $15. A can of Ruby paint contains 2 units of dye, 4 units of thinner, and 5 units of water. A can of Sapphire paint contains 4 units of dye, 6 units of thinner, and 2 units of water. The minimum requirements of dye, thinner, and water for the new mixture are 15 units, 20 units, and 18 units respectively. How many cans of each paint brand should be mixed to achieve the new mixture at a minimum cost?",
+        "results": {
+            "The number of cans of Ruby paint": "",
+            "The number of cans of Sapphire paint": "",
+            "The minimum cost of the mixture": ""
+        }
+    },
+    {
+        "id": 63,
+        "question": "Kevin needs vitamins to supplement his diet. He needs to get at least 25 units of vitamin A and 40 units of vitamin B everyday. In order to do so, he can buy capsules named Special Formula and One Daily. Each capsule of Special Formula contains 4 units of vitamin A and 5 units of vitamin B. Each capsule of One Daily contains 3 units of vitamin A and 7 units of vitamin B. If the cost per Special Formula capsule is $0.50 and the cost per One Daily capsule is $0.20, how many of each should he buy to minimize his cost?",
+        "results": {
+            "The number of Special Formula capsules": "",
+            "The number of One Daily capsules": "",
+            "The total cost": ""
+        }
+    },
+    {
+        "id": 64,
+        "question": "My cousin sells two different coffee blends: the Drummondville blend and the Victoriaville blend. Each blend contains both arabica and robusta coffee beans. A bag of the Drummondville blend contains 600 grams of arabica beans and 400 grams of robusta beans, whereas a bag of the Victoriaville blend contains 375 grams of arabica beans and 625 grams of robusta beans. The profit from each bag of Drummondville sold is $5 and the profit from each bag of Victoriaville blend sold is $7. If his total production must not exceed his available stock of 24000 grams of arabica beans and 17000 grams of robusta beans, how many bags of each type of blend should be blended to maximize profits? Formulate and solve.",
+        "results": {
+            "The number of bags of Drummondville blend to produce": "",
+            "The number of bags of Victoriaville blend to produce": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 65,
+        "question": "A store sells two salad bowls. The individual salad contains 5 units of lettuce, 2 units of tomatoes, and 2 units of sauce. The family-sized salad contains 18 units of lettuce, 6 units of tomatoes, and 5 units of sauce. The store has available 220 units of lettuce, 150 units of tomatoes, and 140 units of sauce. If the profit per individual salad is $4 and the profit per family-sized salad is $7, how many of each should they sell to maximize profit?",
+        "results": {
+            "The number of individual salads to sell": "",
+            "The number of family-sized salads to sell": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 66,
+        "question": "A seafood factory packages fish meat and shrimp meat. All packages must pass through a weight checking machine and a packaging inspection machine. In a week, each machine is available for at most 1200 minutes. A package of fish meat requires 3 minutes in the weight checking machine and 15 minutes in the packaging inspection machine. A package of shrimp meat requires 1.5 minutes in the weight checking machine and 7 minutes in the packaging inspection machine. A package of fish meat generates a profit of $7 while a package of shrimp generates a profit of $3. Formulate an LP to maximize profit.",
+        "results": {
+            "The number of packages of fish meat": "",
+            "The number of packages of shrimp meat": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 67,
+        "question": "X-Luxury Cloth wants to add coats and skirts, both with printed designs, to its collection. Both coats and skirts require designing and printing. Each coat requires 1.5 hours of designing time and 2.5 hours of printing time. Each skirt requires 3 hours of designing time and 3.5 hours of printing time. The designers are available 45 hours a week and the printing machine is available 70 hours per week. Each coat nets the company $12 in profit, and each skirt nets $16 in profit. What ratio of coats and skirts will produce the most profit within the constraints?",
+        "results": {
+            "The number of coats": "",
+            "The number of skirts": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 68,
+        "question": "A fruit farmer has 80 acres to grow peaches and nectarines. Peaches take 3 hours to plant per acre while nectarines take 4.5 hours to plant per acre. Peaches take 2 hours to water per acre while nectarines take 3 hours to water per acre. The farmer has 300 hours available for planting and 250 hours available for watering. If the profit per acre of peaches is $200 and the profit per acre of nectarines is $175, how many acres of each should be grown to maximize profit?",
+        "results": {
+            "Number of acres for peaches": "",
+            "Number of acres for nectarines": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 69,
+        "question": "A young boy is trying to gain weight and put muscle. He can eat both tuna salad sandwiches and chicken salad sandwiches. He wants to get a minimum of 100 units of protein and 150 units of fat per day. A tuna salad sandwich costs $5 and contains 20 units of protein and 25 units of fat. A chicken salad sandwich costs $7 and contains 25 units of protein and 15 units of fat. How many of each should he eat to minimize his cost?",
+        "results": {
+            "The number of tuna salad sandwiches": "",
+            "The number of chicken salad sandwiches": "",
+            "The total cost": ""
+        }
+    },
+    {
+        "id": 70,
+        "question": "A makeup company hand fills perfume and cologne bottles. Each perfume bottle takes 2 minutes to fill and each cologne bottle takes 2.5 minutes to fill. The company must fill at least 60 perfume bottles and at least 40 cologne bottles. The company has 700 minutes available. If the profit per perfume bottle is $50 and the profit per cologne bottle is $60, how many of each should be filled in order to maximize profit?",
+        "results": {
+            "The number of perfume bottles filled": "",
+            "The number of cologne bottles filled": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 71,
+        "question": "A toy company makes toys and knows that most of their customers are young boys and girls. To reach these groups, the company has decided to purchase commercial spots on cartoons and kids-movies. Each cartoon is seen by 2 millions young boys and 1 million young girls. Each kids-movie is seen by 4 million young boys and 6 million young girls. The company wants their commercials to be seen by at least 30 million young boys and 40 million young girls. If a commercial during a cartoon costs $5000 and a commercial during a kids-movie costs $12000, how many of each should be purchased to minimize cost?",
+        "results": {
+            "The number of commercials during cartoons": "",
+            "The number of commercials during kids-movies": "",
+            "The total cost of the commercials": ""
+        }
+    },
+    {
+        "id": 72,
+        "question": "You need to buy cabinets to store your seasonings and spices. A small cabinet takes 4 sq ft of space and costs $70. A large cabinet takes 8 sq ft and costs $120. You have 200 sq ft of space available in your kitchen and a budget of $1400. If the small cabinet can hold 30 seasonings and spices and a large cabinet can hold 40 seasonings and spices, how many of each should you buy to maximize the number of seasonings and spices you can store.",
+        "results": {
+            "The number of small cabinets": "",
+            "The number of large cabinets": "",
+            "The number of seasonings and spices stored": ""
+        }
+    },
+    {
+        "id": 73,
+        "question": "A grandmother knits blankets and sweaters for her community. A blanket requires 30 units of yarn and 5 hours of knitting. A sweater requires 20 units of yarn and 4 hours of knitting. The grandmother has 200 units of yarn available and 40 hours of knitting available. If the profit per blanket is $5.50 and the profit per sweater is $5, how many of each should she knit to maximize her profit?",
+        "results": {
+            "The number of blankets to knit": "",
+            "The number of sweaters to knit": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 74,
+        "question": "A clothing company makes flight jackets and denim jackets in their factory. A different team produces each kind of jacket and each team has a different maximum production rate: 10 flight jackets per day and 25 denim jackets per day respectively. Both teams require the use of a sewing machine and this machine can process at most 30 jackets per day of either type. While the flight jackets generate a profit of $70 per jacket, the denim jackets generate a profit of $100 per jacket. Assuming the company can sell all the jackets they make, how many of each type of jacket should they make to maximize profit?",
+        "results": {
+            "The number of flight jackets to produce": "",
+            "The number of denim jackets to produce": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 75,
+        "question": "A bike factory builds two types of bikes: road bikes and mountain bikes. One road bike requires 3 hours of tooling on the grinder and then 2 hours of tooling on the polisher. One mountain bike requires 5 hours of tooling on the grinder and then 2.5 hours of tooling on the polisher. The factory makes a profit of $70 per road bike and $100 per mountain bike. Each machine, the grinder and polisher, can only be used for a maximum of 12 hours per day. How many units of each, road bikes and mountain bikes, should the factory produce to maximize profit?",
+        "results": {
+            "The number of road bikes produced": "",
+            "The number of mountain bikes produced": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 76,
+        "question": "Thunder Wood is a logging company and it cuts three specific trees: Elm, Oak, and Alder. The company has two operations. The north side operation costs $450 to operate per day and produces 5 elm trees, 5 oak trees, and 4 alder trees daily. The south side operation costs $550 to operate per day and produces 6 elm trees, 4 oak trees, and 6 alder trees daily. The logging company must provide a paper pulp with 25 elm trees, 15 oak trees, and 30 alder trees per week. How many days a week should each operation be run in order to minimize cost while meeting the requirements?",
+        "results": {
+            "Number of days to run north side operation": "",
+            "Number of days to run south side operation": "",
+            "Total operation cost": ""
+        }
+    },
+    {
+        "id": 77,
+        "question": "A small pharmacy weighs and packages their medication. Each bottle of pills takes 20 minutes of weighing and 10 minutes of packaging. Each bottle of cream takes 15 minutes of weighing and 15 minutes of packaging. The pharmacy has available 4000 minutes for weighing and 3000 minutes for packaging. If the profit per bottle of pills is $50 and the profit per bottle of cream is $60, how many of each should the pharmacy prepare to maximize profit?",
+        "results": {
+            "The number of bottles of pills": "",
+            "The number of bottles of cream": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 78,
+        "question": "A ferry service provides vehicle tickets and passenger tickets. The ferry can sell at most 100 tickets. A profit of $50 is made per vehicle ticket and a profit of $50 is made per passenger ticket. The ferry reserved a minimum of 10 tickets for vehicles. However, because most people don't have cars, at least 5 times as may people buy passenger tickets than vehicle tickets. How many of each type should be sold to maximize profit?",
+        "results": {
+            "The number of vehicle tickets sold": "",
+            "The number of passenger tickets sold": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 79,
+        "question": "Gabriel is growing pumpkins and carrots on his farm. He has 100 acres available on which he must grow a minimum of 7 acres of pumpkins and a minimum of 12 acres of carrots to meet demands. The profit per pumpkin is $2.5 and the profit per carrot is $3.4. He prefers to grow more carrots than pumpkins but limitations in his workforce allow him to grow at most three times the amount of carrots as pumpkins. How many of each produce should Gabriel grow in order to maximize his profit?",
+        "results": {
+            "The number of acres of pumpkins to plant": "",
+            "The number of acres of carrots to plant": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 80,
+        "question": "An office supply company makes two types of printers: color printers and black and white printers. Different sections of the factory with different teams produce each printer. The color printer team can produce at most 20 color printers per day while the black and white printer team can produce at most 30 black and white printers per day. Both teams require use of the same paper tray installing machine and this machine can make at most 35 printers of either type each day. Color printers generate a profit of $200 per printer while black and white printers generate a profit of $70 per printer. How many of each printer should be made to maximize the company's profit?",
+        "results": {
+            "The number of color printers": "",
+            "The number of black and white printers": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 81,
+        "question": "An accounting firm has senior accountants earning $3000 per week and junior accountants earning $1000 per week. The contracts with companies to provide accounting services require at least 100 accountants, of whom at least 5 must be senior accountants. To make sure there is enough experience on the accounting team, the number of senior accountants should be at least a third of the number to junior accountants. The firm wants to keep the weekly wage bill below $150000. Formulate an LP to minimize the wage bill.",
+        "results": {
+            "The number of senior accountants": "",
+            "The number of junior accountants": "",
+            "Total wage bill": ""
+        }
+    },
+    {
+        "id": 82,
+        "question": "Ben is growing apples and pears on his orchard. He has 50 acres available on which he must grow a minimum of 5 acres of apples and a minimum of 10 acres of pears to meet demands. The profit per apple is $2 and the profit per pear is $4. He prefers to grow more pears than apples but limitations in his workforce allow him to grow at most twice the amount of pears as apples. How many of each fruit should Ben grow in order to maximize his profit? What is that profit?",
+        "results": {
+            "The number of acres for apples": "",
+            "The number of acres for pears": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 83,
+        "question": "A lighting company makes desk-lamps and night-lamps. There is an expected demand of at least 30 desk-lamps and 50 night-lamps each day. However, due to the size of their factory, they can make at most 150 desk-lamps and 180 night-lamps per day. To satisfy a contract, a minimum of 100 lamps must be made each day. If the profit per desk-lamp sold is $5 and the profit per night-lamp sold is $8, how many lamps of each type should be made to maximize profit?",
+        "results": {
+            "The number of desk lamps": "",
+            "The number of night lamps": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 84,
+        "question": "Mr. Roberts want to invest in the telecom and healthcare industries. He has $100000 to invest. He has decided that the amount invested in telecom be at least three times as much as the amount invested in healthcare. But the money invested in telecom must be at most $70000. If investments in telecom earn 3% and investments in healthcare earn 1%, how much should Mr. Roberts invest in each to maximize profit?",
+        "results": {
+            "Amount invested in telecom": "",
+            "Amount invested in healthcare": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 85,
+        "question": "A farmer has 140 hectares available to grow tomatoes and potatoes. She prefers to plant more tomatoes than potatoes, but the soil and weather conditions allow her to grow at most twice the amount of tomatoes to that of potatoes. In addition, she must grow at least 20 hectares of tomatoes and at least 30 hectares of potatoes to meet community demands. If the profit per hectare of tomatoes is $350 and the profit per hectare of potatoes is $600, how many hectares of each crop should she plant to maximize profit? What is this profit?",
+        "results": {
+            "The number of hectares for tomatoes": "",
+            "The number of hectares for potatoes": "",
+            "The maximum profit is": ""
+        }
+    },
+    {
+        "id": 86,
+        "question": "A audio company make two types of headphones: wired headphones and wireless headphones. Two different teams make each type of headphones. The wired team can make at most 100 wired headphones per day and the wireless team can make at most 170 wireless headphones per day. Both teams require use of a shared audio testing machine, and this machine can be used to make a maximum of 150 headphones per day. The profit per wired headphone is $50 and the profit per wireless headphone $20. How many of each headphone should be made to maximize profit?",
+        "results": {
+            "The number of wired headphones": "",
+            "The number of wireless headphones": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 87,
+        "question": "Jacob has $3000 to invest. He has decided to invest in his favorite clothing company and his favorite tech company. He has decided that the money invested in his favorite clothing company must be at least four times as much as the amount invested in his favorite tech company. He has also limited himself to invest at most $500 in his favorite tech company. If the money invested in his favorite clothing company earns 7% and the money invested in his favorite tech company earns 10%, how much should he invest in each to maximize his profit?",
+        "results": {
+            "Money invested in clothing company": "",
+            "Money invested in tech company": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 88,
+        "question": "Mrs. Watson wants to invest in the real-estate market and has a total budget of at most $760000. She has two choices which include condos and detached houses. Each dollar invested in condos yields a $0.50 profit and each dollar invested in detached houses yields a $1 profit. A minimum of 20% of all money invested must be in condos, and at least $20000 must be in detached houses. Formulate an LP that can be used to maximize total profit earned from Mrs. Watson's investment.",
+        "results": {
+            "The amount invested in condos": "",
+            "The amount invested in detached houses": "",
+            "The total profit from the investment": ""
+        }
+    },
+    {
+        "id": 89,
+        "question": "A breakfast joint makes two different sandwiches: a regular and a special. Both need eggs and bacon. Each regular sandwich requires 2 eggs and 3 slices of bacon. Each special sandwich requires 3 eggs and 5 slices of bacon. The joint has a total of 40 eggs and 70 slices of bacon. It makes a profit of $3 per regular sandwich and a profit of $4 per special sandwich. How many of each sandwich should be made to maximize profit?",
+        "results": {
+            "The number of regular sandwiches": "",
+            "The number of special sandwiches": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 90,
+        "question": "A cleaning company located in Edmonton wants to get the best exposure possible for promoting their new dishwashing detergent without exceeding their $250,000 advertising budget. To do so, the company decides to spend their money on two forms of advertising: (1) radio ads and (2) social media ads. Each radio ad costs $5,000; each social media ad costs $9,150. The expected exposure, based on industry ratings, is 60,500 viewers for each radio ad. Additionally, the expected exposure for each social media ad is 50,000 viewers. The company decides that at least 15 but no more than 40 radio ads should be ordered, and that at least 35 social media ads should be contracted. How many ads of each type should be run to obtain maximum exposure while staying within the budget?",
+        "results": {
+            "The number of radio ads": "",
+            "The number of social media ads": "",
+            "The total viewers reached": ""
+        }
+    },
+    {
+        "id": 91,
+        "question": "There is 1000 mg of gold available that is needed to make long and short cables. Long cables require 10 mg of gold while short cables require 7 mg of gold. Because of their compact size, at least 5 times the number of short cables are needed than the long cables. In addition, there needs to be at least 10 long cables made. If each long cable sold results in a $12 profit and each short cable sold results in a $5 profit, how many of each type of cable should be made to maximize profit?",
+        "results": {
+            "The number of long cables": "",
+            "The number of short cables": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 92,
+        "question": "A company is deciding where to promote their product. Some options include z-tube, soorchle engine, and wassa advertisements. The cost for each option and the number of viewers they each attract is given. On z-tube, each ad costs $1000 and attracts 400,000 viewers. On soorchle, each ad costs $200 and attracts 5,000 viewers. On wassa, each ad costs $100 and attracts 3,000 viewers. Soorchle limits the number of advertisements from a single company to fifteen. Moreover, in order to balance the advertising among the three types of media, at most a third of the total number of advertisements should occur on wassa. And at least 5% should occur on z-tube. The weekly advertising budget is $10000. How many advertisements should be run in each of the three types of media to maximize the total audience?",
+        "results": {
+            "The number of z-tube ads": "",
+            "The number of soorchle ads": "",
+            "The number of wassa ads": "",
+            "The total audience": ""
+        }
+    },
+    {
+        "id": 93,
+        "question": "A chair produced by Elm Furniture yields a profit of $43, while every dresser yields a $52 profit. Each week, 17 gallons of stain and 11 lengths of oak wood are available. Each chair requires 1.4 gallons of stain and 2 lengths of oak wood, while each dresser requires 1.1 gallons of stain and 3 lengths of oak wood. Determine the maximum profit.",
+        "results": {
+            "The number of chairs": "",
+            "The number of dressers": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 94,
+        "question": "A farmer wants to mix his animal feeds, Feed A and Feed B, in such a way that the mixture will contain a minimum of 30 units of protein and 50 units of fat. Feed A costs $100 per kilogram and contains 10 units of protein and 8 units of fat. Feed B costs $80 per kilogram and contains 7 units of protein and 15 units of fat. Determine the minimum cost of the mixture.",
+        "results": {
+            "The kilograms of Feed A in the mixture": "",
+            "The kilograms of Feed B in the mixture": "",
+            "The minimum cost of the mixture": ""
+        }
+    },
+    {
+        "id": 95,
+        "question": "An artisan makes two types of terracotta jars: a thin jar and a stubby jar. Each thin jar requires 50 minutes of shaping time and 90 minutes of baking time. Each stubby jar requires 30 minutes of shaping time and 150 minutes of baking time. Per week, there are 3000 minutes available for shaping and 4000 minutes available for baking. The profit per thin jar is $5 and the profit per stubby jar is $9. How many jars of each type should the artisan make to maximize profit?",
+        "results": {
+            "The number of thin jars": "",
+            "The number of stubby jars": "",
+            "The profit": ""
+        }
+    },
+    {
+        "id": 96,
+        "question": "A grocery store wants to liquidate its stock of 10 apples, 20 bananas, and 80 grapes. Given past experience, the store knows that they can propose a banana-haters package with 6 apples and 30 grapes and that this package will bring a profit of six euros. Similarly, they can prepare a combo package with 5 apples, 6 bananas, and 20 grapes, yielding a profit of seven euros. They know they can sell any quantity of these two packages within the availability of its stock. What quantity of each package, banana-haters packages and combo packages, should the store prepare to maximize net profit?",
+        "results": {
+            "The number of banana-haters packages": "",
+            "The number of combo packages": "",
+            "The maximum net profit": ""
+        }
+    },
+    {
+        "id": 97,
+        "question": "A bakery uses a stand-mixer and a slow bake oven to make bread and cookies. Each machine can run for at most 3000 hours per year. To bake a loaf of bread takes 1 hour in the stand mixer and 3 hours in the oven. A batch of cookies requires 0.5 hours in the mixer and 1 hour in the oven. The profit per loaf of bread is $5 and the profit per batch of cookies is $3. How should the bakery operate to maximize total profit?",
+        "results": {
+            "The number of loaves of bread": "",
+            "The number of batches of cookies": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 98,
+        "question": "A glass factory makes two types of glass panes: a regular glass pane and a tempered glass pane. Both require time on a heating and cooling machine. Both machines are available for a maximum of 300 minutes per day. It takes 3 minutes in the heating machine and 5 minutes in the cooling machine to make one regular glass pane. It takes 5 minutes in the heating machine and 8 minutes in the cooling machine to make one tempered glass pane. The profit per pane of regular glass is $8 and the profit per pane of tempered glass is $10. How many panes of each glass type should the factory make to maximize profit? What is the maximum profit?",
+        "results": {
+            "The number of regular glass panes": "",
+            "The number of tempered glass panes": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 99,
+        "question": "A souvenir shop makes wooden elephants and tigers with plastic ornaments. Each elephant requires 50 grams of wood and 20 grams of plastic. Each tiger requires 40 grams of wood and 30 grams of plastic. In a week, 5000 grams of wood and 4000 grams of plastic are available. The profit per elephant sold is $5 and the profit per tiger sold is $4. How many of each should be made in order to maximize profit?",
+        "results": {
+            "The number of elephants made": "",
+            "The number of tigers made": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 100,
+        "question": "An art store makes large and small art pieces. The store has available 100 units of paint, 50 units of glitter, and 70 units of glue. To make a large art piece requires 4 units of paint, 3 units of glitter, and 5 units of glue. To make a small art piece requires 2 units of paint, 1 unit of glitter, and 2 units of glue. The store must make at least 5 units of each large and small art pieces. If the profit per large art piece is $30 and the profit per small art piece is $15, how many of each should be made to maximize profit?",
+        "results": {
+            "The number of large art pieces": "",
+            "The number of small art pieces": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 101,
+        "question": "My family has decided to invest in real state for the first time. Currently, they have $600,000 to invest, some in apartments and the rest in townhouses. The money invested in apartments must not be greater than $200,000. They have decided that the money invested in apartments must be at least a half as much as that in townhouses.  If the apartments earn 10%, and the townhouses earn 15%, how much money should they invest in each to maximize profit?",
+        "results": {
+            "The money invested in apartments": "",
+            "The money invested in townhouses": "",
+            "The maximum profit": ""
+        }
+    },
+    {
+        "id": 102,
+        "question": "My grandma is required to take two medicines Z1 and D3 everyday. She needs to take at least 5 grams of Z1 and 10 grams of D3 everyday. These medicines are available in two pills named Zodiac and Sunny. One pill of Zodiac contains 1.3 grams of Z1 while one pill of Sunny contains 1.2 grams of Z1. On the other hand, one pill of Zodiac contains 1.5 grams of D3 and one pill of Sunny contains 5 grams of D3. The cost per pill of Zodiac is $1 and the cost per pill of Sunny is $3. Formulate a LP such that the medicine requirement can be fulfilled at the lowest cost.",
+        "results": {
+            "The number of Zodiac pills": "",
+            "The number of Sunny pills": "",
+            "The total cost": ""
+        }
+    },
+    {
+        "id": 103,
+        "question": "A hobbyist makes model trains and planes using wood and paint. A model train requires 3 units of wood and 3 units of paint. A model plane requires 4 units of wood and 2 units of paint. The hobbyist has available 120 units of wood and 90 units of paint. If the profit per model train is $8 and the profit per model plane is $10, how many of each should be made to maximize his profit?",
+        "results": {
+            "The number of trains": "",
+            "The number of planes": "",
+            "The total profit": ""
+        }
+    },
+    {
+        "id": 104,
+        "question": "An electronics store wants to optimize how many phones and laptops are enough to keep in inventory. A phone will earn the store $120 in profits, and a laptop will earn $40. A phone requires 1 sq ft of floor space, whereas a laptop requires 4 sq ft. In total, 400 sq ft of floor space is available. The store stocks only phones and laptops. Corporate has required that at least 80% of all appliances in stock be laptops. Finally, a phone costs $400 for the store, and a laptop, $100. The store wants to spend at most $6000. Formulate an LP that can be used to maximize the store's profit.",
+        "results": {
+            "The number of phones": "",
+            "The number of laptops": "",
+            "Total profit": ""
+        }
+    },
+    {
+        "id": 105,
+        "question": "A candy store mixes regular candy and sour candy to prepare two products, regular mix and sour surprise mix. Each kilogram of the regular mix contains 0.8 kg of regular candy and 0.2 kg of sour candy. The profit per kilogram of the regular mix is $3. Each kilogram of the sour surprise mix contains 0.1 kg of regular candy and 0.9 kg of sour candy. The profit per kilogram of the sour surprise mix is $5. The candy store has 80 kg of regular candy and 60 kg of sour candy available. How many kilograms of each type of candy mix should be created to maximize profits?",
+        "results": {
+            "The amount of regular mix": "",
+            "The amount of sour surprise mix": "",
+            "The profit": ""
+        }
+    }
+]
