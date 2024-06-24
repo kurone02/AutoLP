@@ -1,0 +1,133 @@
+#### Problem ####
+A company is organizing a team-building event and needs to assign participants to different activities. They have a total of 100 employees. Activity A requires 5 employees a team, activity B requires 3 employees a team, and activity C requires 7 employees a team. The company has a total of 100 employees available for the event. The company has a limitation on the number of teams in activity B, which cannot exceed 20. The company wants to maximize participation teams and decides to allocate different weights to each activity: activity A has a weight of 3, activity B has a weight of 2, and activity C has a weight of 4. The objective is to maximize the total participation weighted by the assigned weights.
+Requirements:
+    * The number of teams in activity A: ?
+    * The number of teams in activity B: ?
+    * The number of teams in activity C: ?
+    * The total weighted participation: ?
+#### Solution ####
+Let's think step by step.
+
+We want to maximize the total participation weighted by the assigned weights. So, we can set up a linear programming problem.
+
+Let's define the variables:
+
+* NumParticipantsA: The number of participants in activities A
+* NumParticipantsB: The number of participants in activities B
+* NumParticipantsC: The number of participants in activities C
+
+Note that "The objective is to maximize the total participation weighted by the assigned weights". Therefore, we need to MAXIMIZE the objective function.
+
+Since activity A has a weight of 3, activity B has a weight of 2, and activity C has a weight of 4, the objective function is: 
+3 * num_teams_A + 2 * num_teams_B + 4 * num_teams_C
+
+The objective function is subjected to the following constraints:
+
+1. Total participants cannot exceed 100, and Activity A requires 5 employees a team, activity B requires 3 employees a team, and activity C requires 7 employees a team.
+5 * num_teams_A + 3 * num_teams_B + 7 * num_teams_C <= 100
+
+2. num_teams_A >= 0
+
+3. num_teams_B >= 0
+
+4. num_teams_C >= 0
+
+5. The company has a limitation on the number of teams in activity B, which cannot exceed 20.
+num_teams_B <= 20
+
+Now, we can start solving the problem with python using pulp library
+```python
+# Import PuLP library
+from pulp import *
+
+# Define the decision variables
+# number of teams in activity A
+num_teams_A = LpVariable("NumTeamsA", lowBound=0, cat='Integer')
+# number of teams in activity B
+num_teams_B = LpVariable("NumTeamsB", lowBound=0, upBound=20, cat='Integer')
+# number of teams in activity C
+num_teams_C = LpVariable("NumTeamsC", lowBound=0, cat='Integer') 
+
+# Define the question as a maximum or minimum problem
+problem = LpProblem("TeamBuildingEvent", LpMaximize)
+
+# Define the objective function
+objective = 3 * num_teams_A + 2 * num_teams_B + 4 * num_teams_C
+# maximize the total participation weighted by the assigned weights
+problem += objective
+
+# Define the constraints
+# the total number of employees is 100
+problem += 5 * num_teams_A + 3 * num_teams_B + 7 * num_teams_C <= 100
+
+# Solve the problem
+status = problem.solve()
+
+# Output the answer
+print("## start solving")
+print("The number of teams in activity A:", num_teams_A.value())
+print("The number of teams in activity B:", num_teams_B.value())
+print("The number of teams in activity C:", num_teams_C.value())
+print("The total weighted participation:", objective.value())
+print("## end solving")
+```
+#### Problem ####
+IND Foods factory produces basmati rice and bananas. To make one kilogram of basmati rice requires 1.5 hours of human labor, 2 hours of machine work, and 3 hours of resting under the sun. To make one kilogram of bananas requires 2 hours of human labor, 4 hours of machine work, and 1.5 hours of resting under the sun. The factory only has 90 hours of human labor, 150 hours of machine labor, and 70 hours of time under the sun available. The net profit per kilogram of basmati rice is $15 and the net profit per kilogram of bananas is $28. How many kilograms of each should the factory make in order to maximize profit?
+Requirements:
+    * The number of kilograms of basmati rice to produce: ?
+    * The number of kilograms of bananas to produce: ?
+    * The maximum profit: ?
+#### Solution ####
+Let's think step by step.
+
+Define the variables:
+
+* num_rice: The number of kilograms of basmati rice to produce
+* num_bananas: The number of kilograms of bananas to produce
+
+Note that they can be a real number, i.e., of Continuous type.
+
+We want to maximize the total profit, which is the sum of the profit from producing basmati rice and bananas:
+
+Maximize: 15 * num_rice + 28 * num_bananas
+
+Subject to the following constraints:
+
+1. Human labor: 1.5 * num_rice + 2 * num_bananas <= 90 (hours of human labor available)
+2. Machine labor: 2 * num_rice + 4 * num_bananas <= 150 (hours of machine labor available)
+3. Resting under the sun: 3 * num_rice + 1.5 * num_bananas <= 70 (hours of time under the sun available)
+
+We can use the PuLP library to solve this problem:
+
+```
+from pulp import *
+
+# Define the variables
+num_rice = LpVariable("NumRice", lowBound=0, cat='Continuous')
+num_bananas = LpVariable("NumBananas", lowBound=0, cat='Continuous')
+
+# Define the problem
+problem = LpProblem("INDFoodsProblem", LpMaximize)
+objective = 15 * num_rice + 28 * num_bananas
+problem += objective
+
+# Define the constraints
+problem += 1.5 * num_rice + 2 * num_bananas <= 90
+problem += 2 * num_rice + 4 * num_bananas <= 150
+problem += 3 * num_rice + 1.5 * num_bananas <= 70
+
+# Solve the problem
+status = problem.solve()
+
+# Output the answer
+print("## start solving")
+print("The number of kilograms of basmati rice to produce:", value(num_rice))
+print("The number of kilograms of bananas to produce:", value(num_bananas))
+print("The maximum profit:", value(objective))
+print("## end solving")
+```
+#### Problem ####
+{}
+Requirements:
+{}
+#### Solution ####

@@ -1,0 +1,40 @@
+#### Problem ####
+A company is organizing a team-building event and needs to assign participants to different activities. They have a total of 100 employees. Activity A requires 5 employees, activity B requires 3 employees, and activity C requires 7 employees. The company has a total of 100 employees available for the event. The company has a limitation on the number of participants in activity B, which cannot exceed 20. The company wants to maximize participation and decides to allocate different weights to each activity: activity A has a weight of 3, activity B has a weight of 2, and activity C has a weight of 4. The objective is to maximize the total participation weighted by the assigned weights.
+Number of bottles of regular wine to make per day: ?
+Number of bottles of premium wine to make per day: ?
+Maximum profit per day: ?
+#### Solution ####
+```python
+# Import PuLP library
+from pulp import *
+
+# Define the decision variables
+num_participants_A = LpVariable("NumParticipantsA", lowBound=0, cat='Integer') # number of participants in activity A
+num_participants_B = LpVariable("NumParticipantsB", lowBound=0, upBound=20, cat='Integer') # number of participants in activity B
+num_participants_C = LpVariable("NumParticipantsC", lowBound=0, cat='Integer') # number of participants in activity C
+
+# Define the question as a maximum or minimum problem
+problem = LpProblem("TeamBuildingEvent", LpMaximize)
+
+# Define the objective function
+objective = 3 * num_participants_A + 2 * num_participants_B + 4 * num_participants_C
+problem += objective # maximize the total participation weighted by the assigned weights
+
+# Define the constraints
+problem += 5 * num_participants_A + 3 * num_participants_B + 7 * num_participants_C <= 100 # the total number of employees is 100
+
+# Solve the problem
+status = problem.solve()
+
+# Output the answer
+print("## start solving")
+print("The number of participants in activity A:", num_participants_A.value())
+print("The number of participants in activity B:", num_participants_B.value())
+print("The number of participants in activity C:", num_participants_C.value())
+print("The total weighted participation:", objective.value())
+print("## end solving")
+```
+#### Problem ####
+{}
+{}
+#### Solution ####

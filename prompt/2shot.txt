@@ -1,0 +1,92 @@
+#### Problem ####
+A company is organizing a team-building event and needs to assign participants to different activities. They have a total of 100 employees. Activity A requires 5 employees, activity B requires 3 employees, and activity C requires 7 employees. The company has a total of 100 employees available for the event. The company has a limitation on the number of participants in activity B, which cannot exceed 20. The company wants to maximize participation and decides to allocate different weights to each activity: activity A has a weight of 3, activity B has a weight of 2, and activity C has a weight of 4. The objective is to maximize the total participation weighted by the assigned weights.
+Number of bottles of regular wine to make per day: ?
+Number of bottles of premium wine to make per day: ?
+Maximum profit per day: ?
+#### Solution ####
+```python
+# Import PuLP library
+from pulp import *
+
+# Define the decision variables
+num_participants_A = LpVariable("NumParticipantsA", lowBound=0, cat='Integer') # number of participants in activity A
+num_participants_B = LpVariable("NumParticipantsB", lowBound=0, upBound=20, cat='Integer') # number of participants in activity B
+num_participants_C = LpVariable("NumParticipantsC", lowBound=0, cat='Integer') # number of participants in activity C
+
+# Define the question as a maximum or minimum problem
+problem = LpProblem("TeamBuildingEvent", LpMaximize)
+
+# Define the objective function
+objective = 3 * num_participants_A + 2 * num_participants_B + 4 * num_participants_C
+problem += objective # maximize the total participation weighted by the assigned weights
+
+# Define the constraints
+problem += 5 * num_participants_A + 3 * num_participants_B + 7 * num_participants_C <= 100 # the total number of employees is 100
+
+# Solve the problem
+status = problem.solve()
+
+# Output the answer
+print("## start solving")
+print("The number of participants in activity A:", num_participants_A.value())
+print("The number of participants in activity B:", num_participants_B.value())
+print("The number of participants in activity C:", num_participants_C.value())
+print("The total weighted participation:", objective.value())
+print("## end solving")
+```
+#### Problem ####
+BrightBulb LLC manufactures LED and incandescent bulbs. They have 3 different machines for production.
+Each machine has a different production capacity and cost associated with running it per day. The following Table provides details on the capacity (bulbs per day) and cost (cost per day) for each machine.
+Table (Capacity and cost for each machine):
+| Bulb Type       | Machine 1   | Machine 2   | Machine 3   |
+| --------------- | ----------- | ----------- | ----------- |
+| LED (Capacity)  | 300         | -           | 500         |
+| Incandescent (Capacity) | -     | 400         | -           |
+| Cost per Day    | $200        | $250        | $350        |
+BrightBulb LLC wants to minimize the total cost of producing 5000 LED bulbs and 6000 incandescent bulbs per week.
+Machine 1 and Machine 3 are limited to LED bulb production and Machine 2 is limited to incandescent bulb production.
+The weekly production target for LED bulbs is at least 5000, and for incandescent bulbs is at least 6000.
+Each machine can only operate for a maximum of 5 days a week due to maintenance requirements.
+The number of LED bulbs produced on machine 1: ?
+The number of incandescent bulbs produced on machine 2: ?
+The number of LED bulbs produced on machine 3: ?
+The total cost of production: ?
+#### Solution ####
+```python
+# Import PuLP library
+from pulp import *
+
+# Define the decision variables
+L1 = LpVariable("L1", lowBound=0, cat='Integer') # number of LED bulbs produced on machine 1
+I2 = LpVariable("I2", lowBound=0, cat='Integer') # number of incandescent bulbs produced on machine 2
+L3 = LpVariable("L3", lowBound=0, cat='Integer') # number of LED bulbs produced on machine 3
+
+# Define the question as a maximum or minimum problem
+problem = LpProblem("MinimizeCost", LpMinimize)
+
+# Define the objective function
+objective = 200 * (L1 * 1/300) + 250 * (I2 * 1/400) + 350 * (L3 * 1/500)
+problem += objective # minimize the total cost
+
+# Define the constraints
+problem += L1 + L3 >= 5000 # weekly production target for LED bulbs
+problem += I2 >= 6000 # weekly production target for incandescent bulbs
+problem += L1 * 1/300 <= 5 # machine 1 can only operate for a maximum of 5 days a week
+problem += I2 * 1/400 <= 5 # machine 2 can only operate for a maximum of 5 days a week
+problem += L3 * 1/500 <= 5 # machine 3 can only operate for a maximum of 5 days a week
+
+# Solve the problem
+status = problem.solve()
+
+# Output the answer
+print("## start solving")
+print("The number of LED bulbs produced on machine 1:", L1.value())
+print("The number of incandescent bulbs produced on machine 2:", I2.value())
+print("The number of LED bulbs produced on machine 3:", L3.value())
+print("The total cost of production:", objective.value())
+print("## end solving")
+```
+#### Problem ####
+{}
+{}
+#### Solution ####
