@@ -1,9 +1,9 @@
-from llm import ChatBotLLM
+from .llm import ChatBotLLM
 import json
 import typing
-from utils import process_output
+from .utils import process_output
 from tqdm import tqdm
-from evaluation import BaseEvaluation, Config
+from .evaluation import BaseEvaluation, Config
 import numpy as np
 
 class PromptEngineerEvaluation(BaseEvaluation):

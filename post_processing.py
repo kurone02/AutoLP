@@ -8,7 +8,7 @@ from typing import Callable
 from multiprocessing import Process
 from tqdm import tqdm
 import sympy as sp
-from regex_patterns import CODE_PATTERN, PATTERN
+from .regex_patterns import CODE_PATTERN, PATTERN
 
 def remove_division_from_inequality(expr):
     if not isinstance(expr, sp.Rel):

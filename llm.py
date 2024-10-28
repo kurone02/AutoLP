@@ -6,8 +6,9 @@ import torch
 import typing
 from typing import Callable, List, Optional, Union
 import os
-import ollama
+# import ollama
 from typing import Any, Iterator, Mapping, Optional
+from typing import Tuple
 
 class MessageContent(typing.TypedDict):
     role: str
@@ -65,7 +66,7 @@ class Message():
 
 class BaseLLM():
 
-    def __init__(self, model_id: str, device: str="0") -> None:
+    def __init__(self, model_id: str, device: str="0", max_model_len=8192) -> None:
         self._device: str = device
         self._model_id: str = model_id
         
@@ -89,7 +90,14 @@ class BaseLLM():
         #     trust_remote_code=True,
         # )
 
-        self._llm: LLM = LLM(model_id, trust_remote_code=True)
+        tensor_parallel_size = len(device.split(","))
+
+        self._llm: LLM = LLM(model_id, 
+                             trust_remote_code=True, 
+                             tensor_parallel_size=tensor_parallel_size, 
+                             gpu_memory_utilization=0.95,
+                             max_model_len=max_model_len,
+        )
         self._tokenizer: PreTrainedTokenizer | PreTrainedTokenizerFast = self._llm.get_tokenizer()
 
     def get_response(self, 
@@ -101,7 +109,9 @@ class BaseLLM():
                      min_tokens: int=None,
                      num_return_sequences=1, 
                      processor: Callable[[List[int], torch.Tensor], torch.Tensor] | None=None,
-                    ) -> list[list[str]]:
+                     return_cumulative_logits: bool=False,
+                     return_stop_reasons: bool=False,
+                    ) -> list[list[str]] | Tuple[list[list[str]], list[list[str]]] | Tuple[list[list[str]], list[list[str]], list[list[str]]]:
         kwargs = {
             "n": num_return_sequences, 
             "max_tokens": max_new_tokens,
@@ -126,18 +136,33 @@ class BaseLLM():
                                      use_tqdm=False, 
                                      sampling_params=sampling_params,
                                     )
-
-        results = [
+        
+        generated_text = [
             [o.text for o in out.outputs] for out in outputs
         ]
-        return results
+
+        result = [generated_text]
+
+        if return_cumulative_logits:
+            cumulative_logprobs = [
+                [o.cumulative_logprob for o in out.outputs] for out in outputs
+            ]
+            result.append(cumulative_logprobs)
+
+        if return_stop_reasons:
+            stop_reasons = [
+                [o.stop_reason for o in out.outputs] for out in outputs
+            ]
+            result.append(stop_reasons)
+
+        return tuple(result) if len(result) > 1 else result[0]
 
         
 
 class ChatBotLLM(BaseLLM):
     
-    def __init__(self, model_id: str="meta-llama/Meta-Llama-3-8B-Instruct", device: str="cuda", system_prompt: str="") -> None:
-        super().__init__(model_id, device)
+    def __init__(self, model_id: str="meta-llama/Meta-Llama-3.1-8B-Instruct", max_model_len: int=8192 , device: str="cuda", system_prompt: str="") -> None:
+        super().__init__(model_id, device, max_model_len)
         self._system_prompt: str = system_prompt
         self._messages: Message = Message(system_prompt=system_prompt)
         
@@ -178,6 +203,10 @@ class ChatBotLLM(BaseLLM):
 
         if harmful:
             chat_history += "Step 1.) "
+            
+        tokenized_history = self._tokenizer.encode(chat_history)
+        truncated = tokenized_history[-self._tokenizer.model_max_length + 1:]
+        chat_history = self._tokenizer.decode(truncated)
 
         outputs = self.get_response([chat_history], max_new_tokens, temperature, top_p, stop_criteria, 1)
 
@@ -202,30 +231,30 @@ class DeepSeekChatLLM(ChatBotLLM):
         self._messages: Message = Message(system_prompt=system_prompt)
     
     
-class OllamaLLM():
-    def __init__(self, model: str="", system_prompt: str="") -> None:
-        self.model: str = model
-        self._messages: Message = Message(system_prompt=system_prompt)
+# class OllamaLLM():
+#     def __init__(self, model: str="", system_prompt: str="") -> None:
+#         self.model: str = model
+#         self._messages: Message = Message(system_prompt=system_prompt)
 
-    def update_system_prompt(self, prompt: str="") -> None:
-        self._messages.change_system_prompt(prompt)
+#     def update_system_prompt(self, prompt: str="") -> None:
+#         self._messages.change_system_prompt(prompt)
         
-    def clear_chat_history(self) -> None:
-        self._messages.clear_history()
+#     def clear_chat_history(self) -> None:
+#         self._messages.clear_history()
 
-    def _add_message(self, role: str, content: str) -> None:
-        if role == "assistant":
-            self._messages.append_assistant_message(content)
-        else:
-            self._messages.append_user_message(content)
+#     def _add_message(self, role: str, content: str) -> None:
+#         if role == "assistant":
+#             self._messages.append_assistant_message(content)
+#         else:
+#             self._messages.append_user_message(content)
 
-    def add_user_message(self, prompt: str):
-        self._add_message("user", prompt)
+#     def add_user_message(self, prompt: str):
+#         self._add_message("user", prompt)
 
-    def add_assistant_message(self, prompt: str):
-        self._add_message("assistant", prompt)
+#     def add_assistant_message(self, prompt: str):
+#         self._add_message("assistant", prompt)
 
-    def get_response(self, options: Optional[dict[str, Any]]=None, stream: bool=False) -> (Mapping[str, Any] | Iterator[Mapping[str, Any]]):
-        messages = self._messages.copy_all_messages()
-        response = ollama.chat(model=self.model, messages=messages.get_all_messages(), options=options, stream=stream)
-        return response
+#     def get_response(self, options: Optional[dict[str, Any]]=None, stream: bool=False) -> (Mapping[str, Any] | Iterator[Mapping[str, Any]]):
+#         messages = self._messages.copy_all_messages()
+#         response = ollama.chat(model=self.model, messages=messages.get_all_messages(), options=options, stream=stream)
+#         return response

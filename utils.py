@@ -6,8 +6,8 @@ import json
 from collections import Counter
 from typing import Callable
 from multiprocessing import Process
-from post_processing import fix
-from regex_patterns import *
+from .post_processing import fix
+from .regex_patterns import *
 
 def read_json(file_path: str) -> dict:
     with open(file_path, "r") as f:
@@ -24,19 +24,25 @@ def read_txt(file_path: str) -> str:
     return data
 
 def save_txt(file_path: str, data: str) -> None:
+    """Save data to a text file"""
     with open(file_path, "w") as f:
         f.write(data)
 
 def parse_number(s: str):
+    """Extract the last number from a string"""
     matches = NUMBER_PATTERN.finditer(s)
     matches = list(matches)
     if len(matches) == 0:
         return "0.0"
     return matches[-1].group(0)
 
-def parse_code(code: str):
-    matches = CODE_PATTERN.finditer(code)
-    return list(matches)[0].group(0)
+def parse_code(markdown: str):
+    """Extract the last code block from the markdown content"""
+    matches = CODE_PATTERN.finditer(markdown)
+    matches = list(matches)
+    assert len(matches) > 0
+    assert len(matches[-1].groups()) == 1
+    return matches[-1].group(1)
 
 def process_output(output: str, id: int):
     try:

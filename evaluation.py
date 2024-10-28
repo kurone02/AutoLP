@@ -1,7 +1,7 @@
-from llm import BaseLLM, ChatBotLLM
+from .llm import BaseLLM, ChatBotLLM
 import json
 import typing
-from utils import process_output
+from .utils import process_output
 from tqdm import tqdm
 from math import isclose
 from functools import reduce
